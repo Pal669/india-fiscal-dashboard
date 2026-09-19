@@ -64,6 +64,7 @@ tr.note td{color:var(--muted);font-style:italic}
 .foot{padding-bottom:calc(30px + env(safe-area-inset-bottom))}
 html,body{overflow-x:clip}.cards>*,.grid2>*{min-width:0}
 
+td.nw{white-space:nowrap}
 td.flag{color:var(--neg);font-weight:700}
 td.okc{color:var(--pos);font-weight:600}
 ul.rbi,ul.src{margin:6px 0 0;padding-left:18px}

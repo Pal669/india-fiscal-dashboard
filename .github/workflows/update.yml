@@ -2,7 +2,7 @@ name: Refresh live data
 
 on:
   schedule:
-    - cron: "30 3 * * *"   # daily, 09:00 IST
+    - cron: "0 */3 * * *"   # every 3 hours
   workflow_dispatch: {}     # "Run workflow" button in the Actions tab = trigger on demand
 
 permissions:

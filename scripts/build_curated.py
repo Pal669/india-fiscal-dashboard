@@ -34,7 +34,8 @@ def inr(n):
     return ("-" if n < 0 else "") + s
 
 
-RATE = None      # INR per USD, set in main() from live data
+CUR = "inr"      # "inr" (default, Indian grouping, crore/lakh) or "usd" (billions/millions)
+RATE = None      # INR per USD, only used when CUR == "usd"
 RATE_DATE = ""
 
 
@@ -44,7 +45,9 @@ def usd(cr):
 
 
 def money(cr):
-    """rupees crore -> '$16.4 bn' / '$490 mn' (US$ billions and millions)"""
+    """amount in rupees crore -> display string for the active currency"""
+    if CUR == "inr":
+        return inr(cr)
     u = usd(cr); a = abs(u); sign = "-" if u < 0 else ""
     if a >= 1e10:
         return f"{sign}${a / 1e9:,.1f} bn"
@@ -96,8 +99,9 @@ def load(path):
 CHECKS = []
 
 
-def check(sheet, what, expected, actual, tol=0.5, unit="₹ cr", fmt=money, note="", mode="eq"):
+def check(sheet, what, expected, actual, tol=0.5, unit="₹ cr", fmt=None, note="", mode="eq"):
     """mode: eq = within tol; ge = actual must be >= expected; le = actual must be <= expected"""
+    fmt = fmt or money
     diff = None if (expected is None or actual is None) else actual - expected
     ok = diff is not None and (abs(diff) <= tol if mode == "eq" else diff >= 0 if mode == "ge" else diff <= 0)
     CHECKS.append(dict(sheet=sheet, what=what, expected=expected, actual=actual, diff=diff, ok=ok, unit=unit, fmt=fmt, note=note))
@@ -496,20 +500,27 @@ def build(path):
         table(["Status", "Area", "Check", "Expected", "Workbook", "Difference", "Comment"], rows),
         {"t": "note", "text": "Not in the workbook: Union Budget 2026-27 (FY27 BE, FY26 RE) and FY26 provisional actuals. The portal's headline year is FY2025-26 BE until those are added."}]})
 
-    fx_note = (f"All rupee figures are converted to US dollars (billions and millions) at ₹{RATE:.2f} per US$ (Yahoo Finance, {RATE_DATE}). "
+    fx_note = CUR == "usd" and (f"All rupee figures are converted to US dollars (billions and millions) at ₹{RATE:.2f} per US$ (Yahoo Finance, {RATE_DATE}). "
                "One current rate is applied to every year, so US$ trends across years ignore how the rupee moved over time (it is weaker now than in FY21), "
                "which understates US$ growth against a historical-rate conversion. Percent-of-GDP and other ratios are unaffected.")
-    for sh in sheets:
-        sh["blocks"] = to_usd(sh["blocks"])
-    sheets[0]["blocks"].insert(2, {"t": "banner", "kind": "", "text": fx_note})
-    return {"fx": {"inr_per_usd": round(RATE, 4), "as_of": RATE_DATE}, "source_file": Path(path).name, "built_at": datetime.now().strftime("%Y-%m-%d %H:%M"), "checks_total": len(CHECKS), "checks_flagged": len(bad), "sheets": sheets}
+    extra = {}
+    if CUR == "usd":
+        for sh in sheets:
+            sh["blocks"] = to_usd(sh["blocks"])
+        sheets[0]["blocks"].insert(2, {"t": "banner", "kind": "", "text": fx_note})
+        extra = {"fx": {"inr_per_usd": round(RATE, 4), "as_of": RATE_DATE}}
+    return {**extra, "currency": CUR, "source_file": Path(path).name, "built_at": datetime.now().strftime("%Y-%m-%d %H:%M"), "checks_total": len(CHECKS), "checks_flagged": len(bad), "sheets": sheets}
 
 
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
-    global RATE, RATE_DATE
-    src = Path(sys.argv[1]) if len(sys.argv) > 1 else DEFAULT_XLSX
-    if os.environ.get("FISCAL_USDINR"):
+    global RATE, RATE_DATE, CUR
+    args = [a for a in sys.argv[1:] if not a.startswith("--currency")]
+    CUR = next((a.split("=")[1] for a in sys.argv[1:] if a.startswith("--currency=")), os.environ.get("FISCAL_CURRENCY", "inr")).lower()
+    src = Path(args[0]) if args else DEFAULT_XLSX
+    if CUR == "inr":
+        pass
+    elif os.environ.get("FISCAL_USDINR"):
         RATE, RATE_DATE = float(os.environ["FISCAL_USDINR"]), "fixed by FISCAL_USDINR"
     else:
         m = json.loads((ROOT / "data" / "live.json").read_text(encoding="utf-8"))["market"]["series"]["INR=X"]

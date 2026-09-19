@@ -23,13 +23,14 @@ WB = {  # id: (label, unit)
     "GC.TAX.TOTL.GD.ZS": ("Central govt tax revenue", "% of GDP"),
     "GC.XPN.INTP.RV.ZS": ("Interest payments", "% of revenue"),
     "GC.DOD.TOTL.GD.ZS": ("Central govt debt", "% of GDP"),
-    "NY.GDP.MKTP.CD": ("Nominal GDP", "US$"),
+    "NY.GDP.MKTP.CN": ("Nominal GDP", "INR"),
+    "NY.GDP.MKTP.CD": ("Nominal GDP (US$)", "US$"),
     "FP.CPI.TOTL.ZG": ("CPI inflation", "%"),
     "FR.INR.RINR": ("Real interest rate", "%"),
 }
 MARKET = {"INR=X": ("USD/INR", "INR per USD"), "BZ=F": ("Brent crude (front month)", "USD per barrel")}
 RBI_RE = re.compile(r"borrowing|government of india|g-sec|dated securit|treasury bill|state development loan|state government|ways and means|"
-                    r"union budget|fiscal|weekly statistical|monthly bulletin|state finances|market stabilisation|cash management", re.I)
+                    r"union budget|fiscal|monetary policy|policy repo|weekly statistical|monthly bulletin|state finances|market stabilisation|cash management", re.I)
 
 
 def get(url, as_json=True):
@@ -82,7 +83,7 @@ def rbi_watch():
         title = (it.findtext("title") or "").strip()
         if RBI_RE.search(title):
             items.append({"title": title, "link": (it.findtext("link") or "").strip(), "date": (it.findtext("pubDate") or "").strip()})
-    return {"feed": "https://www.rbi.org.in/pressreleases_rss.xml", "items": items[:10]}
+    return {"feed": "https://www.rbi.org.in/pressreleases_rss.xml", "items": items[:15]}
 
 
 def main():
@@ -95,6 +96,11 @@ def main():
         new[k] = v if ok else old.get(k)
     if not (new["world_bank"] and new["world_bank"].get("series")) and not (new["market"] and new["market"].get("series")):
         sys.exit("No source returned data - leaving live.json untouched")
+    # remember when each RBI release was first seen by this job, so the page can say "detected <time>"
+    stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    seen = {i["link"]: i.get("first_seen") for i in ((old.get("rbi_watch") or {}).get("items") or [])}
+    for i in ((new.get("rbi_watch") or {}).get("items") or []):
+        i["first_seen"] = seen.get(i["link"]) or stamp
     new["status"] = status
     strip = lambda d: {k: v for k, v in d.items() if k != "fetched_at"}
     if strip(old) == strip(new):

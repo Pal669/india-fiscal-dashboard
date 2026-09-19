@@ -24,6 +24,9 @@ Setting `FISCAL_XLSX` changes the default workbook path. To move to a new budget
 label lookups in `build_curated.py` are by row text, so a re-laid-out workbook may need those labels updated.
 
 ## Currency
-All rupee figures are shown in US$ billions and millions. `build_curated.py` converts at the latest USD/INR in
-`data/live.json` (Yahoo Finance) and prints the rate on the Overview tab. `update_all.py` pulls live data first so the rate is fresh.
-To pin a rate: set `FISCAL_USDINR=90` before running. One rate is applied to all years (see the note on the Overview tab).
+Default is rupees (crore / lakh, Indian digit grouping). For US$ billions/millions run
+`python scripts/build_curated.py --currency=usd` (uses the latest USD/INR in `data/live.json`; pin with `FISCAL_USDINR=90`).
+
+## Refresh frequency
+Live job every 3 hours (GitHub Actions, commits only on change); the open page re-checks every 5 minutes; budget tabs on demand.
+The Update Schedule tab lists every government release, its cadence and whether it is automatic.
