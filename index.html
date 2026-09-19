@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>India Fiscal Dashboard</title>
+<meta name="description" content="India's Union Budget fiscal framework: revenue, expenditure, subsidies, interest, deficits, borrowing and six-year trends, with live market and macro data refreshed automatically.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231f3864'/%3E%3Crect x='7' y='16' width='4' height='9' fill='%23fff'/%3E%3Crect x='14' y='11' width='4' height='14' fill='%23fff'/%3E%3Crect x='21' y='6' width='4' height='19' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#1f3864">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="India Fiscal">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <h1>India Fiscal Dashboard</h1>
+    <p class="sub" id="asof">Loading&hellip;</p>
+  </div>
+  <nav class="wrap tabs" id="tabs" role="tablist" aria-label="Sections"></nav>
+</header>
+<main class="wrap" id="view" aria-live="polite"></main>
+<footer class="wrap foot">
+  <p>Budget layer: <span id="srcfile"></span>, rebuilt from its typed inputs with reconciliation checks (see Data Notes). Live layer: World Bank, Yahoo Finance and RBI feeds, refreshed automatically.
+  ₹ crore unless stated. For information only, not investment advice.</p>
+</footer>
+<script src="vendor/chart.umd.min.js"></script>
+<script src="app.js"></script>
+<script>if("serviceWorker"in navigator)addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));</script>
+</body>
+</html>

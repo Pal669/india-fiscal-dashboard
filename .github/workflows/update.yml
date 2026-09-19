@@ -1,0 +1,31 @@
+name: Refresh live data
+
+on:
+  schedule:
+    - cron: "30 3 * * *"   # daily, 09:00 IST
+  workflow_dispatch: {}     # "Run workflow" button in the Actions tab = trigger on demand
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch World Bank, market and RBI feeds
+        run: python scripts/fetch_live.py
+      - name: Commit if data changed
+        run: |
+          if [ -n "$(git status --porcelain data/live.json)" ]; then
+            git config user.name "fiscal-portal-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add data/live.json
+            git commit -m "Auto-refresh live data $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No upstream change"
+          fi

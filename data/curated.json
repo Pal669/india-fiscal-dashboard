@@ -1,0 +1,5241 @@
+{
+ "source_file": "India_Fiscal_Framework_FY2526_v2.xlsx",
+ "built_at": "2026-09-19 15:25",
+ "checks_total": 36,
+ "checks_flagged": 16,
+ "sheets": [
+  {
+   "name": "Overview",
+   "blocks": [
+    {
+     "t": "title",
+     "text": "India: Union Budget Fiscal Framework, FY2025-26"
+    },
+    {
+     "t": "subtitle",
+     "text": "Budget Estimates (BE), ₹ crore unless stated. Union Budget 2025-26 (BE), PRS India, indiabudget.gov.in, as compiled in the source workbook."
+    },
+    {
+     "t": "cards",
+     "cards": [
+      [
+       "Nominal GDP",
+       "₹356.6 lakh crore",
+       "FY26 BE"
+      ],
+      [
+       "Total expenditure",
+       "₹50,65,345 cr",
+       "7.4% above FY25 RE"
+      ],
+      [
+       "Total receipts (excl. borrowings)",
+       "₹34,96,409 cr",
+       "9.8% of GDP"
+      ],
+      [
+       "Fiscal deficit",
+       "₹15,68,936 cr",
+       "4.4% of GDP"
+      ],
+      [
+       "Revenue deficit",
+       "₹5,23,846 cr",
+       "1.5% of GDP"
+      ],
+      [
+       "Primary deficit",
+       "₹2,92,598 cr",
+       "0.8% of GDP"
+      ],
+      [
+       "Gross tax revenue",
+       "₹42,70,233 cr",
+       "+10.8% vs FY25 RE"
+      ],
+      [
+       "Capital expenditure",
+       "₹11,21,000 cr",
+       "3.1% of GDP"
+      ],
+      [
+       "Interest payments",
+       "₹12,76,338 cr",
+       "25.2% of expenditure · 37.3% of revenue receipts"
+      ],
+      [
+       "Total subsidies",
+       "₹4,26,216 cr",
+       "Food + fertiliser = 87%"
+      ],
+      [
+       "Gross dated borrowing",
+       "₹14,82,000 cr",
+       "Net ₹11,54,000 cr"
+      ],
+      [
+       "Disinvestment target",
+       "₹47,000 cr",
+       "Miscellaneous capital receipts"
+      ]
+     ]
+    },
+    {
+     "t": "section",
+     "text": "The consolidation path"
+    },
+    {
+     "t": "chart",
+     "type": "line",
+     "title": "Deficits as % of GDP (workbook series)",
+     "labels": [
+      "FY20-21",
+      "FY21-22",
+      "FY22-23",
+      "FY23-24",
+      "FY24-25 RE",
+      "FY25-26 BE"
+     ],
+     "series": [
+      {
+       "name": "Fiscal deficit",
+       "data": [
+        9.3,
+        6.7,
+        5.6,
+        4.9,
+        4.8,
+        4.4
+       ]
+      },
+      {
+       "name": "Revenue deficit",
+       "data": [
+        5.2,
+        2.3,
+        2.6,
+        1.8,
+        1.9,
+        1.5
+       ]
+      },
+      {
+       "name": "Primary deficit",
+       "data": [
+        6.9,
+        3.3,
+        2,
+        1.4,
+        1.3,
+        0.8
+       ]
+      }
+     ],
+     "unit": "%"
+    },
+    {
+     "t": "section",
+     "text": "Where each rupee of spending goes (FY26 BE)"
+    },
+    {
+     "t": "chart",
+     "type": "doughnut",
+     "title": "Total expenditure by head (₹ crore)",
+     "labels": [
+      "Interest payments on debt",
+      "Subsidies (total)",
+      "Transfers to states (grants and loans)",
+      "Salaries (central govt employees)",
+      "Pension (civil and defence)",
+      "MGNREGS",
+      "PM-KISAN",
+      "PM Awas Yojana",
+      "Jal Jeevan Mission",
+      "Other revenue expenditure",
+      "Capital expenditure"
+     ],
+     "series": [
+      {
+       "name": "BE",
+       "data": [
+        1276338,
+        426216,
+        1137320,
+        235000,
+        230000,
+        86000,
+        63500,
+        78126,
+        70000,
+        341845,
+        1121000
+       ]
+      }
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Key insights"
+    },
+    {
+     "t": "note",
+     "text": "Interest is the single biggest item: ₹12,76,338 cr, 25.2% of all spending and 37.3% of revenue receipts."
+    },
+    {
+     "t": "note",
+     "text": "Fiscal deficit of 4.4% of GDP is down from 9.3% in FY20-21 (workbook series). Primary deficit is 0.8%, so most of the remaining gap is interest."
+    },
+    {
+     "t": "note",
+     "text": "Capital expenditure is ₹11,21,000 cr (3.1% of GDP) against ₹10,18,000 cr in FY24-25 RE: +10.1%."
+    },
+    {
+     "t": "note",
+     "text": "Food and fertiliser are 87% of the ₹4,26,216 cr subsidy bill."
+    },
+    {
+     "t": "banner",
+     "kind": "warn",
+     "text": "Data check: 16 of 36 reconciliation checks on the source workbook are flagged. Headline deficit figures reconcile; some sub-tables and the historical series do not. See the Data Notes tab before quoting any figure externally."
+    }
+   ]
+  },
+  {
+   "name": "Revenue",
+   "blocks": [
+    {
+     "t": "title",
+     "text": "Government revenue sources"
+    },
+    {
+     "t": "subtitle",
+     "text": "FY2025-26 BE, ₹ crore. Source: Receipt Budget 2025-26, indiabudget.gov.in. Percent columns are recomputed."
+    },
+    {
+     "t": "cards",
+     "cards": [
+      [
+       "Gross tax revenue",
+       "₹42,70,233 cr",
+       "12.0% of GDP"
+      ],
+      [
+       "Net tax revenue",
+       "₹28,47,789 cr",
+       "After devolution to States"
+      ],
+      [
+       "Non-tax revenue",
+       "₹5,83,409 cr",
+       "Dividends 56%"
+      ],
+      [
+       "Direct : indirect",
+       "59% : 41%",
+       "Share of gross tax"
+      ]
+     ]
+    },
+    {
+     "t": "chart",
+     "type": "doughnut",
+     "title": "Gross tax revenue by source (₹ crore)",
+     "labels": [
+      "Corporation tax",
+      "Income tax",
+      "GST",
+      "Union excise",
+      "Customs",
+      "STT, service tax, UT taxes"
+     ],
+     "series": [
+      {
+       "name": "BE",
+       "data": [
+        1082000,
+        1438000,
+        1178000,
+        317000,
+        240000,
+        15233
+       ]
+      }
+     ]
+    },
+    {
+     "t": "table",
+     "header": [
+      "Category",
+      "Amount (₹ cr)",
+      "% of base",
+      "Notes"
+     ],
+     "rows": [
+      {
+       "group": true,
+       "cells": [
+        {
+         "d": "A. Tax revenue"
+        }
+       ],
+       "cls": "group"
+      },
+      {
+       "group": true,
+       "cells": [
+        {
+         "d": "Direct taxes"
+        }
+       ],
+       "cls": "group"
+      },
+      {
+       "cells": [
+        {
+         "d": "Corporation tax"
+        },
+        {
+         "d": "10,82,000",
+         "v": 1082000
+        },
+        {
+         "d": "25.3%",
+         "v": 0.2533819583146868
+        },
+        {
+         "d": "Tax on company profits"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Taxes on income (personal and other)"
+        },
+        {
+         "d": "14,38,000",
+         "v": 1438000
+        },
+        {
+         "d": "33.7%",
+         "v": 0.33674977454391836
+        },
+        {
+         "d": "Personal income tax; new regime: zero tax up to ₹12 lakh"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Securities transaction tax and other"
+        },
+        {
+         "d": "5,000",
+         "v": 5000
+        },
+        {
+         "d": "0.1%",
+         "v": 0.0011708962953543753
+        },
+        {
+         "d": "STT on equity transactions, estate duty residuals"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Direct taxes sub-total"
+        },
+        {
+         "d": "25,25,000",
+         "v": 2525000
+        },
+        {
+         "d": "59.1%",
+         "v": 0.5913026291539595
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "group": true,
+       "cells": [
+        {
+         "d": "Indirect taxes"
+        }
+       ],
+       "cls": "group"
+      },
+      {
+       "cells": [
+        {
+         "d": "GST (CGST + cess)"
+        },
+        {
+         "d": "11,78,000",
+         "v": 1178000
+        },
+        {
+         "d": "27.6%",
+         "v": 0.2758631671854908
+        },
+        {
+         "d": "CGST ₹10,10,890 cr + compensation cess ₹1,67,110 cr"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Union excise duties"
+        },
+        {
+         "d": "3,17,000",
+         "v": 317000
+        },
+        {
+         "d": "7.4%",
+         "v": 0.07423482512546739
+        },
+        {
+         "d": "Mainly petroleum products and tobacco"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Customs duty"
+        },
+        {
+         "d": "2,40,000",
+         "v": 240000
+        },
+        {
+         "d": "5.6%",
+         "v": 0.056203022177010016
+        },
+        {
+         "d": "Import duties on goods"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Service tax (residual arrears)"
+        },
+        {
+         "d": "100",
+         "v": 100
+        },
+        {
+         "d": "0.0%",
+         "v": 2.3417925907087505e-05
+        },
+        {
+         "d": "Legacy arrears after GST (July 2017)"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "UT taxes"
+        },
+        {
+         "d": "10,133",
+         "v": 10133
+        },
+        {
+         "d": "0.2%",
+         "v": 0.002372938432165177
+        },
+        {
+         "d": "Taxes levied in Union Territories"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Indirect taxes sub-total"
+        },
+        {
+         "d": "17,45,233",
+         "v": 1745233
+        },
+        {
+         "d": "40.9%",
+         "v": 0.40869737084604046
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "Gross tax revenue (Centre + States)"
+        },
+        {
+         "d": "42,70,233",
+         "v": 4270233
+        },
+        {
+         "d": "100.0%",
+         "v": 1.0
+        },
+        {
+         "d": "Sum of the eight lines above"
+        }
+       ],
+       "cls": "total"
+      },
+      {
+       "cells": [
+        {
+         "d": "Less: devolution to States"
+        },
+        {
+         "d": "-14,22,444",
+         "v": -1422444
+        },
+        {
+         "d": "-41.6%",
+         "v": -0.41586956413692044
+        },
+        {
+         "d": "41% of divisible pool per Finance Commission formula"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Net tax revenue (Centre)"
+        },
+        {
+         "d": "28,47,789",
+         "v": 2847789
+        },
+        {
+         "d": "83.3%",
+         "v": 0.8325872724577674
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "total"
+      },
+      {
+       "group": true,
+       "cells": [
+        {
+         "d": "B. Non-tax revenue"
+        }
+       ],
+       "cls": "group"
+      },
+      {
+       "cells": [
+        {
+         "d": "Dividends: RBI, banks and PSUs"
+        },
+        {
+         "d": "3,25,000",
+         "v": 325000
+        },
+        {
+         "d": "9.5%",
+         "v": 0.09501787651710658
+        },
+        {
+         "d": "RBI surplus transfer ~₹2.33 lakh cr plus CPSE dividends"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Interest receipts on loans"
+        },
+        {
+         "d": "51,000",
+         "v": 51000
+        },
+        {
+         "d": "1.5%",
+         "v": 0.01491049754576134
+        },
+        {
+         "d": "Interest on Centre's loans to states and PSUs"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Communication services"
+        },
+        {
+         "d": "82,000",
+         "v": 82000
+        },
+        {
+         "d": "2.4%",
+         "v": 0.02397374115200843
+        },
+        {
+         "d": "Spectrum auctions and telecom licence fees"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Other non-tax revenue"
+        },
+        {
+         "d": "1,25,409",
+         "v": 125409
+        },
+        {
+         "d": "3.7%",
+         "v": 0.036664913465027135
+        },
+        {
+         "d": "Fees, user charges, external grants, misc receipts"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Non-tax revenue total"
+        },
+        {
+         "d": "5,83,409",
+         "v": 583409
+        },
+        {
+         "d": "17.1%",
+         "v": 0.17056702867990348
+        },
+        {
+         "d": "Dividends are 55.7% of non-tax revenue"
+        }
+       ],
+       "cls": "total"
+      },
+      {
+       "group": true,
+       "cells": [
+        {
+         "d": "C. Capital receipts (excl. borrowings)"
+        }
+       ],
+       "cls": "group"
+      },
+      {
+       "cells": [
+        {
+         "d": "Disinvestment of PSUs"
+        },
+        {
+         "d": "47,000",
+         "v": 47000
+        },
+        {
+         "d": "1.4%",
+         "v": 0.01374104675785849
+        },
+        {
+         "d": "Target cut for the 5th year running; historically unmet"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Recovery of loans from states and PSUs"
+        },
+        {
+         "d": "29,000",
+         "v": 29000
+        },
+        {
+         "d": "0.8%",
+         "v": 0.008478518212295665
+        },
+        {
+         "d": "Repayment of earlier Centre loans"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Non-debt capital receipts total"
+        },
+        {
+         "d": "76,000",
+         "v": 76000
+        },
+        {
+         "d": "2.2%",
+         "v": 0.022219564970154156
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "total"
+      },
+      {
+       "group": true,
+       "cells": [
+        {
+         "d": "Reconciliation"
+        }
+       ],
+       "cls": "group"
+      },
+      {
+       "cells": [
+        {
+         "d": "Total revenue receipts (as used in the deficit arithmetic)"
+        },
+        {
+         "d": "34,20,409",
+         "v": 3420409
+        },
+        {
+         "d": "100.0%",
+         "v": 1.0
+        },
+        {
+         "d": "Net tax + non-tax as listed = ₹34,31,198 cr; gap ₹10,789 cr (see Data Notes)"
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "Total receipts excl. borrowings"
+        },
+        {
+         "d": "34,96,409",
+         "v": 3496409
+        },
+        {
+         "d": "102.2%",
+         "v": 1.0222195649701542
+        },
+        {
+         "d": "Revenue receipts + non-debt capital receipts"
+        }
+       ],
+       "cls": "total"
+      }
+     ]
+    },
+    {
+     "t": "note",
+     "text": "% of base: tax lines are shown as a share of gross tax revenue; devolution, non-tax and capital receipts as a share of total revenue receipts."
+    }
+   ]
+  },
+  {
+   "name": "Expenditure",
+   "blocks": [
+    {
+     "t": "title",
+     "text": "Government expenditure"
+    },
+    {
+     "t": "subtitle",
+     "text": "FY2025-26 BE vs FY2024-25 RE, ₹ crore. Source: Expenditure Budget 2025-26. Shares and growth are recomputed."
+    },
+    {
+     "t": "cards",
+     "cards": [
+      [
+       "Total expenditure",
+       "₹50,65,345 cr",
+       "7.4% above FY25 RE"
+      ],
+      [
+       "Revenue expenditure",
+       "₹39,44,345 cr",
+       "78% of total"
+      ],
+      [
+       "Capital expenditure",
+       "₹11,21,000 cr",
+       "22% of total"
+      ],
+      [
+       "Interest",
+       "₹12,76,338 cr",
+       "25.2% of total"
+      ]
+     ]
+    },
+    {
+     "t": "chart",
+     "type": "bar",
+     "title": "Revenue expenditure by head, FY26 BE (₹ crore)",
+     "labels": [
+      "Interest payments on debt",
+      "Subsidies (total)",
+      "Transfers to states (grants and loans)",
+      "Salaries (central govt employees)",
+      "Pension (civil and defence)",
+      "MGNREGS",
+      "PM-KISAN",
+      "PM Awas Yojana",
+      "Jal Jeevan Mission",
+      "Other revenue expenditure"
+     ],
+     "series": [
+      {
+       "name": "FY25-26 BE",
+       "data": [
+        1276338,
+        426216,
+        1137320,
+        235000,
+        230000,
+        86000,
+        63500,
+        78126,
+        70000,
+        341845
+       ]
+      }
+     ],
+     "horizontal": true
+    },
+    {
+     "t": "chart",
+     "type": "bar",
+     "title": "Capital expenditure by head: BE vs prior-year RE (₹ crore)",
+     "labels": [
+      "Roads, highways and bridges",
+      "Railways",
+      "Defence capital",
+      "Capital loans to states (50-yr)",
+      "Urban infrastructure and housing",
+      "Water infrastructure",
+      "Telecom and digital",
+      "Energy and power"
+     ],
+     "series": [
+      {
+       "name": "FY25-26 BE",
+       "data": [
+        260000,
+        252200,
+        172000,
+        150000,
+        78000,
+        37000,
+        25000,
+        22000
+       ]
+      },
+      {
+       "name": "FY24-25 RE",
+       "data": [
+        260000,
+        252000,
+        165000,
+        144000,
+        72000,
+        35000,
+        22000,
+        20000
+       ]
+      }
+     ]
+    },
+    {
+     "t": "table",
+     "header": [
+      "Category",
+      "FY25-26 BE (₹ cr)",
+      "FY24-25 RE (₹ cr)",
+      "% of total exp",
+      "Growth vs RE"
+     ],
+     "rows": [
+      {
+       "group": true,
+       "cells": [
+        {
+         "d": "A. Revenue expenditure (recurring)"
+        }
+       ],
+       "cls": "group"
+      },
+      {
+       "cells": [
+        {
+         "d": "Interest payments on debt"
+        },
+        {
+         "d": "12,76,338",
+         "v": 1276338
+        },
+        {
+         "d": "11,37,940",
+         "v": 1137940
+        },
+        {
+         "d": "25.2%",
+         "v": 0.2519745446756341
+        },
+        {
+         "d": "12.2%",
+         "v": 0.12162152661827519
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Subsidies (total)"
+        },
+        {
+         "d": "4,26,216",
+         "v": 426216
+        },
+        {
+         "d": "4,25,000",
+         "v": 425000
+        },
+        {
+         "d": "8.4%",
+         "v": 0.08414352822956778
+        },
+        {
+         "d": "0.3%",
+         "v": 0.002861176470588145
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Transfers to states (grants and loans)"
+        },
+        {
+         "d": "11,37,320",
+         "v": 1137320
+        },
+        {
+         "d": "9,95,000",
+         "v": 995000
+        },
+        {
+         "d": "22.5%",
+         "v": 0.2245296223653078
+        },
+        {
+         "d": "14.3%",
+         "v": 0.14303517587939707
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Salaries (central govt employees)"
+        },
+        {
+         "d": "2,35,000",
+         "v": 235000
+        },
+        {
+         "d": "2,28,000",
+         "v": 228000
+        },
+        {
+         "d": "4.6%",
+         "v": 0.046393680983230164
+        },
+        {
+         "d": "3.1%",
+         "v": 0.030701754385964897
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Pension (civil and defence)"
+        },
+        {
+         "d": "2,30,000",
+         "v": 230000
+        },
+        {
+         "d": "2,23,000",
+         "v": 223000
+        },
+        {
+         "d": "4.5%",
+         "v": 0.04540658138784229
+        },
+        {
+         "d": "3.1%",
+         "v": 0.03139013452914807
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "MGNREGS"
+        },
+        {
+         "d": "86,000",
+         "v": 86000
+        },
+        {
+         "d": "86,000",
+         "v": 86000
+        },
+        {
+         "d": "1.7%",
+         "v": 0.016978113040671466
+        },
+        {
+         "d": "0.0%",
+         "v": 0.0
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "PM-KISAN"
+        },
+        {
+         "d": "63,500",
+         "v": 63500
+        },
+        {
+         "d": "63,500",
+         "v": 63500
+        },
+        {
+         "d": "1.3%",
+         "v": 0.012536164861426023
+        },
+        {
+         "d": "0.0%",
+         "v": 0.0
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "PM Awas Yojana"
+        },
+        {
+         "d": "78,126",
+         "v": 78126
+        },
+        {
+         "d": "70,000",
+         "v": 70000
+        },
+        {
+         "d": "1.5%",
+         "v": 0.015423628597854637
+        },
+        {
+         "d": "11.6%",
+         "v": 0.11608571428571435
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Jal Jeevan Mission"
+        },
+        {
+         "d": "70,000",
+         "v": 70000
+        },
+        {
+         "d": "67,000",
+         "v": 67000
+        },
+        {
+         "d": "1.4%",
+         "v": 0.013819394335430262
+        },
+        {
+         "d": "4.5%",
+         "v": 0.04477611940298498
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Other revenue expenditure"
+        },
+        {
+         "d": "3,41,845",
+         "v": 341845
+        },
+        {
+         "d": ""
+        },
+        {
+         "d": "6.7%",
+         "v": 0.06748701223707368
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Revenue expenditure total"
+        },
+        {
+         "d": "39,44,345",
+         "v": 3944345
+        },
+        {
+         "d": ""
+        },
+        {
+         "d": "77.9%",
+         "v": 0.7786922707140382
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "group": true,
+       "cells": [
+        {
+         "d": "B. Capital expenditure (asset creation)"
+        }
+       ],
+       "cls": "group"
+      },
+      {
+       "cells": [
+        {
+         "d": "Roads, highways and bridges"
+        },
+        {
+         "d": "2,60,000",
+         "v": 260000
+        },
+        {
+         "d": "2,60,000",
+         "v": 260000
+        },
+        {
+         "d": "5.1%",
+         "v": 0.051329178960169544
+        },
+        {
+         "d": "0.0%",
+         "v": 0.0
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Railways"
+        },
+        {
+         "d": "2,52,200",
+         "v": 252200
+        },
+        {
+         "d": "2,52,000",
+         "v": 252000
+        },
+        {
+         "d": "5.0%",
+         "v": 0.04978930359136446
+        },
+        {
+         "d": "0.1%",
+         "v": 0.0007936507936507908
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Defence capital"
+        },
+        {
+         "d": "1,72,000",
+         "v": 172000
+        },
+        {
+         "d": "1,65,000",
+         "v": 165000
+        },
+        {
+         "d": "3.4%",
+         "v": 0.03395622608134293
+        },
+        {
+         "d": "4.2%",
+         "v": 0.042424242424242475
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Capital loans to states (50-yr)"
+        },
+        {
+         "d": "1,50,000",
+         "v": 150000
+        },
+        {
+         "d": "1,44,000",
+         "v": 144000
+        },
+        {
+         "d": "3.0%",
+         "v": 0.029612987861636277
+        },
+        {
+         "d": "4.2%",
+         "v": 0.04166666666666674
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Urban infrastructure and housing"
+        },
+        {
+         "d": "78,000",
+         "v": 78000
+        },
+        {
+         "d": "72,000",
+         "v": 72000
+        },
+        {
+         "d": "1.5%",
+         "v": 0.015398753688050864
+        },
+        {
+         "d": "8.3%",
+         "v": 0.08333333333333326
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Water infrastructure"
+        },
+        {
+         "d": "37,000",
+         "v": 37000
+        },
+        {
+         "d": "35,000",
+         "v": 35000
+        },
+        {
+         "d": "0.7%",
+         "v": 0.0073045370058702815
+        },
+        {
+         "d": "5.7%",
+         "v": 0.05714285714285716
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Telecom and digital"
+        },
+        {
+         "d": "25,000",
+         "v": 25000
+        },
+        {
+         "d": "22,000",
+         "v": 22000
+        },
+        {
+         "d": "0.5%",
+         "v": 0.004935497976939379
+        },
+        {
+         "d": "13.6%",
+         "v": 0.13636363636363646
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Energy and power"
+        },
+        {
+         "d": "22,000",
+         "v": 22000
+        },
+        {
+         "d": "20,000",
+         "v": 20000
+        },
+        {
+         "d": "0.4%",
+         "v": 0.004343238219706654
+        },
+        {
+         "d": "10.0%",
+         "v": 0.10000000000000009
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Other capital expenditure"
+        },
+        {
+         "d": "1,24,800",
+         "v": 124800
+        },
+        {
+         "d": ""
+        },
+        {
+         "d": "2.5%",
+         "v": 0.02463800590088138
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Capital expenditure total"
+        },
+        {
+         "d": "11,21,000",
+         "v": 1121000
+        },
+        {
+         "d": "10,18,000",
+         "v": 1018000
+        },
+        {
+         "d": "22.1%",
+         "v": 0.22130772928596176
+        },
+        {
+         "d": "10.1%",
+         "v": 0.1011787819253438
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "Total expenditure (revenue + capital)"
+        },
+        {
+         "d": "50,65,345",
+         "v": 5065345
+        },
+        {
+         "d": "47,16,000",
+         "v": 4716000
+        },
+        {
+         "d": "100.0%",
+         "v": 1.0
+        },
+        {
+         "d": "7.4%",
+         "v": 0.07407654792196783
+        }
+       ],
+       "cls": "total"
+      }
+     ]
+    },
+    {
+     "t": "note",
+     "text": "FY24-25 RE is blank where the workbook has no prior-year figure. Total FY24-25 RE expenditure uses ₹47,16,000 cr (Interest and Trends sheets); the Expenditure sheet's own typed value has a stray digit."
+    }
+   ]
+  },
+  {
+   "name": "Subsidies",
+   "blocks": [
+    {
+     "t": "title",
+     "text": "Subsidy breakdown"
+    },
+    {
+     "t": "subtitle",
+     "text": "FY2025-26 BE vs FY2024-25 RE, ₹ crore. Source: Expenditure Profile 2025-26, Statement 7."
+    },
+    {
+     "t": "cards",
+     "cards": [
+      [
+       "Total subsidies",
+       "₹4,26,216 cr",
+       "8.4% of expenditure"
+      ],
+      [
+       "Food",
+       "₹2,03,420 cr",
+       "48% of bill"
+      ],
+      [
+       "Fertiliser",
+       "₹1,67,887 cr",
+       "39% of bill"
+      ],
+      [
+       "Petroleum (LPG)",
+       "₹12,100 cr",
+       "-17.7% vs RE"
+      ]
+     ]
+    },
+    {
+     "t": "chart",
+     "type": "doughnut",
+     "title": "Subsidy bill by group, FY26 BE (₹ crore)",
+     "labels": [
+      "Food",
+      "Fertiliser",
+      "Petroleum",
+      "Interest subsidies",
+      "Other",
+      "Unitemised residual"
+     ],
+     "series": [
+      {
+       "name": "BE",
+       "data": [
+        203420,
+        167887,
+        12100,
+        19500,
+        18196,
+        5113
+       ]
+      }
+     ]
+    },
+    {
+     "t": "table",
+     "header": [
+      "Subsidy",
+      "FY25-26 BE (₹ cr)",
+      "FY24-25 RE (₹ cr)",
+      "% of stated total",
+      "Growth vs RE"
+     ],
+     "rows": [
+      {
+       "group": true,
+       "cells": [
+        {
+         "d": "FOOD   (BE ₹2,03,420 cr · RE ₹1,97,420 cr)"
+        }
+       ],
+       "cls": "group"
+      },
+      {
+       "cells": [
+        {
+         "d": "Food subsidy (NFSA and welfare schemes)"
+        },
+        {
+         "d": "2,03,420",
+         "v": 203420
+        },
+        {
+         "d": "1,97,420",
+         "v": 197420
+        },
+        {
+         "d": "47.7%",
+         "v": 0.4772697411641046
+        },
+        {
+         "d": "3.0%",
+         "v": 0.03039205754229557
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "group": true,
+       "cells": [
+        {
+         "d": "FERTILISER   (BE ₹1,67,887 cr · RE ₹1,55,000 cr)"
+        }
+       ],
+       "cls": "group"
+      },
+      {
+       "cells": [
+        {
+         "d": "Urea"
+        },
+        {
+         "d": "1,15,000",
+         "v": 115000
+        },
+        {
+         "d": "1,10,000",
+         "v": 110000
+        },
+        {
+         "d": "27.0%",
+         "v": 0.26981624340709875
+        },
+        {
+         "d": "4.5%",
+         "v": 0.045454545454545414
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Non-urea (DAP, MOP, NPS)"
+        },
+        {
+         "d": "52,887",
+         "v": 52887
+        },
+        {
+         "d": "45,000",
+         "v": 45000
+        },
+        {
+         "d": "12.4%",
+         "v": 0.12408497100061941
+        },
+        {
+         "d": "17.5%",
+         "v": 0.17526666666666668
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "group": true,
+       "cells": [
+        {
+         "d": "PETROLEUM   (BE ₹12,100 cr · RE ₹14,700 cr)"
+        }
+       ],
+       "cls": "group"
+      },
+      {
+       "cells": [
+        {
+         "d": "LPG (Ujjwala)"
+        },
+        {
+         "d": "12,100",
+         "v": 12100
+        },
+        {
+         "d": "14,700",
+         "v": 14700
+        },
+        {
+         "d": "2.8%",
+         "v": 0.028389361262833868
+        },
+        {
+         "d": "-17.7%",
+         "v": -0.1768707482993197
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "group": true,
+       "cells": [
+        {
+         "d": "INTEREST SUBSIDIES   (BE ₹19,500 cr · RE ₹18,600 cr)"
+        }
+       ],
+       "cls": "group"
+      },
+      {
+       "cells": [
+        {
+         "d": "Kisan Credit Card subvention"
+        },
+        {
+         "d": "9,500",
+         "v": 9500
+        },
+        {
+         "d": "9,000",
+         "v": 9000
+        },
+        {
+         "d": "2.2%",
+         "v": 0.022289167933629898
+        },
+        {
+         "d": "5.6%",
+         "v": 0.05555555555555558
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "CLSS housing"
+        },
+        {
+         "d": "5,000",
+         "v": 5000
+        },
+        {
+         "d": "4,800",
+         "v": 4800
+        },
+        {
+         "d": "1.2%",
+         "v": 0.011731141017699946
+        },
+        {
+         "d": "4.2%",
+         "v": 0.04166666666666674
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Other interest subsidies"
+        },
+        {
+         "d": "5,000",
+         "v": 5000
+        },
+        {
+         "d": "4,800",
+         "v": 4800
+        },
+        {
+         "d": "1.2%",
+         "v": 0.011731141017699946
+        },
+        {
+         "d": "4.2%",
+         "v": 0.04166666666666674
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "group": true,
+       "cells": [
+        {
+         "d": "OTHER   (BE ₹18,196 cr · RE ₹17,200 cr)"
+        }
+       ],
+       "cls": "group"
+      },
+      {
+       "cells": [
+        {
+         "d": "Market intervention and agriculture"
+        },
+        {
+         "d": "8,000",
+         "v": 8000
+        },
+        {
+         "d": "7,600",
+         "v": 7600
+        },
+        {
+         "d": "1.9%",
+         "v": 0.018769825628319914
+        },
+        {
+         "d": "5.3%",
+         "v": 0.05263157894736836
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Export and MSME"
+        },
+        {
+         "d": "5,196",
+         "v": 5196
+        },
+        {
+         "d": "4,900",
+         "v": 4900
+        },
+        {
+         "d": "1.2%",
+         "v": 0.012191001745593783
+        },
+        {
+         "d": "6.0%",
+         "v": 0.06040816326530618
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Miscellaneous"
+        },
+        {
+         "d": "5,000",
+         "v": 5000
+        },
+        {
+         "d": "4,700",
+         "v": 4700
+        },
+        {
+         "d": "1.2%",
+         "v": 0.011731141017699946
+        },
+        {
+         "d": "6.4%",
+         "v": 0.06382978723404253
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Unitemised residual (stated total − itemised)"
+        },
+        {
+         "d": "5,113",
+         "v": 5113
+        },
+        {
+         "d": "22,080",
+         "v": 22080
+        },
+        {
+         "d": "1.2%",
+         "v": 0.011996264804699964
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "note"
+      },
+      {
+       "cells": [
+        {
+         "d": "Total subsidies (as stated)"
+        },
+        {
+         "d": "4,26,216",
+         "v": 426216
+        },
+        {
+         "d": "4,25,000",
+         "v": 425000
+        },
+        {
+         "d": "100.0%",
+         "v": 1.0
+        },
+        {
+         "d": "0.3%",
+         "v": 0.002861176470588145
+        }
+       ],
+       "cls": "total"
+      }
+     ]
+    },
+    {
+     "t": "note",
+     "text": "Food and fertiliser share is computed on the stated total (₹4,26,216 cr). Itemised lines sum to ₹4,21,103 cr; the difference is shown as a residual rather than hidden."
+    }
+   ]
+  },
+  {
+   "name": "Interest",
+   "blocks": [
+    {
+     "t": "title",
+     "text": "Interest payments"
+    },
+    {
+     "t": "subtitle",
+     "text": "Four-year view, ₹ crore. Source: Budget at a Glance 2025-26. All ratios recomputed from the levels shown."
+    },
+    {
+     "t": "cards",
+     "cards": [
+      [
+       "Interest, FY26 BE",
+       "₹12,76,338 cr",
+       "+12.2% vs FY25 RE"
+      ],
+      [
+       "% of expenditure",
+       "25.2%",
+       "-0.2 pp since FY22-23"
+      ],
+      [
+       "% of revenue receipts",
+       "37.3%",
+       "-7.3 pp since FY22-23"
+      ],
+      [
+       "% of GDP",
+       "3.6%",
+       ""
+      ]
+     ]
+    },
+    {
+     "t": "chart",
+     "type": "combo",
+     "title": "Interest payments (₹ lakh crore, bars) and share of revenue receipts (%, line)",
+     "labels": [
+      "FY22-23 Actual",
+      "FY23-24 Actual",
+      "FY24-25 RE",
+      "FY25-26 BE"
+     ],
+     "series": [
+      {
+       "name": "Interest (₹ lakh cr)",
+       "data": [
+        10.64,
+        11.63,
+        11.38,
+        12.76
+       ]
+      },
+      {
+       "name": "% of revenue receipts",
+       "data": [
+        44.6,
+        42.2,
+        36.2,
+        37.3
+       ]
+      }
+     ],
+     "dual": true
+    },
+    {
+     "t": "table",
+     "header": [
+      "Indicator",
+      "FY22-23 Actual",
+      "FY23-24 Actual",
+      "FY24-25 RE",
+      "FY25-26 BE",
+      "Observation"
+     ],
+     "rows": [
+      {
+       "cells": [
+        {
+         "d": "Fiscal deficit"
+        },
+        {
+         "d": "16,54,643",
+         "v": 1654643
+        },
+        {
+         "d": "16,13,312",
+         "v": 1613312
+        },
+        {
+         "d": "15,69,527",
+         "v": 1569527
+        },
+        {
+         "d": "15,68,936",
+         "v": 1568936
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Primary deficit"
+        },
+        {
+         "d": "5,90,771",
+         "v": 590771
+        },
+        {
+         "d": "4,50,372",
+         "v": 450372
+        },
+        {
+         "d": "4,31,587",
+         "v": 431587
+        },
+        {
+         "d": "2,92,598",
+         "v": 292598
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Interest payments (= FD − PD)"
+        },
+        {
+         "d": "10,63,872",
+         "v": 1063872
+        },
+        {
+         "d": "11,62,940",
+         "v": 1162940
+        },
+        {
+         "d": "11,37,940",
+         "v": 1137940
+        },
+        {
+         "d": "12,76,338",
+         "v": 1276338
+        },
+        {
+         "d": "Largest single revenue-expenditure item"
+        }
+       ],
+       "cls": "total"
+      },
+      {
+       "cells": [
+        {
+         "d": "Total revenue receipts"
+        },
+        {
+         "d": "23,84,000",
+         "v": 2384000
+        },
+        {
+         "d": "27,57,000",
+         "v": 2757000
+        },
+        {
+         "d": "31,47,000",
+         "v": 3147000
+        },
+        {
+         "d": "34,20,409",
+         "v": 3420409
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Total expenditure"
+        },
+        {
+         "d": "41,88,000",
+         "v": 4188000
+        },
+        {
+         "d": "44,90,000",
+         "v": 4490000
+        },
+        {
+         "d": "47,16,000",
+         "v": 4716000
+        },
+        {
+         "d": "50,65,345",
+         "v": 5065345
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Nominal GDP"
+        },
+        {
+         "d": "2,95,36,000",
+         "v": 29536000
+        },
+        {
+         "d": "3,29,37,000",
+         "v": 32937000
+        },
+        {
+         "d": "3,26,36,000",
+         "v": 32636000
+        },
+        {
+         "d": "3,56,60,000",
+         "v": 35660000
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Interest as % of total expenditure"
+        },
+        {
+         "d": "25.4%",
+         "v": 0.2540286532951289
+        },
+        {
+         "d": "25.9%",
+         "v": 0.2590066815144766
+        },
+        {
+         "d": "24.1%",
+         "v": 0.24129346904156065
+        },
+        {
+         "d": "25.2%",
+         "v": 0.2519745446756341
+        },
+        {
+         "d": "Target: below 20% over the consolidation path"
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "Interest as % of revenue receipts"
+        },
+        {
+         "d": "44.6%",
+         "v": 0.446255033557047
+        },
+        {
+         "d": "42.2%",
+         "v": 0.42181356546971344
+        },
+        {
+         "d": "36.2%",
+         "v": 0.36159517000317765
+        },
+        {
+         "d": "37.3%",
+         "v": 0.373153619932587
+        },
+        {
+         "d": "Over 37% means more than ₹1 of every ₹3 of revenue goes to interest"
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "Interest as % of GDP"
+        },
+        {
+         "d": "3.6%",
+         "v": 0.036019501625135425
+        },
+        {
+         "d": "3.5%",
+         "v": 0.03530801226584085
+        },
+        {
+         "d": "3.5%",
+         "v": 0.03486763083711239
+        },
+        {
+         "d": "3.6%",
+         "v": 0.035791867638810995
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "Fiscal deficit as % of GDP"
+        },
+        {
+         "d": "5.6%",
+         "v": 0.056021228331527624
+        },
+        {
+         "d": "4.9%",
+         "v": 0.048981753043689465
+        },
+        {
+         "d": "4.8%",
+         "v": 0.048091892388773136
+        },
+        {
+         "d": "4.4%",
+         "v": 0.04399708356702187
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "Primary deficit as % of GDP"
+        },
+        {
+         "d": "2.0%",
+         "v": 0.0200017267063922
+        },
+        {
+         "d": "1.4%",
+         "v": 0.01367374077784862
+        },
+        {
+         "d": "1.3%",
+         "v": 0.013224261551660742
+        },
+        {
+         "d": "0.8%",
+         "v": 0.00820521592821088
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "sub"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Deficits & Debt",
+   "blocks": [
+    {
+     "t": "title",
+     "text": "Deficits and debt"
+    },
+    {
+     "t": "subtitle",
+     "text": "FY2025-26 BE, ₹ crore. Formula-based reconstruction from Budget documents; % of GDP recomputed."
+    },
+    {
+     "t": "cards",
+     "cards": [
+      [
+       "Fiscal deficit",
+       "4.4%",
+       "₹15,68,936 cr"
+      ],
+      [
+       "Revenue deficit",
+       "1.5%",
+       "₹5,23,846 cr"
+      ],
+      [
+       "Primary deficit",
+       "0.8%",
+       "₹2,92,598 cr"
+      ],
+      [
+       "Central govt liabilities",
+       "~56.1% of GDP",
+       "≈ ₹200 lakh crore"
+      ]
+     ]
+    },
+    {
+     "t": "chart",
+     "type": "bar",
+     "title": "How the fiscal deficit is built (₹ lakh crore)",
+     "labels": [
+      "Total expenditure",
+      "Total receipts",
+      "Fiscal deficit",
+      "Revenue deficit",
+      "Primary deficit",
+      "Interest"
+     ],
+     "series": [
+      {
+       "name": "FY26 BE",
+       "data": [
+        50.65,
+        34.96,
+        15.69,
+        5.24,
+        2.93,
+        12.76
+       ]
+      }
+     ]
+    },
+    {
+     "t": "table",
+     "header": [
+      "Indicator",
+      "Formula / definition",
+      "Amount (₹ cr)",
+      "% of GDP",
+      "Note"
+     ],
+     "rows": [
+      {
+       "group": true,
+       "cells": [
+        {
+         "d": "Key assumptions, FY2025-26 BE"
+        }
+       ],
+       "cls": "group"
+      },
+      {
+       "cells": [
+        {
+         "d": "Nominal GDP"
+        },
+        {
+         "d": "Government estimate, 10.1% nominal growth"
+        },
+        {
+         "d": "3,56,60,000",
+         "v": 35660000
+        },
+        {
+         "d": "100.0%",
+         "v": 1.0
+        },
+        {
+         "d": "Denominator for every ratio"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Total revenue receipts (A)"
+        },
+        {
+         "d": "Net tax + non-tax revenue"
+        },
+        {
+         "d": "34,20,409",
+         "v": 3420409
+        },
+        {
+         "d": "9.6%",
+         "v": 0.09591724621424565
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Non-debt capital receipts (B)"
+        },
+        {
+         "d": "Disinvestment + loan recoveries"
+        },
+        {
+         "d": "76,000",
+         "v": 76000
+        },
+        {
+         "d": "0.2%",
+         "v": 0.002131239484015704
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Total receipts excl. borrowings (A+B)"
+        },
+        {
+         "d": "Self-generated resources"
+        },
+        {
+         "d": "34,96,409",
+         "v": 3496409
+        },
+        {
+         "d": "9.8%",
+         "v": 0.09804848569826136
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "Revenue expenditure (C)"
+        },
+        {
+         "d": "Interest + subsidies + salaries + grants"
+        },
+        {
+         "d": "39,44,345",
+         "v": 3944345
+        },
+        {
+         "d": "11.1%",
+         "v": 0.1106097868760516
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Capital expenditure (D)"
+        },
+        {
+         "d": "Infrastructure, defence, railways"
+        },
+        {
+         "d": "11,21,000",
+         "v": 1121000
+        },
+        {
+         "d": "3.1%",
+         "v": 0.031435782389231635
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Total expenditure (C+D)"
+        },
+        {
+         "d": "Revenue + capital"
+        },
+        {
+         "d": "50,65,345",
+         "v": 5065345
+        },
+        {
+         "d": "14.2%",
+         "v": 0.14204556926528322
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "Interest payments (E)"
+        },
+        {
+         "d": "Fiscal deficit − primary deficit"
+        },
+        {
+         "d": "12,76,338",
+         "v": 1276338
+        },
+        {
+         "d": "3.6%",
+         "v": 0.035791867638810995
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "group": true,
+       "cells": [
+        {
+         "d": "Deficits"
+        }
+       ],
+       "cls": "group"
+      },
+      {
+       "cells": [
+        {
+         "d": "Fiscal deficit"
+        },
+        {
+         "d": "Total expenditure − total receipts excl. borrowings"
+        },
+        {
+         "d": "15,68,936",
+         "v": 1568936
+        },
+        {
+         "d": "4.4%",
+         "v": 0.04399708356702187
+        },
+        {
+         "d": "Financed entirely by borrowing"
+        }
+       ],
+       "cls": "total"
+      },
+      {
+       "cells": [
+        {
+         "d": "Revenue deficit"
+        },
+        {
+         "d": "Revenue expenditure − revenue receipts"
+        },
+        {
+         "d": "5,23,846",
+         "v": 523846.0
+        },
+        {
+         "d": "1.5%",
+         "v": 0.014690016825574874
+        },
+        {
+         "d": "Current spending financed by borrowing (headline as stated on the workbook dashboard)"
+        }
+       ],
+       "cls": "total"
+      },
+      {
+       "cells": [
+        {
+         "d": "Primary deficit"
+        },
+        {
+         "d": "Fiscal deficit − interest payments"
+        },
+        {
+         "d": "2,92,598",
+         "v": 292598
+        },
+        {
+         "d": "0.8%",
+         "v": 0.00820521592821088
+        },
+        {
+         "d": "Would be zero if interest were nil"
+        }
+       ],
+       "cls": "total"
+      },
+      {
+       "group": true,
+       "cells": [
+        {
+         "d": "Debt"
+        }
+       ],
+       "cls": "group"
+      },
+      {
+       "cells": [
+        {
+         "d": "Outstanding central government liabilities"
+        },
+        {
+         "d": "~56.1% of GDP (as estimated)"
+        },
+        {
+         "d": "2,00,05,260",
+         "v": 20005260.000000004
+        },
+        {
+         "d": "56.1%",
+         "v": 0.561
+        },
+        {
+         "d": "Government targets 50% of GDP by March 2031"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Gross dated-securities borrowing"
+        },
+        {
+         "d": "Dated G-secs issued in FY26"
+        },
+        {
+         "d": "14,82,000",
+         "v": 1482000
+        },
+        {
+         "d": "4.2%",
+         "v": 0.041559169938306224
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Net dated-securities borrowing"
+        },
+        {
+         "d": "Gross − redemptions"
+        },
+        {
+         "d": "11,54,000",
+         "v": 1154000
+        },
+        {
+         "d": "3.2%",
+         "v": 0.03236118900729108
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      }
+     ]
+    },
+    {
+     "t": "note",
+     "text": "The workbook's own '% of GDP' cells for the debt block point at the wrong rows; they are recomputed here."
+    }
+   ]
+  },
+  {
+   "name": "Financing",
+   "blocks": [
+    {
+     "t": "title",
+     "text": "Capital receipts and borrowing structure"
+    },
+    {
+     "t": "subtitle",
+     "text": "FY2025-26 BE, ₹ crore. Source: Receipt Budget 2025-26, RBI borrowing calendar."
+    },
+    {
+     "t": "cards",
+     "cards": [
+      [
+       "Gross dated borrowing",
+       "₹14,82,000 cr",
+       "RBI-run auctions"
+      ],
+      [
+       "Net dated borrowing",
+       "₹11,54,000 cr",
+       "74% of fiscal deficit"
+      ],
+      [
+       "Small savings + GPF",
+       "₹3,68,000 cr",
+       "23% of fiscal deficit"
+      ],
+      [
+       "External (net)",
+       "₹45,625 cr",
+       "3% of fiscal deficit"
+      ]
+     ]
+    },
+    {
+     "t": "chart",
+     "type": "bar",
+     "title": "Financing mix, net (₹ crore)",
+     "labels": [
+      "Net dated G-secs",
+      "Treasury bills",
+      "Small savings and GPF",
+      "External (net)",
+      "Fiscal deficit"
+     ],
+     "series": [
+      {
+       "name": "FY26 BE",
+       "data": [
+        1154000,
+        90000,
+        368000,
+        45625,
+        1568936
+       ]
+      }
+     ]
+    },
+    {
+     "t": "banner",
+     "kind": "warn",
+     "text": "Listed net sources add to ₹16,57,625 cr against a fiscal deficit of ₹15,68,936 cr. The workbook's own total ('= Fiscal Deficit') is a formula error. The portal shows the gap instead of forcing a match."
+    },
+    {
+     "t": "table",
+     "header": [
+      "Instrument",
+      "Gross (₹ cr)",
+      "Net (₹ cr)",
+      "Net % of fiscal deficit",
+      "Notes"
+     ],
+     "rows": [
+      {
+       "group": true,
+       "cells": [
+        {
+         "d": "Domestic market borrowings"
+        }
+       ],
+       "cls": "group"
+      },
+      {
+       "cells": [
+        {
+         "d": "Dated government securities"
+        },
+        {
+         "d": "14,82,000",
+         "v": 1482000
+        },
+        {
+         "d": "11,54,000",
+         "v": 1154000
+        },
+        {
+         "d": "73.6%",
+         "v": 0.7355303211858227
+        },
+        {
+         "d": "10, 30 and 40-year bonds; bulk of deficit financing"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Treasury bills (91/182/364-day)"
+        },
+        {
+         "d": "90,000",
+         "v": 90000
+        },
+        {
+         "d": "90,000",
+         "v": 90000
+        },
+        {
+         "d": "5.7%",
+         "v": 0.05736371655695325
+        },
+        {
+         "d": "Short-term cash management"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Market borrowings total"
+        },
+        {
+         "d": "15,72,000",
+         "v": 1572000
+        },
+        {
+         "d": "12,44,000",
+         "v": 1244000
+        },
+        {
+         "d": "79.3%",
+         "v": 0.792894037742776
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "group": true,
+       "cells": [
+        {
+         "d": "Small savings and provident funds"
+        }
+       ],
+       "cls": "group"
+      },
+      {
+       "cells": [
+        {
+         "d": "Securities against small savings (NSSF)"
+        },
+        {
+         "d": "3,43,000",
+         "v": 343000
+        },
+        {
+         "d": "3,43,000",
+         "v": 343000
+        },
+        {
+         "d": "21.9%",
+         "v": 0.21861949754483292
+        },
+        {
+         "d": "PPF, NSC, Sukanya Samriddhi, post-office schemes"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "GPF and others"
+        },
+        {
+         "d": "25,000",
+         "v": 25000
+        },
+        {
+         "d": "25,000",
+         "v": 25000
+        },
+        {
+         "d": "1.6%",
+         "v": 0.01593436571026479
+        },
+        {
+         "d": "Central government employees' GPF"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Small savings sub-total"
+        },
+        {
+         "d": "3,68,000",
+         "v": 368000
+        },
+        {
+         "d": "3,68,000",
+         "v": 368000
+        },
+        {
+         "d": "23.5%",
+         "v": 0.23455386325509772
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "group": true,
+       "cells": [
+        {
+         "d": "External borrowings"
+        }
+       ],
+       "cls": "group"
+      },
+      {
+       "cells": [
+        {
+         "d": "Multilateral (World Bank, ADB, NDB, AIIB)"
+        },
+        {
+         "d": "79,388",
+         "v": 79388
+        },
+        {
+         "d": "13,234",
+         "v": 13234
+        },
+        {
+         "d": "0.8%",
+         "v": 0.00843501583238577
+        },
+        {
+         "d": "Concessional"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Bilateral (Japan, Germany, France, Russia, EIB)"
+        },
+        {
+         "d": "31,625",
+         "v": 31625
+        },
+        {
+         "d": "32,391",
+         "v": 32391
+        },
+        {
+         "d": "2.1%",
+         "v": 0.020645201588847473
+        },
+        {
+         "d": "Workbook shows net above gross; see Data Notes"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "External sub-total"
+        },
+        {
+         "d": "1,11,013",
+         "v": 111013
+        },
+        {
+         "d": "45,625",
+         "v": 45625
+        },
+        {
+         "d": "2.9%",
+         "v": 0.029080217421233245
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "group": true,
+       "cells": [
+        {
+         "d": "Reconciliation"
+        }
+       ],
+       "cls": "group"
+      },
+      {
+       "cells": [
+        {
+         "d": "Sum of listed sources"
+        },
+        {
+         "d": "20,51,013",
+         "v": 2051013
+        },
+        {
+         "d": "16,57,625",
+         "v": 1657625
+        },
+        {
+         "d": "105.7%",
+         "v": 1.0565281184191069
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "total"
+      },
+      {
+       "cells": [
+        {
+         "d": "Fiscal deficit to be financed"
+        },
+        {
+         "d": ""
+        },
+        {
+         "d": "15,68,936",
+         "v": 1568936
+        },
+        {
+         "d": "100.0%",
+         "v": 1.0
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "total"
+      },
+      {
+       "cells": [
+        {
+         "d": "Unreconciled gap (listed sources − fiscal deficit)"
+        },
+        {
+         "d": ""
+        },
+        {
+         "d": "88,689",
+         "v": 88689
+        },
+        {
+         "d": "5.7%",
+         "v": 0.05652811841910696
+        },
+        {
+         "d": "Cash-balance drawdown or other items not itemised in the workbook"
+        }
+       ],
+       "cls": "note"
+      }
+     ]
+    },
+    {
+     "t": "subhead",
+     "text": "Non-debt capital receipts and memo items"
+    },
+    {
+     "t": "table",
+     "header": [
+      "Item",
+      "Amount",
+      "Notes"
+     ],
+     "rows": [
+      {
+       "cells": [
+        {
+         "d": "Disinvestment / miscellaneous capital receipts"
+        },
+        {
+         "d": "47,000",
+         "v": 47000
+        },
+        {
+         "d": "PSU stake sales; target reduced for the 5th consecutive year"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Recovery of loans"
+        },
+        {
+         "d": "29,000",
+         "v": 29000
+        },
+        {
+         "d": "Repayments from states and PSUs"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Other capital receipts (PF, NSSF etc.), sheet 02"
+        },
+        {
+         "d": "51,311",
+         "v": 51311
+        },
+        {
+         "d": "Not the same as GPF ₹25,000 cr in the borrowing sheet"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Outstanding central government debt (est. FY26)"
+        },
+        {
+         "d": "2,00,00,000",
+         "v": 20000000
+        },
+        {
+         "d": "~56.1% of GDP; target 50% by FY31"
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Weighted-average G-sec yield (approx.)"
+        },
+        {
+         "d": "~7.1%"
+        },
+        {
+         "d": "As at February 2025 per workbook; see Live Data for current market indicators"
+        }
+       ],
+       "cls": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Trends",
+   "blocks": [
+    {
+     "t": "title",
+     "text": "Six-year fiscal trends"
+    },
+    {
+     "t": "subtitle",
+     "text": "FY2020-21 to FY2025-26, ₹ crore. Source: Budget at a Glance (various years), PRS India, CGA. Values as typed in the workbook."
+    },
+    {
+     "t": "banner",
+     "kind": "warn",
+     "text": "Several historical series in the source workbook do not reconcile with each other (revenue + capital expenditure ≠ total expenditure in five of six years; nominal GDP dips in FY24-25 RE). Treat this tab as directional until checked against Budget at a Glance. Details on the Data Notes tab."
+    },
+    {
+     "t": "chart",
+     "type": "line",
+     "title": "Deficits as % of GDP",
+     "labels": [
+      "FY20-21",
+      "FY21-22",
+      "FY22-23",
+      "FY23-24",
+      "FY24-25 RE",
+      "FY25-26 BE"
+     ],
+     "series": [
+      {
+       "name": "Fiscal",
+       "data": [
+        9.3,
+        6.7,
+        5.6,
+        4.9,
+        4.8,
+        4.4
+       ]
+      },
+      {
+       "name": "Revenue",
+       "data": [
+        5.2,
+        2.3,
+        2.6,
+        1.8,
+        1.9,
+        1.5
+       ]
+      },
+      {
+       "name": "Primary",
+       "data": [
+        6.9,
+        3.3,
+        2,
+        1.4,
+        1.3,
+        0.8
+       ]
+      }
+     ],
+     "unit": "%"
+    },
+    {
+     "t": "grid",
+     "charts": [
+      {
+       "t": "chart",
+       "type": "line",
+       "title": "Interest, capex and tax as % of GDP",
+       "labels": [
+        "FY20-21",
+        "FY21-22",
+        "FY22-23",
+        "FY23-24",
+        "FY24-25 RE",
+        "FY25-26 BE"
+       ],
+       "series": [
+        {
+         "name": "Interest",
+         "data": [
+          3.2,
+          3.1,
+          3.6,
+          3.5,
+          3.5,
+          3.6
+         ]
+        },
+        {
+         "name": "Capex",
+         "data": [
+          2.2,
+          2.3,
+          2.5,
+          2.9,
+          3.1,
+          3.1
+         ]
+        },
+        {
+         "name": "Tax revenue",
+         "data": [
+          10.2,
+          11.4,
+          10.3,
+          10.2,
+          11.8,
+          12
+         ]
+        }
+       ],
+       "unit": "%"
+      },
+      {
+       "t": "chart",
+       "type": "bar",
+       "title": "Revenue receipts vs total expenditure (₹ lakh crore)",
+       "labels": [
+        "FY20-21",
+        "FY21-22",
+        "FY22-23",
+        "FY23-24",
+        "FY24-25 RE",
+        "FY25-26 BE"
+       ],
+       "series": [
+        {
+         "name": "Revenue receipts",
+         "data": [
+          17.28,
+          22.27,
+          23.84,
+          27.57,
+          31.47,
+          34.2
+         ]
+        },
+        {
+         "name": "Total expenditure",
+         "data": [
+          34.5,
+          37.7,
+          41.88,
+          44.9,
+          47.16,
+          50.65
+         ]
+        }
+       ]
+      },
+      {
+       "t": "chart",
+       "type": "bar",
+       "title": "Capex vs interest (₹ lakh crore)",
+       "labels": [
+        "FY20-21",
+        "FY21-22",
+        "FY22-23",
+        "FY23-24",
+        "FY24-25 RE",
+        "FY25-26 BE"
+       ],
+       "series": [
+        {
+         "name": "Capital expenditure",
+         "data": [
+          4.39,
+          5.54,
+          7.28,
+          9.49,
+          10.18,
+          11.21
+         ]
+        },
+        {
+         "name": "Interest payments",
+         "data": [
+          6.26,
+          7.42,
+          10.64,
+          11.63,
+          11.38,
+          12.76
+         ]
+        }
+       ]
+      },
+      {
+       "t": "chart",
+       "type": "bar",
+       "title": "Tax revenue by source (₹ lakh crore)",
+       "labels": [
+        "FY20-21",
+        "FY21-22",
+        "FY22-23",
+        "FY23-24",
+        "FY24-25 RE",
+        "FY25-26 BE"
+       ],
+       "series": [
+        {
+         "name": "Corporation Tax",
+         "data": [
+          4.58,
+          7.12,
+          8.26,
+          9.11,
+          9.8,
+          10.82
+         ]
+        },
+        {
+         "name": "Taxes on Income",
+         "data": [
+          4.87,
+          6.96,
+          8.33,
+          10.45,
+          12.57,
+          14.38
+         ]
+        },
+        {
+         "name": "GST (Centre's Share)",
+         "data": [
+          5.49,
+          6.98,
+          8.49,
+          9.57,
+          10.62,
+          11.78
+         ]
+        },
+        {
+         "name": "Customs Duty",
+         "data": [
+          1.35,
+          2.0,
+          2.13,
+          2.33,
+          2.35,
+          2.4
+         ]
+        },
+        {
+         "name": "Union Excise Duties",
+         "data": [
+          3.9,
+          3.91,
+          3.09,
+          3.05,
+          3.1,
+          3.17
+         ]
+        }
+       ],
+       "stacked": true
+      }
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Levels (₹ crore)"
+    },
+    {
+     "t": "table",
+     "header": [
+      "Indicator",
+      "FY20-21",
+      "FY21-22",
+      "FY22-23",
+      "FY23-24",
+      "FY24-25 RE",
+      "FY25-26 BE",
+      "Change FY21→FY26"
+     ],
+     "rows": [
+      {
+       "cells": [
+        {
+         "d": "Nominal GDP"
+        },
+        {
+         "d": "1,98,01,000",
+         "v": 19801000
+        },
+        {
+         "d": "2,36,44,000",
+         "v": 23644000
+        },
+        {
+         "d": "2,95,36,000",
+         "v": 29536000
+        },
+        {
+         "d": "3,29,37,000",
+         "v": 32937000
+        },
+        {
+         "d": "3,26,36,000",
+         "v": 32636000
+        },
+        {
+         "d": "3,56,60,000",
+         "v": 35660000
+        },
+        {
+         "d": "+80%",
+         "v": 0.800919145497702
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Total Revenue Receipts"
+        },
+        {
+         "d": "17,28,000",
+         "v": 1728000
+        },
+        {
+         "d": "22,27,000",
+         "v": 2227000
+        },
+        {
+         "d": "23,84,000",
+         "v": 2384000
+        },
+        {
+         "d": "27,57,000",
+         "v": 2757000
+        },
+        {
+         "d": "31,47,000",
+         "v": 3147000
+        },
+        {
+         "d": "34,20,409",
+         "v": 3420409
+        },
+        {
+         "d": "+98%",
+         "v": 0.9794033564814815
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Total Expenditure"
+        },
+        {
+         "d": "34,50,305",
+         "v": 3450305
+        },
+        {
+         "d": "37,70,000",
+         "v": 3770000
+        },
+        {
+         "d": "41,88,000",
+         "v": 4188000
+        },
+        {
+         "d": "44,90,000",
+         "v": 4490000
+        },
+        {
+         "d": "47,16,000",
+         "v": 4716000
+        },
+        {
+         "d": "50,65,345",
+         "v": 5065345
+        },
+        {
+         "d": "+47%",
+         "v": 0.46808615470226544
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Revenue Expenditure"
+        },
+        {
+         "d": "30,11,000",
+         "v": 3011000
+        },
+        {
+         "d": "29,29,000",
+         "v": 2929000
+        },
+        {
+         "d": "31,21,000",
+         "v": 3121000
+        },
+        {
+         "d": "35,02,000",
+         "v": 3502000
+        },
+        {
+         "d": "39,44,000",
+         "v": 3944000
+        },
+        {
+         "d": "39,44,345",
+         "v": 3944345
+        },
+        {
+         "d": "+31%",
+         "v": 0.30997841248754576
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Capital Expenditure"
+        },
+        {
+         "d": "4,39,000",
+         "v": 439000
+        },
+        {
+         "d": "5,54,000",
+         "v": 554000
+        },
+        {
+         "d": "7,28,000",
+         "v": 728000
+        },
+        {
+         "d": "9,49,000",
+         "v": 949000
+        },
+        {
+         "d": "10,18,000",
+         "v": 1018000
+        },
+        {
+         "d": "11,21,000",
+         "v": 1121000
+        },
+        {
+         "d": "+155%",
+         "v": 1.5535307517084282
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Fiscal Deficit"
+        },
+        {
+         "d": "18,06,000",
+         "v": 1806000
+        },
+        {
+         "d": "15,86,537",
+         "v": 1586537
+        },
+        {
+         "d": "16,54,643",
+         "v": 1654643
+        },
+        {
+         "d": "16,13,312",
+         "v": 1613312
+        },
+        {
+         "d": "15,69,527",
+         "v": 1569527
+        },
+        {
+         "d": "15,68,936",
+         "v": 1568936
+        },
+        {
+         "d": "-13%",
+         "v": -0.13126467331118497
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Revenue Deficit"
+        },
+        {
+         "d": "10,26,000",
+         "v": 1026000
+        },
+        {
+         "d": "5,55,000",
+         "v": 555000
+        },
+        {
+         "d": "7,65,216",
+         "v": 765216
+        },
+        {
+         "d": "5,80,201",
+         "v": 580201
+        },
+        {
+         "d": "6,10,098",
+         "v": 610098
+        },
+        {
+         "d": "5,23,846",
+         "v": 523846
+        },
+        {
+         "d": "-49%",
+         "v": -0.4894288499025341
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Primary Deficit"
+        },
+        {
+         "d": "13,64,000",
+         "v": 1364000
+        },
+        {
+         "d": "7,69,000",
+         "v": 769000
+        },
+        {
+         "d": "5,90,771",
+         "v": 590771
+        },
+        {
+         "d": "4,50,372",
+         "v": 450372
+        },
+        {
+         "d": "4,31,587",
+         "v": 431587
+        },
+        {
+         "d": "2,92,598",
+         "v": 292598
+        },
+        {
+         "d": "-79%",
+         "v": -0.7854853372434017
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Interest Payments"
+        },
+        {
+         "d": "6,26,000",
+         "v": 626000
+        },
+        {
+         "d": "7,42,000",
+         "v": 742000
+        },
+        {
+         "d": "10,63,872",
+         "v": 1063872
+        },
+        {
+         "d": "11,62,940",
+         "v": 1162940
+        },
+        {
+         "d": "11,37,940",
+         "v": 1137940
+        },
+        {
+         "d": "12,76,338",
+         "v": 1276338
+        },
+        {
+         "d": "+104%",
+         "v": 1.0388785942492014
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Total Subsidies"
+        },
+        {
+         "d": "7,10,000",
+         "v": 710000
+        },
+        {
+         "d": "4,71,000",
+         "v": 471000
+        },
+        {
+         "d": "5,18,000",
+         "v": 518000
+        },
+        {
+         "d": "4,48,000",
+         "v": 448000
+        },
+        {
+         "d": "4,25,000",
+         "v": 425000
+        },
+        {
+         "d": "4,26,216",
+         "v": 426216
+        },
+        {
+         "d": "-40%",
+         "v": -0.3996957746478873
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Gross Tax Revenue"
+        },
+        {
+         "d": "20,27,000",
+         "v": 2027000
+        },
+        {
+         "d": "27,07,000",
+         "v": 2707000
+        },
+        {
+         "d": "30,54,000",
+         "v": 3054000
+        },
+        {
+         "d": "33,61,000",
+         "v": 3361000
+        },
+        {
+         "d": "38,54,000",
+         "v": 3854000
+        },
+        {
+         "d": "42,70,233",
+         "v": 4270233
+        },
+        {
+         "d": "+111%",
+         "v": 1.1066763690182535
+        }
+       ],
+       "cls": ""
+      }
+     ]
+    },
+    {
+     "t": "section",
+     "text": "As % of GDP"
+    },
+    {
+     "t": "table",
+     "header": [
+      "Indicator",
+      "FY20-21",
+      "FY21-22",
+      "FY22-23",
+      "FY23-24",
+      "FY24-25 RE",
+      "FY25-26 BE",
+      "Change (pp)"
+     ],
+     "rows": [
+      {
+       "cells": [
+        {
+         "d": "Fiscal Deficit % GDP"
+        },
+        {
+         "d": "9.3%",
+         "v": 9.3
+        },
+        {
+         "d": "6.7%",
+         "v": 6.7
+        },
+        {
+         "d": "5.6%",
+         "v": 5.6
+        },
+        {
+         "d": "4.9%",
+         "v": 4.9
+        },
+        {
+         "d": "4.8%",
+         "v": 4.8
+        },
+        {
+         "d": "4.4%",
+         "v": 4.4
+        },
+        {
+         "d": "-4.9 pp",
+         "v": -4.9
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Revenue Deficit % GDP"
+        },
+        {
+         "d": "5.2%",
+         "v": 5.2
+        },
+        {
+         "d": "2.3%",
+         "v": 2.3
+        },
+        {
+         "d": "2.6%",
+         "v": 2.6
+        },
+        {
+         "d": "1.8%",
+         "v": 1.8
+        },
+        {
+         "d": "1.9%",
+         "v": 1.9
+        },
+        {
+         "d": "1.5%",
+         "v": 1.5
+        },
+        {
+         "d": "-3.7 pp",
+         "v": -3.7
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Primary Deficit % GDP"
+        },
+        {
+         "d": "6.9%",
+         "v": 6.9
+        },
+        {
+         "d": "3.3%",
+         "v": 3.3
+        },
+        {
+         "d": "2.0%",
+         "v": 2
+        },
+        {
+         "d": "1.4%",
+         "v": 1.4
+        },
+        {
+         "d": "1.3%",
+         "v": 1.3
+        },
+        {
+         "d": "0.8%",
+         "v": 0.8
+        },
+        {
+         "d": "-6.1 pp",
+         "v": -6.1000000000000005
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Interest Payments % GDP"
+        },
+        {
+         "d": "3.2%",
+         "v": 3.2
+        },
+        {
+         "d": "3.1%",
+         "v": 3.1
+        },
+        {
+         "d": "3.6%",
+         "v": 3.6
+        },
+        {
+         "d": "3.5%",
+         "v": 3.5
+        },
+        {
+         "d": "3.5%",
+         "v": 3.5
+        },
+        {
+         "d": "3.6%",
+         "v": 3.6
+        },
+        {
+         "d": "+0.4 pp",
+         "v": 0.3999999999999999
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Capital Expenditure % GDP"
+        },
+        {
+         "d": "2.2%",
+         "v": 2.2
+        },
+        {
+         "d": "2.3%",
+         "v": 2.3
+        },
+        {
+         "d": "2.5%",
+         "v": 2.5
+        },
+        {
+         "d": "2.9%",
+         "v": 2.9
+        },
+        {
+         "d": "3.1%",
+         "v": 3.1
+        },
+        {
+         "d": "3.1%",
+         "v": 3.1
+        },
+        {
+         "d": "+0.9 pp",
+         "v": 0.8999999999999999
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Tax Revenue % GDP"
+        },
+        {
+         "d": "10.2%",
+         "v": 10.2
+        },
+        {
+         "d": "11.4%",
+         "v": 11.4
+        },
+        {
+         "d": "10.3%",
+         "v": 10.3
+        },
+        {
+         "d": "10.2%",
+         "v": 10.2
+        },
+        {
+         "d": "11.8%",
+         "v": 11.8
+        },
+        {
+         "d": "12.0%",
+         "v": 12
+        },
+        {
+         "d": "+1.8 pp",
+         "v": 1.8000000000000007
+        }
+       ],
+       "cls": ""
+      }
+     ]
+    },
+    {
+     "t": "section",
+     "text": "Tax revenue breakdown (₹ crore)"
+    },
+    {
+     "t": "table",
+     "header": [
+      "Tax",
+      "FY20-21",
+      "FY21-22",
+      "FY22-23",
+      "FY23-24",
+      "FY24-25 RE",
+      "FY25-26 BE",
+      "Change FY21→FY26"
+     ],
+     "rows": [
+      {
+       "cells": [
+        {
+         "d": "Corporation Tax"
+        },
+        {
+         "d": "4,57,719",
+         "v": 457719
+        },
+        {
+         "d": "7,12,037",
+         "v": 712037
+        },
+        {
+         "d": "8,25,834",
+         "v": 825834
+        },
+        {
+         "d": "9,11,055",
+         "v": 911055
+        },
+        {
+         "d": "9,80,000",
+         "v": 980000
+        },
+        {
+         "d": "10,82,000",
+         "v": 1082000
+        },
+        {
+         "d": "+136%",
+         "v": 1.3638957526342583
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Taxes on Income"
+        },
+        {
+         "d": "4,87,139",
+         "v": 487139
+        },
+        {
+         "d": "6,96,238",
+         "v": 696238
+        },
+        {
+         "d": "8,33,233",
+         "v": 833233
+        },
+        {
+         "d": "10,44,722",
+         "v": 1044722
+        },
+        {
+         "d": "12,57,000",
+         "v": 1257000
+        },
+        {
+         "d": "14,38,000",
+         "v": 1438000
+        },
+        {
+         "d": "+195%",
+         "v": 1.9519295314068468
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "GST (Centre's Share)"
+        },
+        {
+         "d": "5,48,777",
+         "v": 548777
+        },
+        {
+         "d": "6,98,114",
+         "v": 698114
+        },
+        {
+         "d": "8,49,132",
+         "v": 849132
+        },
+        {
+         "d": "9,57,208",
+         "v": 957208
+        },
+        {
+         "d": "10,61,899",
+         "v": 1061899
+        },
+        {
+         "d": "11,78,000",
+         "v": 1178000
+        },
+        {
+         "d": "+115%",
+         "v": 1.1465914205588064
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Customs Duty"
+        },
+        {
+         "d": "1,34,750",
+         "v": 134750
+        },
+        {
+         "d": "1,99,728",
+         "v": 199728
+        },
+        {
+         "d": "2,13,372",
+         "v": 213372
+        },
+        {
+         "d": "2,33,119",
+         "v": 233119
+        },
+        {
+         "d": "2,35,000",
+         "v": 235000
+        },
+        {
+         "d": "2,40,000",
+         "v": 240000
+        },
+        {
+         "d": "+78%",
+         "v": 0.7810760667903525
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "Union Excise Duties"
+        },
+        {
+         "d": "3,89,667",
+         "v": 389667
+        },
+        {
+         "d": "3,90,808",
+         "v": 390808
+        },
+        {
+         "d": "3,09,291",
+         "v": 309291
+        },
+        {
+         "d": "3,05,362",
+         "v": 305362
+        },
+        {
+         "d": "3,10,000",
+         "v": 310000
+        },
+        {
+         "d": "3,17,000",
+         "v": 317000
+        },
+        {
+         "d": "-19%",
+         "v": -0.1864848704149954
+        }
+       ],
+       "cls": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Data Notes",
+   "blocks": [
+    {
+     "t": "title",
+     "text": "Data notes and reconciliation"
+    },
+    {
+     "t": "subtitle",
+     "text": "Generated 2026-09-19 15:25 from India_Fiscal_Framework_FY2526_v2.xlsx. Every figure on this portal is rebuilt from the workbook's typed inputs, not from its cached formula results."
+    },
+    {
+     "t": "cards",
+     "cards": [
+      [
+       "Checks run",
+       "36",
+       "Automatic, on every rebuild"
+      ],
+      [
+       "Passed",
+       "20",
+       "Reconcile within tolerance"
+      ],
+      [
+       "Flagged",
+       "16",
+       "Source workbook inconsistencies"
+      ]
+     ]
+    },
+    {
+     "t": "banner",
+     "kind": "warn",
+     "text": "What this means: the headline deficit arithmetic (expenditure, receipts, fiscal, revenue and primary deficit, interest) reconciles. The flagged items are inside sub-tables, the financing table and the six-year history. Verify those against Budget at a Glance before quoting them to a client."
+    },
+    {
+     "t": "subhead",
+     "text": "Expected = what the other figures in the workbook imply. Workbook = what the workbook's own inputs give."
+    },
+    {
+     "t": "table",
+     "header": [
+      "Status",
+      "Area",
+      "Check",
+      "Expected",
+      "Workbook",
+      "Difference",
+      "Comment"
+     ],
+     "rows": [
+      {
+       "cells": [
+        {
+         "d": "FLAG"
+        },
+        {
+         "d": "Financing"
+        },
+        {
+         "d": "Net financing sources (net dated + T-bills + small savings/GPF + external net) vs fiscal deficit"
+        },
+        {
+         "d": "15,68,936"
+        },
+        {
+         "d": "16,57,625"
+        },
+        {
+         "d": "+88,689"
+        },
+        {
+         "d": "The workbook labels this total as 'Total Borrowings = Fiscal Deficit' but its sheet-07 formula adds gross and net columns together (₹20,51,013 cr)."
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "FLAG"
+        },
+        {
+         "d": "Financing"
+        },
+        {
+         "d": "Workbook claim: 'fiscal deficit funded 90% by market borrowings' (gross dated G-secs ÷ FD)"
+        },
+        {
+         "d": "90.0%"
+        },
+        {
+         "d": "94.5%"
+        },
+        {
+         "d": "+4.5 pp"
+        },
+        {
+         "d": "Net dated G-secs ÷ FD = 73.6%; net dated + T-bills ÷ FD = 79.3%. 90% is not reproducible on a net basis."
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "FLAG"
+        },
+        {
+         "d": "Financing"
+        },
+        {
+         "d": "Bilateral external borrowing: net ≤ gross"
+        },
+        {
+         "d": "31,625"
+        },
+        {
+         "d": "32,391"
+        },
+        {
+         "d": "+766"
+        },
+        {
+         "d": "Net receipts (₹32,391 cr) exceed gross (₹31,625 cr), which is not possible for a net figure."
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "FLAG"
+        },
+        {
+         "d": "Fiscal"
+        },
+        {
+         "d": "Revenue deficit = revenue expenditure − revenue receipts vs dashboard"
+        },
+        {
+         "d": "5,23,846"
+        },
+        {
+         "d": "5,23,936"
+        },
+        {
+         "d": "+90"
+        },
+        {
+         "d": "Expenditure components (sheet 03) sum ₹90 cr above the level implied by the dashboard revenue deficit."
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "FLAG"
+        },
+        {
+         "d": "Fiscal"
+        },
+        {
+         "d": "Total expenditure typed on FY24-25 RE (Expenditure sheet C28 = 47,161,889) vs Interest/Trends sheets"
+        },
+        {
+         "d": "47,16,000"
+        },
+        {
+         "d": "4,71,61,889"
+        },
+        {
+         "d": "+4,24,45,889"
+        },
+        {
+         "d": "A stray digit: the FY24-25 RE total is typed as 47,161,889 (₹4.7 crore crore); every other sheet has ₹47,16,000 cr. The portal uses ₹47,16,000 cr."
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "FLAG"
+        },
+        {
+         "d": "Revenue"
+        },
+        {
+         "d": "Net tax + non-tax (sum of listed items) vs total revenue receipts"
+        },
+        {
+         "d": "34,20,409"
+        },
+        {
+         "d": "34,31,198"
+        },
+        {
+         "d": "+10,789"
+        },
+        {
+         "d": "Listed revenue items overshoot revenue receipts; one or more revenue lines (likely UT taxes or a non-tax line) is not on the same basis."
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "FLAG"
+        },
+        {
+         "d": "Subsidies"
+        },
+        {
+         "d": "FY25-26 BE itemised subsidies vs stated total subsidies"
+        },
+        {
+         "d": "4,26,216"
+        },
+        {
+         "d": "4,21,103"
+        },
+        {
+         "d": "-5,113"
+        },
+        {
+         "d": "Itemised lines do not add to the stated ₹4,26,216 cr; the portal shows the gap as an 'unitemised residual'."
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "FLAG"
+        },
+        {
+         "d": "Subsidies"
+        },
+        {
+         "d": "FY24-25 RE itemised subsidies vs stated total subsidies"
+        },
+        {
+         "d": "4,25,000"
+        },
+        {
+         "d": "4,02,920"
+        },
+        {
+         "d": "-22,080"
+        },
+        {
+         "d": "The workbook's own FY24-25 RE total (formula) reads ₹2,05,500 cr because it omits Food; itemised lines sum higher, but still not to the stated figure."
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "FLAG"
+        },
+        {
+         "d": "Trends"
+        },
+        {
+         "d": "Nominal GDP must rise year on year: FY23-24 → FY24-25 RE"
+        },
+        {
+         "d": "3,29,37,000"
+        },
+        {
+         "d": "3,26,36,000"
+        },
+        {
+         "d": "-3,01,000"
+        },
+        {
+         "d": "Nominal GDP falls from ₹3,29,37,000 cr to ₹3,26,36,000 cr. Nominal GDP does not fall in a growth year, so the GDP series (and every ratio built on it) looks misaligned across years."
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "FLAG"
+        },
+        {
+         "d": "Trends"
+        },
+        {
+         "d": "FY21-22: revenue + capital expenditure vs total expenditure"
+        },
+        {
+         "d": "37,70,000"
+        },
+        {
+         "d": "34,83,000"
+        },
+        {
+         "d": "-2,87,000"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "FLAG"
+        },
+        {
+         "d": "Trends"
+        },
+        {
+         "d": "FY22-23: revenue + capital expenditure vs total expenditure"
+        },
+        {
+         "d": "41,88,000"
+        },
+        {
+         "d": "38,49,000"
+        },
+        {
+         "d": "-3,39,000"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "FLAG"
+        },
+        {
+         "d": "Trends"
+        },
+        {
+         "d": "FY23-24: revenue + capital expenditure vs total expenditure"
+        },
+        {
+         "d": "44,90,000"
+        },
+        {
+         "d": "44,51,000"
+        },
+        {
+         "d": "-39,000"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "FLAG"
+        },
+        {
+         "d": "Trends"
+        },
+        {
+         "d": "FY24-25 RE: revenue + capital expenditure vs total expenditure"
+        },
+        {
+         "d": "47,16,000"
+        },
+        {
+         "d": "49,62,000"
+        },
+        {
+         "d": "+2,46,000"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "FLAG"
+        },
+        {
+         "d": "Trends"
+        },
+        {
+         "d": "FY20-21: fiscal deficit − interest vs primary deficit"
+        },
+        {
+         "d": "13,64,000"
+        },
+        {
+         "d": "11,80,000"
+        },
+        {
+         "d": "-1,84,000"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "FLAG"
+        },
+        {
+         "d": "Trends"
+        },
+        {
+         "d": "FY21-22: fiscal deficit − interest vs primary deficit"
+        },
+        {
+         "d": "7,69,000"
+        },
+        {
+         "d": "8,44,537"
+        },
+        {
+         "d": "+75,537"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "FLAG"
+        },
+        {
+         "d": "Trends"
+        },
+        {
+         "d": "FY20-21: fiscal deficit % of GDP, typed vs recomputed from levels"
+        },
+        {
+         "d": "9.30%"
+        },
+        {
+         "d": "9.12%"
+        },
+        {
+         "d": "-0.18 pp"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": "sub"
+      },
+      {
+       "cells": [
+        {
+         "d": "OK"
+        },
+        {
+         "d": "Expenditure"
+        },
+        {
+         "d": "Revenue expenditure components sum vs revenue expenditure used in Fiscal Indicators"
+        },
+        {
+         "d": "39,44,345"
+        },
+        {
+         "d": "39,44,345"
+        },
+        {
+         "d": "0"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "OK"
+        },
+        {
+         "d": "Expenditure"
+        },
+        {
+         "d": "Capital expenditure components sum vs capital expenditure headline"
+        },
+        {
+         "d": "11,21,000"
+        },
+        {
+         "d": "11,21,000"
+        },
+        {
+         "d": "0"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "OK"
+        },
+        {
+         "d": "Fiscal"
+        },
+        {
+         "d": "Total receipts excl. borrowings = revenue receipts + non-debt capital receipts vs dashboard"
+        },
+        {
+         "d": "34,96,409"
+        },
+        {
+         "d": "34,96,409"
+        },
+        {
+         "d": "0"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "OK"
+        },
+        {
+         "d": "Fiscal"
+        },
+        {
+         "d": "Fiscal deficit = total expenditure − total receipts vs dashboard"
+        },
+        {
+         "d": "15,68,936"
+        },
+        {
+         "d": "15,68,936"
+        },
+        {
+         "d": "0"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "OK"
+        },
+        {
+         "d": "Fiscal"
+        },
+        {
+         "d": "Primary deficit = fiscal deficit − interest vs dashboard"
+        },
+        {
+         "d": "2,92,598"
+        },
+        {
+         "d": "2,92,598"
+        },
+        {
+         "d": "0"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "OK"
+        },
+        {
+         "d": "Interest"
+        },
+        {
+         "d": "FY25-26 BE interest (FD − PD) vs interest in Expenditure sheet"
+        },
+        {
+         "d": "12,76,338"
+        },
+        {
+         "d": "12,76,338"
+        },
+        {
+         "d": "0"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "OK"
+        },
+        {
+         "d": "Interest"
+        },
+        {
+         "d": "FY24-25 RE interest (FD − PD) vs FY24-25 RE interest in Trends sheet"
+        },
+        {
+         "d": "11,37,940"
+        },
+        {
+         "d": "11,37,940"
+        },
+        {
+         "d": "0"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "OK"
+        },
+        {
+         "d": "Revenue"
+        },
+        {
+         "d": "Gross tax revenue: sum of listed taxes vs dashboard headline"
+        },
+        {
+         "d": "42,70,233"
+        },
+        {
+         "d": "42,70,233"
+        },
+        {
+         "d": "0"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "OK"
+        },
+        {
+         "d": "Subsidies"
+        },
+        {
+         "d": "Food + fertiliser share of subsidies (workbook claims 87%)"
+        },
+        {
+         "d": "87.0%"
+        },
+        {
+         "d": "87.1%"
+        },
+        {
+         "d": "+0.1 pp"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "OK"
+        },
+        {
+         "d": "Trends"
+        },
+        {
+         "d": "FY20-21: revenue + capital expenditure vs total expenditure"
+        },
+        {
+         "d": "34,50,305"
+        },
+        {
+         "d": "34,50,000"
+        },
+        {
+         "d": "-305"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "OK"
+        },
+        {
+         "d": "Trends"
+        },
+        {
+         "d": "FY25-26 BE: revenue + capital expenditure vs total expenditure"
+        },
+        {
+         "d": "50,65,345"
+        },
+        {
+         "d": "50,65,345"
+        },
+        {
+         "d": "0"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "OK"
+        },
+        {
+         "d": "Trends"
+        },
+        {
+         "d": "FY22-23: fiscal deficit − interest vs primary deficit"
+        },
+        {
+         "d": "5,90,771"
+        },
+        {
+         "d": "5,90,771"
+        },
+        {
+         "d": "0"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "OK"
+        },
+        {
+         "d": "Trends"
+        },
+        {
+         "d": "FY23-24: fiscal deficit − interest vs primary deficit"
+        },
+        {
+         "d": "4,50,372"
+        },
+        {
+         "d": "4,50,372"
+        },
+        {
+         "d": "0"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "OK"
+        },
+        {
+         "d": "Trends"
+        },
+        {
+         "d": "FY24-25 RE: fiscal deficit − interest vs primary deficit"
+        },
+        {
+         "d": "4,31,587"
+        },
+        {
+         "d": "4,31,587"
+        },
+        {
+         "d": "0"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "OK"
+        },
+        {
+         "d": "Trends"
+        },
+        {
+         "d": "FY25-26 BE: fiscal deficit − interest vs primary deficit"
+        },
+        {
+         "d": "2,92,598"
+        },
+        {
+         "d": "2,92,598"
+        },
+        {
+         "d": "0"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "OK"
+        },
+        {
+         "d": "Trends"
+        },
+        {
+         "d": "FY21-22: fiscal deficit % of GDP, typed vs recomputed from levels"
+        },
+        {
+         "d": "6.70%"
+        },
+        {
+         "d": "6.71%"
+        },
+        {
+         "d": "+0.01 pp"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "OK"
+        },
+        {
+         "d": "Trends"
+        },
+        {
+         "d": "FY22-23: fiscal deficit % of GDP, typed vs recomputed from levels"
+        },
+        {
+         "d": "5.60%"
+        },
+        {
+         "d": "5.60%"
+        },
+        {
+         "d": "+0.00 pp"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "OK"
+        },
+        {
+         "d": "Trends"
+        },
+        {
+         "d": "FY23-24: fiscal deficit % of GDP, typed vs recomputed from levels"
+        },
+        {
+         "d": "4.90%"
+        },
+        {
+         "d": "4.90%"
+        },
+        {
+         "d": "-0.00 pp"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "OK"
+        },
+        {
+         "d": "Trends"
+        },
+        {
+         "d": "FY24-25 RE: fiscal deficit % of GDP, typed vs recomputed from levels"
+        },
+        {
+         "d": "4.80%"
+        },
+        {
+         "d": "4.81%"
+        },
+        {
+         "d": "+0.01 pp"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      },
+      {
+       "cells": [
+        {
+         "d": "OK"
+        },
+        {
+         "d": "Trends"
+        },
+        {
+         "d": "FY25-26 BE: fiscal deficit % of GDP, typed vs recomputed from levels"
+        },
+        {
+         "d": "4.40%"
+        },
+        {
+         "d": "4.40%"
+        },
+        {
+         "d": "-0.00 pp"
+        },
+        {
+         "d": ""
+        }
+       ],
+       "cls": ""
+      }
+     ]
+    },
+    {
+     "t": "note",
+     "text": "Not in the workbook: Union Budget 2026-27 (FY27 BE, FY26 RE) and FY26 provisional actuals. The portal's headline year is FY2025-26 BE until those are added."
+    }
+   ]
+  }
+ ]
+}
