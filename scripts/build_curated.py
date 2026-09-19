@@ -34,6 +34,25 @@ def inr(n):
     return ("-" if n < 0 else "") + s
 
 
+RATE = None      # INR per USD, set in main() from live data
+RATE_DATE = ""
+
+
+def usd(cr):
+    """rupees crore -> US dollars (1 crore = 10,000,000 rupees)"""
+    return cr * 1e7 / RATE
+
+
+def money(cr):
+    """rupees crore -> '$16.4 bn' / '$490 mn' (US$ billions and millions)"""
+    u = usd(cr); a = abs(u); sign = "-" if u < 0 else ""
+    if a >= 1e10:
+        return f"{sign}${a / 1e9:,.1f} bn"
+    if a >= 1e9:
+        return f"{sign}${a / 1e9:,.2f} bn"
+    return f"{sign}${a / 1e6:,.0f} mn"
+
+
 def pct(x, d=1):
     return f"{x * 100:.{d}f}%"
 
@@ -77,7 +96,7 @@ def load(path):
 CHECKS = []
 
 
-def check(sheet, what, expected, actual, tol=0.5, unit="₹ cr", fmt=inr, note="", mode="eq"):
+def check(sheet, what, expected, actual, tol=0.5, unit="₹ cr", fmt=money, note="", mode="eq"):
     """mode: eq = within tol; ge = actual must be >= expected; le = actual must be <= expected"""
     diff = None if (expected is None or actual is None) else actual - expected
     ok = diff is not None and (abs(diff) <= tol if mode == "eq" else diff >= 0 if mode == "ge" else diff <= 0)
@@ -94,7 +113,7 @@ def cell(x, kind="amt"):
         return {"d": pct(x), "v": x}
     if kind == "pct1":  # already in percent points
         return {"d": f"{x:.1f}%", "v": x}
-    return {"d": inr(x), "v": x}
+    return {"d": money(x), "v": x}
 
 
 def row(cells, cls=""):
@@ -112,6 +131,42 @@ def table(header, rows):
 def chart(type_, title, labels, series, **kw):
     return {"t": "chart", "type": type_, "title": title, "labels": labels,
             "series": [{"name": n, "data": d} for n, d in series], **kw}
+
+
+AMT = re.compile(r"₹\s?(\d[\d,]*(?:\.\d+)?)\s*(lakh crore|lakh cr|crore|cr)(?![a-z])")
+
+
+def _text(t):
+    def sub(m):
+        v = float(m.group(1).replace(",", ""))
+        return money(v * 1e5 if m.group(2).startswith("lakh") else v)
+    t = AMT.sub(sub, t)
+    return (t.replace("₹ lakh crore", "US$ bn").replace("₹ lakh cr", "US$ bn").replace("₹ crore", "US$").replace("₹ cr", "US$"))
+
+
+def _chart(c):
+    """chart data arrives in Rs crore or Rs lakh crore (per its title); convert to US$ bn."""
+    if c.get("unit") == "%":  # ratio charts are not money
+        return
+    lakh = "lakh" in c["title"]
+    c["title"] = c["title"].replace("(₹ crore)", "(US$ bn)").replace("(₹ lakh crore)", "(US$ bn)")
+    for sr in c["series"]:
+        if "%" in sr["name"]:
+            continue
+        k = 1000 / RATE if lakh else 1 / (100 * RATE)
+        sr["data"] = [None if v is None else round(v * k, 2) for v in sr["data"]]
+
+
+def to_usd(node):
+    if isinstance(node, str):
+        return _text(node)
+    if isinstance(node, list):
+        return [to_usd(x) for x in node]
+    if isinstance(node, dict):
+        if node.get("t") == "chart":
+            _chart(node)
+        return {k: to_usd(v) for k, v in node.items()}
+    return node
 
 
 def build(path):
@@ -233,7 +288,7 @@ def build(path):
         calc = T["Fiscal Deficit"][i] / T["Nominal GDP"][i] * 100
         check("Trends", f"{y}: fiscal deficit % of GDP, typed vs recomputed from levels", stated, calc, tol=0.15, unit="%", fmt=lambda x: f"{x:.2f}%")
     check("Fiscal", "Total expenditure typed on FY24-25 RE (Expenditure sheet C28 = 47,161,889) vs Interest/Trends sheets", 4716000, 47161889, tol=1000,
-          note="A stray digit: the FY24-25 RE total is typed as 47,161,889 (₹4.7 crore crore); every other sheet has ₹47,16,000 cr. The portal uses ₹47,16,000 cr.")
+          note="A stray digit: the FY24-25 RE total is typed as 47,161,889, ten times too large; every other sheet has ₹47,16,000 cr. The portal uses ₹47,16,000 cr.")
 
     # ===== blocks =====
     meta_src = "Union Budget 2025-26 (BE), PRS India, indiabudget.gov.in, as compiled in the source workbook"
@@ -427,8 +482,8 @@ def build(path):
     def dfm(c):
         if c["diff"] is None:
             return ""
-        return (f"{c['diff'] * 100:+.1f} pp" if c["unit"] == "%" and c["fmt"] is not inr and abs(c["expected"]) <= 1.5 else
-                f"{c['diff']:+.2f} pp" if c["unit"] == "%" else ("+" if c["diff"] > 0 else "") + inr(c["diff"]))
+        return (f"{c['diff'] * 100:+.1f} pp" if c["unit"] == "%" and c["fmt"] is not money and abs(c["expected"]) <= 1.5 else
+                f"{c['diff']:+.2f} pp" if c["unit"] == "%" else ("+" if c["diff"] > 0 else "") + money(c["diff"]))
     rows = []
     for c in sorted(CHECKS, key=lambda c: (c["ok"], c["sheet"])):
         rows.append(row([{"d": "OK" if c["ok"] else "FLAG"}, {"d": c["sheet"]}, {"d": c["what"]}, {"d": fm(c, c["expected"])}, {"d": fm(c, c["actual"])}, {"d": dfm(c)}, {"d": c["note"] if not c["ok"] else ""}], "" if c["ok"] else "sub"))
@@ -441,12 +496,24 @@ def build(path):
         table(["Status", "Area", "Check", "Expected", "Workbook", "Difference", "Comment"], rows),
         {"t": "note", "text": "Not in the workbook: Union Budget 2026-27 (FY27 BE, FY26 RE) and FY26 provisional actuals. The portal's headline year is FY2025-26 BE until those are added."}]})
 
-    return {"source_file": Path(path).name, "built_at": datetime.now().strftime("%Y-%m-%d %H:%M"), "checks_total": len(CHECKS), "checks_flagged": len(bad), "sheets": sheets}
+    fx_note = (f"All rupee figures are converted to US dollars (billions and millions) at ₹{RATE:.2f} per US$ (Yahoo Finance, {RATE_DATE}). "
+               "One current rate is applied to every year, so US$ trends across years ignore how the rupee moved over time (it is weaker now than in FY21), "
+               "which understates US$ growth against a historical-rate conversion. Percent-of-GDP and other ratios are unaffected.")
+    for sh in sheets:
+        sh["blocks"] = to_usd(sh["blocks"])
+    sheets[0]["blocks"].insert(2, {"t": "banner", "kind": "", "text": fx_note})
+    return {"fx": {"inr_per_usd": round(RATE, 4), "as_of": RATE_DATE}, "source_file": Path(path).name, "built_at": datetime.now().strftime("%Y-%m-%d %H:%M"), "checks_total": len(CHECKS), "checks_flagged": len(bad), "sheets": sheets}
 
 
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
+    global RATE, RATE_DATE
     src = Path(sys.argv[1]) if len(sys.argv) > 1 else DEFAULT_XLSX
+    if os.environ.get("FISCAL_USDINR"):
+        RATE, RATE_DATE = float(os.environ["FISCAL_USDINR"]), "fixed by FISCAL_USDINR"
+    else:
+        m = json.loads((ROOT / "data" / "live.json").read_text(encoding="utf-8"))["market"]["series"]["INR=X"]
+        RATE, RATE_DATE = m["last"], m["as_of"]
     out = build(src)
     (ROOT / "data").mkdir(exist_ok=True)
     (ROOT / "data" / "curated.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")

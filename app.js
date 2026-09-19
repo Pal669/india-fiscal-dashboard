@@ -89,7 +89,7 @@
       const datasets = c.series.map((s, i) => {
         const isLine = c.type === "line" || (c.type === "combo" && i > 0);
         const col = PALETTE[i % PALETTE.length];
-        const base = { label: s.name, data: s.data, type: isLine ? "line" : "bar" };
+        const base = { label: s.name, data: s.data, type: isLine ? "line" : "bar", order: isLine ? 0 : 1 };
         if (isLine) Object.assign(base, { borderColor: col, backgroundColor: col, tension: .25, pointRadius: s.data.length > 20 ? 0 : 3, spanGaps: true, borderWidth: 2, yAxisID: c.dual && c.type === "combo" ? "y2" : "y" });
         else base.backgroundColor = (c.series.length === 1 && !c.stacked) ? s.data.map(v => (v < 0 ? css("--neg") : PALETTE[0])) : col;
         return base;
@@ -109,7 +109,7 @@
 
   // ---------- live layer ----------
   const yrs = o => Object.keys(o).sort();
-  const lakhCr = v => v == null ? null : Math.round(v / 1e12 * 100) / 100;   // INR -> lakh crore (1e12), 2 dp
+  const usdBn = v => v == null ? null : Math.round(v / 1e9 * 10) / 10;   // US$ -> US$ bn, 1 dp
   const sgn = v => (v > 0 ? "+" : "") + v;
 
   function renderLive() {
@@ -125,7 +125,7 @@
     for (const [tk, m] of Object.entries(M)) cards.push([`${m.label}`, m.unit.startsWith("INR") ? `₹${m.last}` : `$${m.last}`, `${sgn(m.chg_1y_pct)}% over 1 year`, m.chg_1m_pct != null ? `${sgn(m.chg_1m_pct)}% over 1 month` : "", `as of ${m.as_of}`].filter(Boolean));
     const latest = code => { const d = S[code]?.data || {}, ys = yrs(d), y = ys[ys.length - 1]; return { y, v: d[y], p: d[ys[ys.length - 2]], py: ys[ys.length - 2] }; };
     if (S["FP.CPI.TOTL.ZG"]) { const l = latest("FP.CPI.TOTL.ZG"); cards.push([`CPI inflation (${l.y})`, l.v.toFixed(2) + "%", `${l.py}: ${l.p?.toFixed(2)}%`]); }
-    if (S["NY.GDP.MKTP.CN"]) { const l = latest("NY.GDP.MKTP.CN"); cards.push([`Nominal GDP (${l.y})`, `₹${lakhCr(l.v).toFixed(1)} lakh crore`, `${((l.v / l.p - 1) * 100).toFixed(1)}% vs ${l.py}`]); }
+    if (S["NY.GDP.MKTP.CD"]) { const l = latest("NY.GDP.MKTP.CD"); cards.push([`Nominal GDP (${l.y})`, `$${usdBn(l.v).toLocaleString("en-US")} bn`, `${((l.v / l.p - 1) * 100).toFixed(1)}% vs ${l.py} (in US$)`]); }
     if (S["GC.NLD.TOTL.GD.ZS"]) { const l = latest("GC.NLD.TOTL.GD.ZS"); cards.push([`Central govt net borrowing (${l.y})`, l.v.toFixed(2) + "% of GDP", "World Bank / IMF GFS, latest available"]); }
     if (S["GC.XPN.INTP.RV.ZS"]) { const l = latest("GC.XPN.INTP.RV.ZS"); cards.push([`Interest as % of revenue (${l.y})`, l.v.toFixed(1) + "%", "World Bank / IMF GFS, latest available"]); }
     out += cardsHTML(cards);
@@ -140,12 +140,12 @@
     out += `<h3 class="section">Government fiscal ratios (World Bank / IMF)</h3>`;
     const fy = latest("GC.NLD.TOTL.GD.ZS").y;
     out += `<div class="banner">The latest fiscal-ratio year available from this source is <b>${esc(fy || "n/a")}</b>: it lags the budget by several years. Use it for long-run context and as an independent cross-check on the Trends tab, not for current-year numbers. The 2022 point sits on a different reporting basis from earlier years, so the step-change from 2018 is partly a definitional break.</div>`;
-    out += `<div class="grid2">${mk("Central govt revenue, expense, tax (% of GDP)", ["GC.REV.XGRT.GD.ZS", "GC.XPN.TOTL.GD.ZS", "GC.TAX.TOTL.GD.ZS"], "line", { unit: "%" })}${mk("Net lending / borrowing (% of GDP)", ["GC.NLD.TOTL.GD.ZS"], "bar", { unit: "%" })}${mk("Interest payments (% of revenue)", ["GC.XPN.INTP.RV.ZS"], "line", { unit: "%" })}${mk("Nominal GDP (₹ lakh crore)", ["NY.GDP.MKTP.CN"], "bar", { conv: lakhCr })}${mk("CPI inflation (%)", ["FP.CPI.TOTL.ZG"], "bar", { unit: "%" })}${mk("Central govt debt (% of GDP)", ["GC.DOD.TOTL.GD.ZS"], "line", { unit: "%" })}</div>`;
+    out += `<div class="grid2">${mk("Central govt revenue, expense, tax (% of GDP)", ["GC.REV.XGRT.GD.ZS", "GC.XPN.TOTL.GD.ZS", "GC.TAX.TOTL.GD.ZS"], "line", { unit: "%" })}${mk("Net lending / borrowing (% of GDP)", ["GC.NLD.TOTL.GD.ZS"], "bar", { unit: "%" })}${mk("Interest payments (% of revenue)", ["GC.XPN.INTP.RV.ZS"], "line", { unit: "%" })}${mk("Nominal GDP (US$ bn)", ["NY.GDP.MKTP.CD"], "bar", { conv: usdBn })}${mk("CPI inflation (%)", ["FP.CPI.TOTL.ZG"], "bar", { unit: "%" })}${mk("Central govt debt (% of GDP)", ["GC.DOD.TOTL.GD.ZS"], "line", { unit: "%" })}</div>`;
 
     const years = yrs(S["GC.NLD.TOTL.GD.ZS"]?.data || {}).slice(-8);
     const rows = Object.entries(S).map(([code, s]) => {
-      const cur = code === "NY.GDP.MKTP.CN";
-      return `<tr><td>${esc(s.label)} (${cur ? "₹ lakh crore" : esc(s.unit)})</td>${years.map(y => { const v = s.data[y]; const x = v == null ? "" : cur ? lakhCr(v).toLocaleString("en-IN") : v.toFixed(2); return `<td class="num${v < 0 ? " neg" : ""}">${x}</td>`; }).join("")}</tr>`;
+      const cur = code === "NY.GDP.MKTP.CD";
+      return `<tr><td>${esc(s.label)} (${cur ? "US$ bn" : esc(s.unit)})</td>${years.map(y => { const v = s.data[y]; const x = v == null ? "" : cur ? usdBn(v).toLocaleString("en-US") : v.toFixed(2); return `<td class="num${v < 0 ? " neg" : ""}">${x}</td>`; }).join("")}</tr>`;
     }).join("");
     out += `<h3 class="section">Series table (last ${years.length} years)</h3><div class="tablewrap"><table><thead><tr><th>Series</th>${years.map(y => `<th>${y}</th>`).join("")}</tr></thead><tbody>${rows}</tbody></table></div>`;
     out += `<h3 class="section">Primary sources to check first</h3><ul class="src"><li><a href="https://www.indiabudget.gov.in/" target="_blank" rel="noopener">Union Budget documents</a>: Budget at a Glance, Receipt and Expenditure Budgets</li><li><a href="https://cga.nic.in/MonthlyAccounts.aspx" target="_blank" rel="noopener">CGA monthly accounts</a>: month-by-month actuals against BE (not machine-readable, so not auto-pulled)</li><li><a href="https://prsindia.org/budgets" target="_blank" rel="noopener">PRS India budget analysis</a></li><li><a href="https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx" target="_blank" rel="noopener">RBI press releases</a>: borrowing calendar, auction results</li></ul>`;

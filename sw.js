@@ -1,5 +1,5 @@
 // Shell files are cached for offline use; data files are network-first so new figures show up as soon as they exist.
-const VERSION = "fiscal-v1";
+const VERSION = "fiscal-v3";
 const SHELL = ["./", "index.html", "style.css", "app.js", "vendor/chart.umd.min.js", "manifest.webmanifest", "icons/icon-192.png"];
 
 self.addEventListener("install", e => {

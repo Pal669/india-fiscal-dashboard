@@ -23,7 +23,7 @@ WB = {  # id: (label, unit)
     "GC.TAX.TOTL.GD.ZS": ("Central govt tax revenue", "% of GDP"),
     "GC.XPN.INTP.RV.ZS": ("Interest payments", "% of revenue"),
     "GC.DOD.TOTL.GD.ZS": ("Central govt debt", "% of GDP"),
-    "NY.GDP.MKTP.CN": ("Nominal GDP", "INR"),
+    "NY.GDP.MKTP.CD": ("Nominal GDP", "US$"),
     "FP.CPI.TOTL.ZG": ("CPI inflation", "%"),
     "FR.INR.RINR": ("Real interest rate", "%"),
 }

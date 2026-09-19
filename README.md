@@ -22,3 +22,8 @@ Data Notes tab. Fix the workbook, re-run, and the flags clear on their own.
 
 Setting `FISCAL_XLSX` changes the default workbook path. To move to a new budget year, point at the new workbook; the
 label lookups in `build_curated.py` are by row text, so a re-laid-out workbook may need those labels updated.
+
+## Currency
+All rupee figures are shown in US$ billions and millions. `build_curated.py` converts at the latest USD/INR in
+`data/live.json` (Yahoo Finance) and prints the rate on the Overview tab. `update_all.py` pulls live data first so the rate is fresh.
+To pin a rate: set `FISCAL_USDINR=90` before running. One rate is applied to all years (see the note on the Overview tab).

@@ -27,10 +27,10 @@ def main():
     ap.add_argument("--xlsx", help="path to the fiscal workbook (default: see build_curated.py)")
     a = ap.parse_args()
 
+    run(sys.executable, HERE / "fetch_live.py")  # first: the budget layer converts to US$ at the latest USD/INR
     if not a.live:
         if run(sys.executable, HERE / "build_curated.py", *([a.xlsx] if a.xlsx else [])) != 0:
             sys.exit("Budget rebuild failed; nothing pushed.")
-    run(sys.executable, HERE / "fetch_live.py")
 
     if a.push:
         subprocess.run(["git", "add", "data"], cwd=ROOT)

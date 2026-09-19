@@ -1,6 +1,10 @@
 {
+ "fx": {
+  "inr_per_usd": 95.88,
+  "as_of": "2026-09-19"
+ },
  "source_file": "India_Fiscal_Framework_FY2526_v2.xlsx",
- "built_at": "2026-09-19 15:25",
+ "built_at": "2026-09-19 15:46",
  "checks_total": 36,
  "checks_flagged": 16,
  "sheets": [
@@ -13,69 +17,74 @@
     },
     {
      "t": "subtitle",
-     "text": "Budget Estimates (BE), ₹ crore unless stated. Union Budget 2025-26 (BE), PRS India, indiabudget.gov.in, as compiled in the source workbook."
+     "text": "Budget Estimates (BE), US$ unless stated. Union Budget 2025-26 (BE), PRS India, indiabudget.gov.in, as compiled in the source workbook."
+    },
+    {
+     "t": "banner",
+     "kind": "",
+     "text": "All rupee figures are converted to US dollars (billions and millions) at ₹95.88 per US$ (Yahoo Finance, 2026-09-19). One current rate is applied to every year, so US$ trends across years ignore how the rupee moved over time (it is weaker now than in FY21), which understates US$ growth against a historical-rate conversion. Percent-of-GDP and other ratios are unaffected."
     },
     {
      "t": "cards",
      "cards": [
       [
        "Nominal GDP",
-       "₹356.6 lakh crore",
+       "$3,719.2 bn",
        "FY26 BE"
       ],
       [
        "Total expenditure",
-       "₹50,65,345 cr",
+       "$528.3 bn",
        "7.4% above FY25 RE"
       ],
       [
        "Total receipts (excl. borrowings)",
-       "₹34,96,409 cr",
+       "$364.7 bn",
        "9.8% of GDP"
       ],
       [
        "Fiscal deficit",
-       "₹15,68,936 cr",
+       "$163.6 bn",
        "4.4% of GDP"
       ],
       [
        "Revenue deficit",
-       "₹5,23,846 cr",
+       "$54.6 bn",
        "1.5% of GDP"
       ],
       [
        "Primary deficit",
-       "₹2,92,598 cr",
+       "$30.5 bn",
        "0.8% of GDP"
       ],
       [
        "Gross tax revenue",
-       "₹42,70,233 cr",
+       "$445.4 bn",
        "+10.8% vs FY25 RE"
       ],
       [
        "Capital expenditure",
-       "₹11,21,000 cr",
+       "$116.9 bn",
        "3.1% of GDP"
       ],
       [
        "Interest payments",
-       "₹12,76,338 cr",
+       "$133.1 bn",
        "25.2% of expenditure · 37.3% of revenue receipts"
       ],
       [
        "Total subsidies",
-       "₹4,26,216 cr",
+       "$44.5 bn",
        "Food + fertiliser = 87%"
       ],
       [
        "Gross dated borrowing",
-       "₹14,82,000 cr",
-       "Net ₹11,54,000 cr"
+       "$154.6 bn",
+       "Net $120.4 bn"
       ],
       [
        "Disinvestment target",
-       "₹47,000 cr",
+       "$4.90 bn",
        "Miscellaneous capital receipts"
       ]
      ]
@@ -140,7 +149,7 @@
     {
      "t": "chart",
      "type": "doughnut",
-     "title": "Total expenditure by head (₹ crore)",
+     "title": "Total expenditure by head (US$ bn)",
      "labels": [
       "Interest payments on debt",
       "Subsidies (total)",
@@ -158,17 +167,17 @@
       {
        "name": "BE",
        "data": [
-        1276338,
-        426216,
-        1137320,
-        235000,
-        230000,
-        86000,
-        63500,
-        78126,
-        70000,
-        341845,
-        1121000
+        133.12,
+        44.45,
+        118.62,
+        24.51,
+        23.99,
+        8.97,
+        6.62,
+        8.15,
+        7.3,
+        35.65,
+        116.92
        ]
       }
      ]
@@ -179,7 +188,7 @@
     },
     {
      "t": "note",
-     "text": "Interest is the single biggest item: ₹12,76,338 cr, 25.2% of all spending and 37.3% of revenue receipts."
+     "text": "Interest is the single biggest item: $133.1 bn, 25.2% of all spending and 37.3% of revenue receipts."
     },
     {
      "t": "note",
@@ -187,11 +196,11 @@
     },
     {
      "t": "note",
-     "text": "Capital expenditure is ₹11,21,000 cr (3.1% of GDP) against ₹10,18,000 cr in FY24-25 RE: +10.1%."
+     "text": "Capital expenditure is $116.9 bn (3.1% of GDP) against $106.2 bn in FY24-25 RE: +10.1%."
     },
     {
      "t": "note",
-     "text": "Food and fertiliser are 87% of the ₹4,26,216 cr subsidy bill."
+     "text": "Food and fertiliser are 87% of the $44.5 bn subsidy bill."
     },
     {
      "t": "banner",
@@ -209,24 +218,24 @@
     },
     {
      "t": "subtitle",
-     "text": "FY2025-26 BE, ₹ crore. Source: Receipt Budget 2025-26, indiabudget.gov.in. Percent columns are recomputed."
+     "text": "FY2025-26 BE, US$. Source: Receipt Budget 2025-26, indiabudget.gov.in. Percent columns are recomputed."
     },
     {
      "t": "cards",
      "cards": [
       [
        "Gross tax revenue",
-       "₹42,70,233 cr",
+       "$445.4 bn",
        "12.0% of GDP"
       ],
       [
        "Net tax revenue",
-       "₹28,47,789 cr",
+       "$297.0 bn",
        "After devolution to States"
       ],
       [
        "Non-tax revenue",
-       "₹5,83,409 cr",
+       "$60.8 bn",
        "Dividends 56%"
       ],
       [
@@ -239,7 +248,7 @@
     {
      "t": "chart",
      "type": "doughnut",
-     "title": "Gross tax revenue by source (₹ crore)",
+     "title": "Gross tax revenue by source (US$ bn)",
      "labels": [
       "Corporation tax",
       "Income tax",
@@ -252,12 +261,12 @@
       {
        "name": "BE",
        "data": [
-        1082000,
-        1438000,
-        1178000,
-        317000,
-        240000,
-        15233
+        112.85,
+        149.98,
+        122.86,
+        33.06,
+        25.03,
+        1.59
        ]
       }
      ]
@@ -266,7 +275,7 @@
      "t": "table",
      "header": [
       "Category",
-      "Amount (₹ cr)",
+      "Amount (US$)",
       "% of base",
       "Notes"
      ],
@@ -295,7 +304,7 @@
          "d": "Corporation tax"
         },
         {
-         "d": "10,82,000",
+         "d": "$112.8 bn",
          "v": 1082000
         },
         {
@@ -314,7 +323,7 @@
          "d": "Taxes on income (personal and other)"
         },
         {
-         "d": "14,38,000",
+         "d": "$150.0 bn",
          "v": 1438000
         },
         {
@@ -333,7 +342,7 @@
          "d": "Securities transaction tax and other"
         },
         {
-         "d": "5,000",
+         "d": "$521 mn",
          "v": 5000
         },
         {
@@ -352,7 +361,7 @@
          "d": "Direct taxes sub-total"
         },
         {
-         "d": "25,25,000",
+         "d": "$263.4 bn",
          "v": 2525000
         },
         {
@@ -380,7 +389,7 @@
          "d": "GST (CGST + cess)"
         },
         {
-         "d": "11,78,000",
+         "d": "$122.9 bn",
          "v": 1178000
         },
         {
@@ -388,7 +397,7 @@
          "v": 0.2758631671854908
         },
         {
-         "d": "CGST ₹10,10,890 cr + compensation cess ₹1,67,110 cr"
+         "d": "CGST $105.4 bn + compensation cess $17.4 bn"
         }
        ],
        "cls": ""
@@ -399,7 +408,7 @@
          "d": "Union excise duties"
         },
         {
-         "d": "3,17,000",
+         "d": "$33.1 bn",
          "v": 317000
         },
         {
@@ -418,7 +427,7 @@
          "d": "Customs duty"
         },
         {
-         "d": "2,40,000",
+         "d": "$25.0 bn",
          "v": 240000
         },
         {
@@ -437,7 +446,7 @@
          "d": "Service tax (residual arrears)"
         },
         {
-         "d": "100",
+         "d": "$10 mn",
          "v": 100
         },
         {
@@ -456,7 +465,7 @@
          "d": "UT taxes"
         },
         {
-         "d": "10,133",
+         "d": "$1.06 bn",
          "v": 10133
         },
         {
@@ -475,7 +484,7 @@
          "d": "Indirect taxes sub-total"
         },
         {
-         "d": "17,45,233",
+         "d": "$182.0 bn",
          "v": 1745233
         },
         {
@@ -494,7 +503,7 @@
          "d": "Gross tax revenue (Centre + States)"
         },
         {
-         "d": "42,70,233",
+         "d": "$445.4 bn",
          "v": 4270233
         },
         {
@@ -513,7 +522,7 @@
          "d": "Less: devolution to States"
         },
         {
-         "d": "-14,22,444",
+         "d": "-$148.4 bn",
          "v": -1422444
         },
         {
@@ -532,7 +541,7 @@
          "d": "Net tax revenue (Centre)"
         },
         {
-         "d": "28,47,789",
+         "d": "$297.0 bn",
          "v": 2847789
         },
         {
@@ -560,7 +569,7 @@
          "d": "Dividends: RBI, banks and PSUs"
         },
         {
-         "d": "3,25,000",
+         "d": "$33.9 bn",
          "v": 325000
         },
         {
@@ -568,7 +577,7 @@
          "v": 0.09501787651710658
         },
         {
-         "d": "RBI surplus transfer ~₹2.33 lakh cr plus CPSE dividends"
+         "d": "RBI surplus transfer ~$24.3 bn plus CPSE dividends"
         }
        ],
        "cls": ""
@@ -579,7 +588,7 @@
          "d": "Interest receipts on loans"
         },
         {
-         "d": "51,000",
+         "d": "$5.32 bn",
          "v": 51000
         },
         {
@@ -598,7 +607,7 @@
          "d": "Communication services"
         },
         {
-         "d": "82,000",
+         "d": "$8.55 bn",
          "v": 82000
         },
         {
@@ -617,7 +626,7 @@
          "d": "Other non-tax revenue"
         },
         {
-         "d": "1,25,409",
+         "d": "$13.1 bn",
          "v": 125409
         },
         {
@@ -636,7 +645,7 @@
          "d": "Non-tax revenue total"
         },
         {
-         "d": "5,83,409",
+         "d": "$60.8 bn",
          "v": 583409
         },
         {
@@ -664,7 +673,7 @@
          "d": "Disinvestment of PSUs"
         },
         {
-         "d": "47,000",
+         "d": "$4.90 bn",
          "v": 47000
         },
         {
@@ -683,7 +692,7 @@
          "d": "Recovery of loans from states and PSUs"
         },
         {
-         "d": "29,000",
+         "d": "$3.02 bn",
          "v": 29000
         },
         {
@@ -702,7 +711,7 @@
          "d": "Non-debt capital receipts total"
         },
         {
-         "d": "76,000",
+         "d": "$7.93 bn",
          "v": 76000
         },
         {
@@ -730,7 +739,7 @@
          "d": "Total revenue receipts (as used in the deficit arithmetic)"
         },
         {
-         "d": "34,20,409",
+         "d": "$356.7 bn",
          "v": 3420409
         },
         {
@@ -738,7 +747,7 @@
          "v": 1.0
         },
         {
-         "d": "Net tax + non-tax as listed = ₹34,31,198 cr; gap ₹10,789 cr (see Data Notes)"
+         "d": "Net tax + non-tax as listed = $357.9 bn; gap $1.13 bn (see Data Notes)"
         }
        ],
        "cls": "sub"
@@ -749,7 +758,7 @@
          "d": "Total receipts excl. borrowings"
         },
         {
-         "d": "34,96,409",
+         "d": "$364.7 bn",
          "v": 3496409
         },
         {
@@ -779,29 +788,29 @@
     },
     {
      "t": "subtitle",
-     "text": "FY2025-26 BE vs FY2024-25 RE, ₹ crore. Source: Expenditure Budget 2025-26. Shares and growth are recomputed."
+     "text": "FY2025-26 BE vs FY2024-25 RE, US$. Source: Expenditure Budget 2025-26. Shares and growth are recomputed."
     },
     {
      "t": "cards",
      "cards": [
       [
        "Total expenditure",
-       "₹50,65,345 cr",
+       "$528.3 bn",
        "7.4% above FY25 RE"
       ],
       [
        "Revenue expenditure",
-       "₹39,44,345 cr",
+       "$411.4 bn",
        "78% of total"
       ],
       [
        "Capital expenditure",
-       "₹11,21,000 cr",
+       "$116.9 bn",
        "22% of total"
       ],
       [
        "Interest",
-       "₹12,76,338 cr",
+       "$133.1 bn",
        "25.2% of total"
       ]
      ]
@@ -809,7 +818,7 @@
     {
      "t": "chart",
      "type": "bar",
-     "title": "Revenue expenditure by head, FY26 BE (₹ crore)",
+     "title": "Revenue expenditure by head, FY26 BE (US$ bn)",
      "labels": [
       "Interest payments on debt",
       "Subsidies (total)",
@@ -826,16 +835,16 @@
       {
        "name": "FY25-26 BE",
        "data": [
-        1276338,
-        426216,
-        1137320,
-        235000,
-        230000,
-        86000,
-        63500,
-        78126,
-        70000,
-        341845
+        133.12,
+        44.45,
+        118.62,
+        24.51,
+        23.99,
+        8.97,
+        6.62,
+        8.15,
+        7.3,
+        35.65
        ]
       }
      ],
@@ -844,7 +853,7 @@
     {
      "t": "chart",
      "type": "bar",
-     "title": "Capital expenditure by head: BE vs prior-year RE (₹ crore)",
+     "title": "Capital expenditure by head: BE vs prior-year RE (US$ bn)",
      "labels": [
       "Roads, highways and bridges",
       "Railways",
@@ -859,27 +868,27 @@
       {
        "name": "FY25-26 BE",
        "data": [
-        260000,
-        252200,
-        172000,
-        150000,
-        78000,
-        37000,
-        25000,
-        22000
+        27.12,
+        26.3,
+        17.94,
+        15.64,
+        8.14,
+        3.86,
+        2.61,
+        2.29
        ]
       },
       {
        "name": "FY24-25 RE",
        "data": [
-        260000,
-        252000,
-        165000,
-        144000,
-        72000,
-        35000,
-        22000,
-        20000
+        27.12,
+        26.28,
+        17.21,
+        15.02,
+        7.51,
+        3.65,
+        2.29,
+        2.09
        ]
       }
      ]
@@ -888,8 +897,8 @@
      "t": "table",
      "header": [
       "Category",
-      "FY25-26 BE (₹ cr)",
-      "FY24-25 RE (₹ cr)",
+      "FY25-26 BE (US$)",
+      "FY24-25 RE (US$)",
       "% of total exp",
       "Growth vs RE"
      ],
@@ -909,11 +918,11 @@
          "d": "Interest payments on debt"
         },
         {
-         "d": "12,76,338",
+         "d": "$133.1 bn",
          "v": 1276338
         },
         {
-         "d": "11,37,940",
+         "d": "$118.7 bn",
          "v": 1137940
         },
         {
@@ -933,11 +942,11 @@
          "d": "Subsidies (total)"
         },
         {
-         "d": "4,26,216",
+         "d": "$44.5 bn",
          "v": 426216
         },
         {
-         "d": "4,25,000",
+         "d": "$44.3 bn",
          "v": 425000
         },
         {
@@ -957,11 +966,11 @@
          "d": "Transfers to states (grants and loans)"
         },
         {
-         "d": "11,37,320",
+         "d": "$118.6 bn",
          "v": 1137320
         },
         {
-         "d": "9,95,000",
+         "d": "$103.8 bn",
          "v": 995000
         },
         {
@@ -981,11 +990,11 @@
          "d": "Salaries (central govt employees)"
         },
         {
-         "d": "2,35,000",
+         "d": "$24.5 bn",
          "v": 235000
         },
         {
-         "d": "2,28,000",
+         "d": "$23.8 bn",
          "v": 228000
         },
         {
@@ -1005,11 +1014,11 @@
          "d": "Pension (civil and defence)"
         },
         {
-         "d": "2,30,000",
+         "d": "$24.0 bn",
          "v": 230000
         },
         {
-         "d": "2,23,000",
+         "d": "$23.3 bn",
          "v": 223000
         },
         {
@@ -1029,11 +1038,11 @@
          "d": "MGNREGS"
         },
         {
-         "d": "86,000",
+         "d": "$8.97 bn",
          "v": 86000
         },
         {
-         "d": "86,000",
+         "d": "$8.97 bn",
          "v": 86000
         },
         {
@@ -1053,11 +1062,11 @@
          "d": "PM-KISAN"
         },
         {
-         "d": "63,500",
+         "d": "$6.62 bn",
          "v": 63500
         },
         {
-         "d": "63,500",
+         "d": "$6.62 bn",
          "v": 63500
         },
         {
@@ -1077,11 +1086,11 @@
          "d": "PM Awas Yojana"
         },
         {
-         "d": "78,126",
+         "d": "$8.15 bn",
          "v": 78126
         },
         {
-         "d": "70,000",
+         "d": "$7.30 bn",
          "v": 70000
         },
         {
@@ -1101,11 +1110,11 @@
          "d": "Jal Jeevan Mission"
         },
         {
-         "d": "70,000",
+         "d": "$7.30 bn",
          "v": 70000
         },
         {
-         "d": "67,000",
+         "d": "$6.99 bn",
          "v": 67000
         },
         {
@@ -1125,7 +1134,7 @@
          "d": "Other revenue expenditure"
         },
         {
-         "d": "3,41,845",
+         "d": "$35.7 bn",
          "v": 341845
         },
         {
@@ -1147,7 +1156,7 @@
          "d": "Revenue expenditure total"
         },
         {
-         "d": "39,44,345",
+         "d": "$411.4 bn",
          "v": 3944345
         },
         {
@@ -1178,11 +1187,11 @@
          "d": "Roads, highways and bridges"
         },
         {
-         "d": "2,60,000",
+         "d": "$27.1 bn",
          "v": 260000
         },
         {
-         "d": "2,60,000",
+         "d": "$27.1 bn",
          "v": 260000
         },
         {
@@ -1202,11 +1211,11 @@
          "d": "Railways"
         },
         {
-         "d": "2,52,200",
+         "d": "$26.3 bn",
          "v": 252200
         },
         {
-         "d": "2,52,000",
+         "d": "$26.3 bn",
          "v": 252000
         },
         {
@@ -1226,11 +1235,11 @@
          "d": "Defence capital"
         },
         {
-         "d": "1,72,000",
+         "d": "$17.9 bn",
          "v": 172000
         },
         {
-         "d": "1,65,000",
+         "d": "$17.2 bn",
          "v": 165000
         },
         {
@@ -1250,11 +1259,11 @@
          "d": "Capital loans to states (50-yr)"
         },
         {
-         "d": "1,50,000",
+         "d": "$15.6 bn",
          "v": 150000
         },
         {
-         "d": "1,44,000",
+         "d": "$15.0 bn",
          "v": 144000
         },
         {
@@ -1274,11 +1283,11 @@
          "d": "Urban infrastructure and housing"
         },
         {
-         "d": "78,000",
+         "d": "$8.14 bn",
          "v": 78000
         },
         {
-         "d": "72,000",
+         "d": "$7.51 bn",
          "v": 72000
         },
         {
@@ -1298,11 +1307,11 @@
          "d": "Water infrastructure"
         },
         {
-         "d": "37,000",
+         "d": "$3.86 bn",
          "v": 37000
         },
         {
-         "d": "35,000",
+         "d": "$3.65 bn",
          "v": 35000
         },
         {
@@ -1322,11 +1331,11 @@
          "d": "Telecom and digital"
         },
         {
-         "d": "25,000",
+         "d": "$2.61 bn",
          "v": 25000
         },
         {
-         "d": "22,000",
+         "d": "$2.29 bn",
          "v": 22000
         },
         {
@@ -1346,11 +1355,11 @@
          "d": "Energy and power"
         },
         {
-         "d": "22,000",
+         "d": "$2.29 bn",
          "v": 22000
         },
         {
-         "d": "20,000",
+         "d": "$2.09 bn",
          "v": 20000
         },
         {
@@ -1370,7 +1379,7 @@
          "d": "Other capital expenditure"
         },
         {
-         "d": "1,24,800",
+         "d": "$13.0 bn",
          "v": 124800
         },
         {
@@ -1392,11 +1401,11 @@
          "d": "Capital expenditure total"
         },
         {
-         "d": "11,21,000",
+         "d": "$116.9 bn",
          "v": 1121000
         },
         {
-         "d": "10,18,000",
+         "d": "$106.2 bn",
          "v": 1018000
         },
         {
@@ -1416,11 +1425,11 @@
          "d": "Total expenditure (revenue + capital)"
         },
         {
-         "d": "50,65,345",
+         "d": "$528.3 bn",
          "v": 5065345
         },
         {
-         "d": "47,16,000",
+         "d": "$491.9 bn",
          "v": 4716000
         },
         {
@@ -1438,7 +1447,7 @@
     },
     {
      "t": "note",
-     "text": "FY24-25 RE is blank where the workbook has no prior-year figure. Total FY24-25 RE expenditure uses ₹47,16,000 cr (Interest and Trends sheets); the Expenditure sheet's own typed value has a stray digit."
+     "text": "FY24-25 RE is blank where the workbook has no prior-year figure. Total FY24-25 RE expenditure uses $491.9 bn (Interest and Trends sheets); the Expenditure sheet's own typed value has a stray digit."
     }
    ]
   },
@@ -1451,29 +1460,29 @@
     },
     {
      "t": "subtitle",
-     "text": "FY2025-26 BE vs FY2024-25 RE, ₹ crore. Source: Expenditure Profile 2025-26, Statement 7."
+     "text": "FY2025-26 BE vs FY2024-25 RE, US$. Source: Expenditure Profile 2025-26, Statement 7."
     },
     {
      "t": "cards",
      "cards": [
       [
        "Total subsidies",
-       "₹4,26,216 cr",
+       "$44.5 bn",
        "8.4% of expenditure"
       ],
       [
        "Food",
-       "₹2,03,420 cr",
+       "$21.2 bn",
        "48% of bill"
       ],
       [
        "Fertiliser",
-       "₹1,67,887 cr",
+       "$17.5 bn",
        "39% of bill"
       ],
       [
        "Petroleum (LPG)",
-       "₹12,100 cr",
+       "$1.26 bn",
        "-17.7% vs RE"
       ]
      ]
@@ -1481,7 +1490,7 @@
     {
      "t": "chart",
      "type": "doughnut",
-     "title": "Subsidy bill by group, FY26 BE (₹ crore)",
+     "title": "Subsidy bill by group, FY26 BE (US$ bn)",
      "labels": [
       "Food",
       "Fertiliser",
@@ -1494,12 +1503,12 @@
       {
        "name": "BE",
        "data": [
-        203420,
-        167887,
-        12100,
-        19500,
-        18196,
-        5113
+        21.22,
+        17.51,
+        1.26,
+        2.03,
+        1.9,
+        0.53
        ]
       }
      ]
@@ -1508,8 +1517,8 @@
      "t": "table",
      "header": [
       "Subsidy",
-      "FY25-26 BE (₹ cr)",
-      "FY24-25 RE (₹ cr)",
+      "FY25-26 BE (US$)",
+      "FY24-25 RE (US$)",
       "% of stated total",
       "Growth vs RE"
      ],
@@ -1518,7 +1527,7 @@
        "group": true,
        "cells": [
         {
-         "d": "FOOD   (BE ₹2,03,420 cr · RE ₹1,97,420 cr)"
+         "d": "FOOD   (BE $21.2 bn · RE $20.6 bn)"
         }
        ],
        "cls": "group"
@@ -1529,11 +1538,11 @@
          "d": "Food subsidy (NFSA and welfare schemes)"
         },
         {
-         "d": "2,03,420",
+         "d": "$21.2 bn",
          "v": 203420
         },
         {
-         "d": "1,97,420",
+         "d": "$20.6 bn",
          "v": 197420
         },
         {
@@ -1551,7 +1560,7 @@
        "group": true,
        "cells": [
         {
-         "d": "FERTILISER   (BE ₹1,67,887 cr · RE ₹1,55,000 cr)"
+         "d": "FERTILISER   (BE $17.5 bn · RE $16.2 bn)"
         }
        ],
        "cls": "group"
@@ -1562,11 +1571,11 @@
          "d": "Urea"
         },
         {
-         "d": "1,15,000",
+         "d": "$12.0 bn",
          "v": 115000
         },
         {
-         "d": "1,10,000",
+         "d": "$11.5 bn",
          "v": 110000
         },
         {
@@ -1586,11 +1595,11 @@
          "d": "Non-urea (DAP, MOP, NPS)"
         },
         {
-         "d": "52,887",
+         "d": "$5.52 bn",
          "v": 52887
         },
         {
-         "d": "45,000",
+         "d": "$4.69 bn",
          "v": 45000
         },
         {
@@ -1608,7 +1617,7 @@
        "group": true,
        "cells": [
         {
-         "d": "PETROLEUM   (BE ₹12,100 cr · RE ₹14,700 cr)"
+         "d": "PETROLEUM   (BE $1.26 bn · RE $1.53 bn)"
         }
        ],
        "cls": "group"
@@ -1619,11 +1628,11 @@
          "d": "LPG (Ujjwala)"
         },
         {
-         "d": "12,100",
+         "d": "$1.26 bn",
          "v": 12100
         },
         {
-         "d": "14,700",
+         "d": "$1.53 bn",
          "v": 14700
         },
         {
@@ -1641,7 +1650,7 @@
        "group": true,
        "cells": [
         {
-         "d": "INTEREST SUBSIDIES   (BE ₹19,500 cr · RE ₹18,600 cr)"
+         "d": "INTEREST SUBSIDIES   (BE $2.03 bn · RE $1.94 bn)"
         }
        ],
        "cls": "group"
@@ -1652,11 +1661,11 @@
          "d": "Kisan Credit Card subvention"
         },
         {
-         "d": "9,500",
+         "d": "$991 mn",
          "v": 9500
         },
         {
-         "d": "9,000",
+         "d": "$939 mn",
          "v": 9000
         },
         {
@@ -1676,11 +1685,11 @@
          "d": "CLSS housing"
         },
         {
-         "d": "5,000",
+         "d": "$521 mn",
          "v": 5000
         },
         {
-         "d": "4,800",
+         "d": "$501 mn",
          "v": 4800
         },
         {
@@ -1700,11 +1709,11 @@
          "d": "Other interest subsidies"
         },
         {
-         "d": "5,000",
+         "d": "$521 mn",
          "v": 5000
         },
         {
-         "d": "4,800",
+         "d": "$501 mn",
          "v": 4800
         },
         {
@@ -1722,7 +1731,7 @@
        "group": true,
        "cells": [
         {
-         "d": "OTHER   (BE ₹18,196 cr · RE ₹17,200 cr)"
+         "d": "OTHER   (BE $1.90 bn · RE $1.79 bn)"
         }
        ],
        "cls": "group"
@@ -1733,11 +1742,11 @@
          "d": "Market intervention and agriculture"
         },
         {
-         "d": "8,000",
+         "d": "$834 mn",
          "v": 8000
         },
         {
-         "d": "7,600",
+         "d": "$793 mn",
          "v": 7600
         },
         {
@@ -1757,11 +1766,11 @@
          "d": "Export and MSME"
         },
         {
-         "d": "5,196",
+         "d": "$542 mn",
          "v": 5196
         },
         {
-         "d": "4,900",
+         "d": "$511 mn",
          "v": 4900
         },
         {
@@ -1781,11 +1790,11 @@
          "d": "Miscellaneous"
         },
         {
-         "d": "5,000",
+         "d": "$521 mn",
          "v": 5000
         },
         {
-         "d": "4,700",
+         "d": "$490 mn",
          "v": 4700
         },
         {
@@ -1805,11 +1814,11 @@
          "d": "Unitemised residual (stated total − itemised)"
         },
         {
-         "d": "5,113",
+         "d": "$533 mn",
          "v": 5113
         },
         {
-         "d": "22,080",
+         "d": "$2.30 bn",
          "v": 22080
         },
         {
@@ -1828,11 +1837,11 @@
          "d": "Total subsidies (as stated)"
         },
         {
-         "d": "4,26,216",
+         "d": "$44.5 bn",
          "v": 426216
         },
         {
-         "d": "4,25,000",
+         "d": "$44.3 bn",
          "v": 425000
         },
         {
@@ -1850,7 +1859,7 @@
     },
     {
      "t": "note",
-     "text": "Food and fertiliser share is computed on the stated total (₹4,26,216 cr). Itemised lines sum to ₹4,21,103 cr; the difference is shown as a residual rather than hidden."
+     "text": "Food and fertiliser share is computed on the stated total ($44.5 bn). Itemised lines sum to $43.9 bn; the difference is shown as a residual rather than hidden."
     }
    ]
   },
@@ -1863,14 +1872,14 @@
     },
     {
      "t": "subtitle",
-     "text": "Four-year view, ₹ crore. Source: Budget at a Glance 2025-26. All ratios recomputed from the levels shown."
+     "text": "Four-year view, US$. Source: Budget at a Glance 2025-26. All ratios recomputed from the levels shown."
     },
     {
      "t": "cards",
      "cards": [
       [
        "Interest, FY26 BE",
-       "₹12,76,338 cr",
+       "$133.1 bn",
        "+12.2% vs FY25 RE"
       ],
       [
@@ -1893,7 +1902,7 @@
     {
      "t": "chart",
      "type": "combo",
-     "title": "Interest payments (₹ lakh crore, bars) and share of revenue receipts (%, line)",
+     "title": "Interest payments (US$ bn, bars) and share of revenue receipts (%, line)",
      "labels": [
       "FY22-23 Actual",
       "FY23-24 Actual",
@@ -1902,12 +1911,12 @@
      ],
      "series": [
       {
-       "name": "Interest (₹ lakh cr)",
+       "name": "Interest (US$ bn)",
        "data": [
-        10.64,
-        11.63,
-        11.38,
-        12.76
+        110.97,
+        121.3,
+        118.69,
+        133.08
        ]
       },
       {
@@ -1939,19 +1948,19 @@
          "d": "Fiscal deficit"
         },
         {
-         "d": "16,54,643",
+         "d": "$172.6 bn",
          "v": 1654643
         },
         {
-         "d": "16,13,312",
+         "d": "$168.3 bn",
          "v": 1613312
         },
         {
-         "d": "15,69,527",
+         "d": "$163.7 bn",
          "v": 1569527
         },
         {
-         "d": "15,68,936",
+         "d": "$163.6 bn",
          "v": 1568936
         },
         {
@@ -1966,19 +1975,19 @@
          "d": "Primary deficit"
         },
         {
-         "d": "5,90,771",
+         "d": "$61.6 bn",
          "v": 590771
         },
         {
-         "d": "4,50,372",
+         "d": "$47.0 bn",
          "v": 450372
         },
         {
-         "d": "4,31,587",
+         "d": "$45.0 bn",
          "v": 431587
         },
         {
-         "d": "2,92,598",
+         "d": "$30.5 bn",
          "v": 292598
         },
         {
@@ -1993,19 +2002,19 @@
          "d": "Interest payments (= FD − PD)"
         },
         {
-         "d": "10,63,872",
+         "d": "$111.0 bn",
          "v": 1063872
         },
         {
-         "d": "11,62,940",
+         "d": "$121.3 bn",
          "v": 1162940
         },
         {
-         "d": "11,37,940",
+         "d": "$118.7 bn",
          "v": 1137940
         },
         {
-         "d": "12,76,338",
+         "d": "$133.1 bn",
          "v": 1276338
         },
         {
@@ -2020,19 +2029,19 @@
          "d": "Total revenue receipts"
         },
         {
-         "d": "23,84,000",
+         "d": "$248.6 bn",
          "v": 2384000
         },
         {
-         "d": "27,57,000",
+         "d": "$287.5 bn",
          "v": 2757000
         },
         {
-         "d": "31,47,000",
+         "d": "$328.2 bn",
          "v": 3147000
         },
         {
-         "d": "34,20,409",
+         "d": "$356.7 bn",
          "v": 3420409
         },
         {
@@ -2047,19 +2056,19 @@
          "d": "Total expenditure"
         },
         {
-         "d": "41,88,000",
+         "d": "$436.8 bn",
          "v": 4188000
         },
         {
-         "d": "44,90,000",
+         "d": "$468.3 bn",
          "v": 4490000
         },
         {
-         "d": "47,16,000",
+         "d": "$491.9 bn",
          "v": 4716000
         },
         {
-         "d": "50,65,345",
+         "d": "$528.3 bn",
          "v": 5065345
         },
         {
@@ -2074,19 +2083,19 @@
          "d": "Nominal GDP"
         },
         {
-         "d": "2,95,36,000",
+         "d": "$3,080.5 bn",
          "v": 29536000
         },
         {
-         "d": "3,29,37,000",
+         "d": "$3,435.2 bn",
          "v": 32937000
         },
         {
-         "d": "3,26,36,000",
+         "d": "$3,403.8 bn",
          "v": 32636000
         },
         {
-         "d": "3,56,60,000",
+         "d": "$3,719.2 bn",
          "v": 35660000
         },
         {
@@ -2243,7 +2252,7 @@
     },
     {
      "t": "subtitle",
-     "text": "FY2025-26 BE, ₹ crore. Formula-based reconstruction from Budget documents; % of GDP recomputed."
+     "text": "FY2025-26 BE, US$. Formula-based reconstruction from Budget documents; % of GDP recomputed."
     },
     {
      "t": "cards",
@@ -2251,29 +2260,29 @@
       [
        "Fiscal deficit",
        "4.4%",
-       "₹15,68,936 cr"
+       "$163.6 bn"
       ],
       [
        "Revenue deficit",
        "1.5%",
-       "₹5,23,846 cr"
+       "$54.6 bn"
       ],
       [
        "Primary deficit",
        "0.8%",
-       "₹2,92,598 cr"
+       "$30.5 bn"
       ],
       [
        "Central govt liabilities",
        "~56.1% of GDP",
-       "≈ ₹200 lakh crore"
+       "≈ $2,085.9 bn"
       ]
      ]
     },
     {
      "t": "chart",
      "type": "bar",
-     "title": "How the fiscal deficit is built (₹ lakh crore)",
+     "title": "How the fiscal deficit is built (US$ bn)",
      "labels": [
       "Total expenditure",
       "Total receipts",
@@ -2286,12 +2295,12 @@
       {
        "name": "FY26 BE",
        "data": [
-        50.65,
-        34.96,
-        15.69,
-        5.24,
-        2.93,
-        12.76
+        528.26,
+        364.62,
+        163.64,
+        54.65,
+        30.56,
+        133.08
        ]
       }
      ]
@@ -2301,7 +2310,7 @@
      "header": [
       "Indicator",
       "Formula / definition",
-      "Amount (₹ cr)",
+      "Amount (US$)",
       "% of GDP",
       "Note"
      ],
@@ -2324,7 +2333,7 @@
          "d": "Government estimate, 10.1% nominal growth"
         },
         {
-         "d": "3,56,60,000",
+         "d": "$3,719.2 bn",
          "v": 35660000
         },
         {
@@ -2346,7 +2355,7 @@
          "d": "Net tax + non-tax revenue"
         },
         {
-         "d": "34,20,409",
+         "d": "$356.7 bn",
          "v": 3420409
         },
         {
@@ -2368,7 +2377,7 @@
          "d": "Disinvestment + loan recoveries"
         },
         {
-         "d": "76,000",
+         "d": "$7.93 bn",
          "v": 76000
         },
         {
@@ -2390,7 +2399,7 @@
          "d": "Self-generated resources"
         },
         {
-         "d": "34,96,409",
+         "d": "$364.7 bn",
          "v": 3496409
         },
         {
@@ -2412,7 +2421,7 @@
          "d": "Interest + subsidies + salaries + grants"
         },
         {
-         "d": "39,44,345",
+         "d": "$411.4 bn",
          "v": 3944345
         },
         {
@@ -2434,7 +2443,7 @@
          "d": "Infrastructure, defence, railways"
         },
         {
-         "d": "11,21,000",
+         "d": "$116.9 bn",
          "v": 1121000
         },
         {
@@ -2456,7 +2465,7 @@
          "d": "Revenue + capital"
         },
         {
-         "d": "50,65,345",
+         "d": "$528.3 bn",
          "v": 5065345
         },
         {
@@ -2478,7 +2487,7 @@
          "d": "Fiscal deficit − primary deficit"
         },
         {
-         "d": "12,76,338",
+         "d": "$133.1 bn",
          "v": 1276338
         },
         {
@@ -2509,7 +2518,7 @@
          "d": "Total expenditure − total receipts excl. borrowings"
         },
         {
-         "d": "15,68,936",
+         "d": "$163.6 bn",
          "v": 1568936
         },
         {
@@ -2531,7 +2540,7 @@
          "d": "Revenue expenditure − revenue receipts"
         },
         {
-         "d": "5,23,846",
+         "d": "$54.6 bn",
          "v": 523846.0
         },
         {
@@ -2553,7 +2562,7 @@
          "d": "Fiscal deficit − interest payments"
         },
         {
-         "d": "2,92,598",
+         "d": "$30.5 bn",
          "v": 292598
         },
         {
@@ -2584,7 +2593,7 @@
          "d": "~56.1% of GDP (as estimated)"
         },
         {
-         "d": "2,00,05,260",
+         "d": "$2,086.5 bn",
          "v": 20005260.000000004
         },
         {
@@ -2606,7 +2615,7 @@
          "d": "Dated G-secs issued in FY26"
         },
         {
-         "d": "14,82,000",
+         "d": "$154.6 bn",
          "v": 1482000
         },
         {
@@ -2628,7 +2637,7 @@
          "d": "Gross − redemptions"
         },
         {
-         "d": "11,54,000",
+         "d": "$120.4 bn",
          "v": 1154000
         },
         {
@@ -2658,29 +2667,29 @@
     },
     {
      "t": "subtitle",
-     "text": "FY2025-26 BE, ₹ crore. Source: Receipt Budget 2025-26, RBI borrowing calendar."
+     "text": "FY2025-26 BE, US$. Source: Receipt Budget 2025-26, RBI borrowing calendar."
     },
     {
      "t": "cards",
      "cards": [
       [
        "Gross dated borrowing",
-       "₹14,82,000 cr",
+       "$154.6 bn",
        "RBI-run auctions"
       ],
       [
        "Net dated borrowing",
-       "₹11,54,000 cr",
+       "$120.4 bn",
        "74% of fiscal deficit"
       ],
       [
        "Small savings + GPF",
-       "₹3,68,000 cr",
+       "$38.4 bn",
        "23% of fiscal deficit"
       ],
       [
        "External (net)",
-       "₹45,625 cr",
+       "$4.76 bn",
        "3% of fiscal deficit"
       ]
      ]
@@ -2688,7 +2697,7 @@
     {
      "t": "chart",
      "type": "bar",
-     "title": "Financing mix, net (₹ crore)",
+     "title": "Financing mix, net (US$ bn)",
      "labels": [
       "Net dated G-secs",
       "Treasury bills",
@@ -2700,11 +2709,11 @@
       {
        "name": "FY26 BE",
        "data": [
-        1154000,
-        90000,
-        368000,
-        45625,
-        1568936
+        120.36,
+        9.39,
+        38.38,
+        4.76,
+        163.64
        ]
       }
      ]
@@ -2712,14 +2721,14 @@
     {
      "t": "banner",
      "kind": "warn",
-     "text": "Listed net sources add to ₹16,57,625 cr against a fiscal deficit of ₹15,68,936 cr. The workbook's own total ('= Fiscal Deficit') is a formula error. The portal shows the gap instead of forcing a match."
+     "text": "Listed net sources add to $172.9 bn against a fiscal deficit of $163.6 bn. The workbook's own total ('= Fiscal Deficit') is a formula error. The portal shows the gap instead of forcing a match."
     },
     {
      "t": "table",
      "header": [
       "Instrument",
-      "Gross (₹ cr)",
-      "Net (₹ cr)",
+      "Gross (US$)",
+      "Net (US$)",
       "Net % of fiscal deficit",
       "Notes"
      ],
@@ -2739,11 +2748,11 @@
          "d": "Dated government securities"
         },
         {
-         "d": "14,82,000",
+         "d": "$154.6 bn",
          "v": 1482000
         },
         {
-         "d": "11,54,000",
+         "d": "$120.4 bn",
          "v": 1154000
         },
         {
@@ -2762,11 +2771,11 @@
          "d": "Treasury bills (91/182/364-day)"
         },
         {
-         "d": "90,000",
+         "d": "$9.39 bn",
          "v": 90000
         },
         {
-         "d": "90,000",
+         "d": "$9.39 bn",
          "v": 90000
         },
         {
@@ -2785,11 +2794,11 @@
          "d": "Market borrowings total"
         },
         {
-         "d": "15,72,000",
+         "d": "$164.0 bn",
          "v": 1572000
         },
         {
-         "d": "12,44,000",
+         "d": "$129.7 bn",
          "v": 1244000
         },
         {
@@ -2817,11 +2826,11 @@
          "d": "Securities against small savings (NSSF)"
         },
         {
-         "d": "3,43,000",
+         "d": "$35.8 bn",
          "v": 343000
         },
         {
-         "d": "3,43,000",
+         "d": "$35.8 bn",
          "v": 343000
         },
         {
@@ -2840,11 +2849,11 @@
          "d": "GPF and others"
         },
         {
-         "d": "25,000",
+         "d": "$2.61 bn",
          "v": 25000
         },
         {
-         "d": "25,000",
+         "d": "$2.61 bn",
          "v": 25000
         },
         {
@@ -2863,11 +2872,11 @@
          "d": "Small savings sub-total"
         },
         {
-         "d": "3,68,000",
+         "d": "$38.4 bn",
          "v": 368000
         },
         {
-         "d": "3,68,000",
+         "d": "$38.4 bn",
          "v": 368000
         },
         {
@@ -2895,11 +2904,11 @@
          "d": "Multilateral (World Bank, ADB, NDB, AIIB)"
         },
         {
-         "d": "79,388",
+         "d": "$8.28 bn",
          "v": 79388
         },
         {
-         "d": "13,234",
+         "d": "$1.38 bn",
          "v": 13234
         },
         {
@@ -2918,11 +2927,11 @@
          "d": "Bilateral (Japan, Germany, France, Russia, EIB)"
         },
         {
-         "d": "31,625",
+         "d": "$3.30 bn",
          "v": 31625
         },
         {
-         "d": "32,391",
+         "d": "$3.38 bn",
          "v": 32391
         },
         {
@@ -2941,11 +2950,11 @@
          "d": "External sub-total"
         },
         {
-         "d": "1,11,013",
+         "d": "$11.6 bn",
          "v": 111013
         },
         {
-         "d": "45,625",
+         "d": "$4.76 bn",
          "v": 45625
         },
         {
@@ -2973,11 +2982,11 @@
          "d": "Sum of listed sources"
         },
         {
-         "d": "20,51,013",
+         "d": "$213.9 bn",
          "v": 2051013
         },
         {
-         "d": "16,57,625",
+         "d": "$172.9 bn",
          "v": 1657625
         },
         {
@@ -2999,7 +3008,7 @@
          "d": ""
         },
         {
-         "d": "15,68,936",
+         "d": "$163.6 bn",
          "v": 1568936
         },
         {
@@ -3021,7 +3030,7 @@
          "d": ""
         },
         {
-         "d": "88,689",
+         "d": "$9.25 bn",
          "v": 88689
         },
         {
@@ -3054,7 +3063,7 @@
          "d": "Disinvestment / miscellaneous capital receipts"
         },
         {
-         "d": "47,000",
+         "d": "$4.90 bn",
          "v": 47000
         },
         {
@@ -3069,7 +3078,7 @@
          "d": "Recovery of loans"
         },
         {
-         "d": "29,000",
+         "d": "$3.02 bn",
          "v": 29000
         },
         {
@@ -3084,11 +3093,11 @@
          "d": "Other capital receipts (PF, NSSF etc.), sheet 02"
         },
         {
-         "d": "51,311",
+         "d": "$5.35 bn",
          "v": 51311
         },
         {
-         "d": "Not the same as GPF ₹25,000 cr in the borrowing sheet"
+         "d": "Not the same as GPF $2.61 bn in the borrowing sheet"
         }
        ],
        "cls": ""
@@ -3099,7 +3108,7 @@
          "d": "Outstanding central government debt (est. FY26)"
         },
         {
-         "d": "2,00,00,000",
+         "d": "$2,085.9 bn",
          "v": 20000000
         },
         {
@@ -3135,7 +3144,7 @@
     },
     {
      "t": "subtitle",
-     "text": "FY2020-21 to FY2025-26, ₹ crore. Source: Budget at a Glance (various years), PRS India, CGA. Values as typed in the workbook."
+     "text": "FY2020-21 to FY2025-26, US$. Source: Budget at a Glance (various years), PRS India, CGA. Values as typed in the workbook."
     },
     {
      "t": "banner",
@@ -3246,7 +3255,7 @@
       {
        "t": "chart",
        "type": "bar",
-       "title": "Revenue receipts vs total expenditure (₹ lakh crore)",
+       "title": "Revenue receipts vs total expenditure (US$ bn)",
        "labels": [
         "FY20-21",
         "FY21-22",
@@ -3259,23 +3268,23 @@
         {
          "name": "Revenue receipts",
          "data": [
-          17.28,
-          22.27,
-          23.84,
-          27.57,
-          31.47,
-          34.2
+          180.23,
+          232.27,
+          248.64,
+          287.55,
+          328.22,
+          356.7
          ]
         },
         {
          "name": "Total expenditure",
          "data": [
-          34.5,
-          37.7,
-          41.88,
-          44.9,
-          47.16,
-          50.65
+          359.82,
+          393.2,
+          436.8,
+          468.29,
+          491.86,
+          528.26
          ]
         }
        ]
@@ -3283,7 +3292,7 @@
       {
        "t": "chart",
        "type": "bar",
-       "title": "Capex vs interest (₹ lakh crore)",
+       "title": "Capex vs interest (US$ bn)",
        "labels": [
         "FY20-21",
         "FY21-22",
@@ -3296,23 +3305,23 @@
         {
          "name": "Capital expenditure",
          "data": [
-          4.39,
-          5.54,
-          7.28,
-          9.49,
-          10.18,
-          11.21
+          45.79,
+          57.78,
+          75.93,
+          98.98,
+          106.17,
+          116.92
          ]
         },
         {
          "name": "Interest payments",
          "data": [
-          6.26,
-          7.42,
-          10.64,
-          11.63,
-          11.38,
-          12.76
+          65.29,
+          77.39,
+          110.97,
+          121.3,
+          118.69,
+          133.08
          ]
         }
        ]
@@ -3320,7 +3329,7 @@
       {
        "t": "chart",
        "type": "bar",
-       "title": "Tax revenue by source (₹ lakh crore)",
+       "title": "Tax revenue by source (US$ bn)",
        "labels": [
         "FY20-21",
         "FY21-22",
@@ -3333,56 +3342,56 @@
         {
          "name": "Corporation Tax",
          "data": [
-          4.58,
-          7.12,
-          8.26,
-          9.11,
-          9.8,
-          10.82
+          47.77,
+          74.26,
+          86.15,
+          95.01,
+          102.21,
+          112.85
          ]
         },
         {
          "name": "Taxes on Income",
          "data": [
-          4.87,
-          6.96,
-          8.33,
-          10.45,
-          12.57,
-          14.38
+          50.79,
+          72.59,
+          86.88,
+          108.99,
+          131.1,
+          149.98
          ]
         },
         {
          "name": "GST (Centre's Share)",
          "data": [
-          5.49,
-          6.98,
-          8.49,
-          9.57,
-          10.62,
-          11.78
+          57.26,
+          72.8,
+          88.55,
+          99.81,
+          110.76,
+          122.86
          ]
         },
         {
          "name": "Customs Duty",
          "data": [
-          1.35,
-          2.0,
-          2.13,
-          2.33,
-          2.35,
-          2.4
+          14.08,
+          20.86,
+          22.22,
+          24.3,
+          24.51,
+          25.03
          ]
         },
         {
          "name": "Union Excise Duties",
          "data": [
-          3.9,
-          3.91,
-          3.09,
-          3.05,
-          3.1,
-          3.17
+          40.68,
+          40.78,
+          32.23,
+          31.81,
+          32.33,
+          33.06
          ]
         }
        ],
@@ -3392,7 +3401,7 @@
     },
     {
      "t": "section",
-     "text": "Levels (₹ crore)"
+     "text": "Levels (US$)"
     },
     {
      "t": "table",
@@ -3413,27 +3422,27 @@
          "d": "Nominal GDP"
         },
         {
-         "d": "1,98,01,000",
+         "d": "$2,065.2 bn",
          "v": 19801000
         },
         {
-         "d": "2,36,44,000",
+         "d": "$2,466.0 bn",
          "v": 23644000
         },
         {
-         "d": "2,95,36,000",
+         "d": "$3,080.5 bn",
          "v": 29536000
         },
         {
-         "d": "3,29,37,000",
+         "d": "$3,435.2 bn",
          "v": 32937000
         },
         {
-         "d": "3,26,36,000",
+         "d": "$3,403.8 bn",
          "v": 32636000
         },
         {
-         "d": "3,56,60,000",
+         "d": "$3,719.2 bn",
          "v": 35660000
         },
         {
@@ -3449,27 +3458,27 @@
          "d": "Total Revenue Receipts"
         },
         {
-         "d": "17,28,000",
+         "d": "$180.2 bn",
          "v": 1728000
         },
         {
-         "d": "22,27,000",
+         "d": "$232.3 bn",
          "v": 2227000
         },
         {
-         "d": "23,84,000",
+         "d": "$248.6 bn",
          "v": 2384000
         },
         {
-         "d": "27,57,000",
+         "d": "$287.5 bn",
          "v": 2757000
         },
         {
-         "d": "31,47,000",
+         "d": "$328.2 bn",
          "v": 3147000
         },
         {
-         "d": "34,20,409",
+         "d": "$356.7 bn",
          "v": 3420409
         },
         {
@@ -3485,27 +3494,27 @@
          "d": "Total Expenditure"
         },
         {
-         "d": "34,50,305",
+         "d": "$359.9 bn",
          "v": 3450305
         },
         {
-         "d": "37,70,000",
+         "d": "$393.2 bn",
          "v": 3770000
         },
         {
-         "d": "41,88,000",
+         "d": "$436.8 bn",
          "v": 4188000
         },
         {
-         "d": "44,90,000",
+         "d": "$468.3 bn",
          "v": 4490000
         },
         {
-         "d": "47,16,000",
+         "d": "$491.9 bn",
          "v": 4716000
         },
         {
-         "d": "50,65,345",
+         "d": "$528.3 bn",
          "v": 5065345
         },
         {
@@ -3521,27 +3530,27 @@
          "d": "Revenue Expenditure"
         },
         {
-         "d": "30,11,000",
+         "d": "$314.0 bn",
          "v": 3011000
         },
         {
-         "d": "29,29,000",
+         "d": "$305.5 bn",
          "v": 2929000
         },
         {
-         "d": "31,21,000",
+         "d": "$325.5 bn",
          "v": 3121000
         },
         {
-         "d": "35,02,000",
+         "d": "$365.2 bn",
          "v": 3502000
         },
         {
-         "d": "39,44,000",
+         "d": "$411.3 bn",
          "v": 3944000
         },
         {
-         "d": "39,44,345",
+         "d": "$411.4 bn",
          "v": 3944345
         },
         {
@@ -3557,27 +3566,27 @@
          "d": "Capital Expenditure"
         },
         {
-         "d": "4,39,000",
+         "d": "$45.8 bn",
          "v": 439000
         },
         {
-         "d": "5,54,000",
+         "d": "$57.8 bn",
          "v": 554000
         },
         {
-         "d": "7,28,000",
+         "d": "$75.9 bn",
          "v": 728000
         },
         {
-         "d": "9,49,000",
+         "d": "$99.0 bn",
          "v": 949000
         },
         {
-         "d": "10,18,000",
+         "d": "$106.2 bn",
          "v": 1018000
         },
         {
-         "d": "11,21,000",
+         "d": "$116.9 bn",
          "v": 1121000
         },
         {
@@ -3593,27 +3602,27 @@
          "d": "Fiscal Deficit"
         },
         {
-         "d": "18,06,000",
+         "d": "$188.4 bn",
          "v": 1806000
         },
         {
-         "d": "15,86,537",
+         "d": "$165.5 bn",
          "v": 1586537
         },
         {
-         "d": "16,54,643",
+         "d": "$172.6 bn",
          "v": 1654643
         },
         {
-         "d": "16,13,312",
+         "d": "$168.3 bn",
          "v": 1613312
         },
         {
-         "d": "15,69,527",
+         "d": "$163.7 bn",
          "v": 1569527
         },
         {
-         "d": "15,68,936",
+         "d": "$163.6 bn",
          "v": 1568936
         },
         {
@@ -3629,27 +3638,27 @@
          "d": "Revenue Deficit"
         },
         {
-         "d": "10,26,000",
+         "d": "$107.0 bn",
          "v": 1026000
         },
         {
-         "d": "5,55,000",
+         "d": "$57.9 bn",
          "v": 555000
         },
         {
-         "d": "7,65,216",
+         "d": "$79.8 bn",
          "v": 765216
         },
         {
-         "d": "5,80,201",
+         "d": "$60.5 bn",
          "v": 580201
         },
         {
-         "d": "6,10,098",
+         "d": "$63.6 bn",
          "v": 610098
         },
         {
-         "d": "5,23,846",
+         "d": "$54.6 bn",
          "v": 523846
         },
         {
@@ -3665,27 +3674,27 @@
          "d": "Primary Deficit"
         },
         {
-         "d": "13,64,000",
+         "d": "$142.3 bn",
          "v": 1364000
         },
         {
-         "d": "7,69,000",
+         "d": "$80.2 bn",
          "v": 769000
         },
         {
-         "d": "5,90,771",
+         "d": "$61.6 bn",
          "v": 590771
         },
         {
-         "d": "4,50,372",
+         "d": "$47.0 bn",
          "v": 450372
         },
         {
-         "d": "4,31,587",
+         "d": "$45.0 bn",
          "v": 431587
         },
         {
-         "d": "2,92,598",
+         "d": "$30.5 bn",
          "v": 292598
         },
         {
@@ -3701,27 +3710,27 @@
          "d": "Interest Payments"
         },
         {
-         "d": "6,26,000",
+         "d": "$65.3 bn",
          "v": 626000
         },
         {
-         "d": "7,42,000",
+         "d": "$77.4 bn",
          "v": 742000
         },
         {
-         "d": "10,63,872",
+         "d": "$111.0 bn",
          "v": 1063872
         },
         {
-         "d": "11,62,940",
+         "d": "$121.3 bn",
          "v": 1162940
         },
         {
-         "d": "11,37,940",
+         "d": "$118.7 bn",
          "v": 1137940
         },
         {
-         "d": "12,76,338",
+         "d": "$133.1 bn",
          "v": 1276338
         },
         {
@@ -3737,27 +3746,27 @@
          "d": "Total Subsidies"
         },
         {
-         "d": "7,10,000",
+         "d": "$74.1 bn",
          "v": 710000
         },
         {
-         "d": "4,71,000",
+         "d": "$49.1 bn",
          "v": 471000
         },
         {
-         "d": "5,18,000",
+         "d": "$54.0 bn",
          "v": 518000
         },
         {
-         "d": "4,48,000",
+         "d": "$46.7 bn",
          "v": 448000
         },
         {
-         "d": "4,25,000",
+         "d": "$44.3 bn",
          "v": 425000
         },
         {
-         "d": "4,26,216",
+         "d": "$44.5 bn",
          "v": 426216
         },
         {
@@ -3773,27 +3782,27 @@
          "d": "Gross Tax Revenue"
         },
         {
-         "d": "20,27,000",
+         "d": "$211.4 bn",
          "v": 2027000
         },
         {
-         "d": "27,07,000",
+         "d": "$282.3 bn",
          "v": 2707000
         },
         {
-         "d": "30,54,000",
+         "d": "$318.5 bn",
          "v": 3054000
         },
         {
-         "d": "33,61,000",
+         "d": "$350.5 bn",
          "v": 3361000
         },
         {
-         "d": "38,54,000",
+         "d": "$402.0 bn",
          "v": 3854000
         },
         {
-         "d": "42,70,233",
+         "d": "$445.4 bn",
          "v": 4270233
         },
         {
@@ -4042,7 +4051,7 @@
     },
     {
      "t": "section",
-     "text": "Tax revenue breakdown (₹ crore)"
+     "text": "Tax revenue breakdown (US$)"
     },
     {
      "t": "table",
@@ -4063,27 +4072,27 @@
          "d": "Corporation Tax"
         },
         {
-         "d": "4,57,719",
+         "d": "$47.7 bn",
          "v": 457719
         },
         {
-         "d": "7,12,037",
+         "d": "$74.3 bn",
          "v": 712037
         },
         {
-         "d": "8,25,834",
+         "d": "$86.1 bn",
          "v": 825834
         },
         {
-         "d": "9,11,055",
+         "d": "$95.0 bn",
          "v": 911055
         },
         {
-         "d": "9,80,000",
+         "d": "$102.2 bn",
          "v": 980000
         },
         {
-         "d": "10,82,000",
+         "d": "$112.8 bn",
          "v": 1082000
         },
         {
@@ -4099,27 +4108,27 @@
          "d": "Taxes on Income"
         },
         {
-         "d": "4,87,139",
+         "d": "$50.8 bn",
          "v": 487139
         },
         {
-         "d": "6,96,238",
+         "d": "$72.6 bn",
          "v": 696238
         },
         {
-         "d": "8,33,233",
+         "d": "$86.9 bn",
          "v": 833233
         },
         {
-         "d": "10,44,722",
+         "d": "$109.0 bn",
          "v": 1044722
         },
         {
-         "d": "12,57,000",
+         "d": "$131.1 bn",
          "v": 1257000
         },
         {
-         "d": "14,38,000",
+         "d": "$150.0 bn",
          "v": 1438000
         },
         {
@@ -4135,27 +4144,27 @@
          "d": "GST (Centre's Share)"
         },
         {
-         "d": "5,48,777",
+         "d": "$57.2 bn",
          "v": 548777
         },
         {
-         "d": "6,98,114",
+         "d": "$72.8 bn",
          "v": 698114
         },
         {
-         "d": "8,49,132",
+         "d": "$88.6 bn",
          "v": 849132
         },
         {
-         "d": "9,57,208",
+         "d": "$99.8 bn",
          "v": 957208
         },
         {
-         "d": "10,61,899",
+         "d": "$110.8 bn",
          "v": 1061899
         },
         {
-         "d": "11,78,000",
+         "d": "$122.9 bn",
          "v": 1178000
         },
         {
@@ -4171,27 +4180,27 @@
          "d": "Customs Duty"
         },
         {
-         "d": "1,34,750",
+         "d": "$14.1 bn",
          "v": 134750
         },
         {
-         "d": "1,99,728",
+         "d": "$20.8 bn",
          "v": 199728
         },
         {
-         "d": "2,13,372",
+         "d": "$22.3 bn",
          "v": 213372
         },
         {
-         "d": "2,33,119",
+         "d": "$24.3 bn",
          "v": 233119
         },
         {
-         "d": "2,35,000",
+         "d": "$24.5 bn",
          "v": 235000
         },
         {
-         "d": "2,40,000",
+         "d": "$25.0 bn",
          "v": 240000
         },
         {
@@ -4207,27 +4216,27 @@
          "d": "Union Excise Duties"
         },
         {
-         "d": "3,89,667",
+         "d": "$40.6 bn",
          "v": 389667
         },
         {
-         "d": "3,90,808",
+         "d": "$40.8 bn",
          "v": 390808
         },
         {
-         "d": "3,09,291",
+         "d": "$32.3 bn",
          "v": 309291
         },
         {
-         "d": "3,05,362",
+         "d": "$31.8 bn",
          "v": 305362
         },
         {
-         "d": "3,10,000",
+         "d": "$32.3 bn",
          "v": 310000
         },
         {
-         "d": "3,17,000",
+         "d": "$33.1 bn",
          "v": 317000
         },
         {
@@ -4250,7 +4259,7 @@
     },
     {
      "t": "subtitle",
-     "text": "Generated 2026-09-19 15:25 from India_Fiscal_Framework_FY2526_v2.xlsx. Every figure on this portal is rebuilt from the workbook's typed inputs, not from its cached formula results."
+     "text": "Generated 2026-09-19 15:46 from India_Fiscal_Framework_FY2526_v2.xlsx. Every figure on this portal is rebuilt from the workbook's typed inputs, not from its cached formula results."
     },
     {
      "t": "cards",
@@ -4305,16 +4314,16 @@
          "d": "Net financing sources (net dated + T-bills + small savings/GPF + external net) vs fiscal deficit"
         },
         {
-         "d": "15,68,936"
+         "d": "$163.6 bn"
         },
         {
-         "d": "16,57,625"
+         "d": "$172.9 bn"
         },
         {
-         "d": "+88,689"
+         "d": "+$9.25 bn"
         },
         {
-         "d": "The workbook labels this total as 'Total Borrowings = Fiscal Deficit' but its sheet-07 formula adds gross and net columns together (₹20,51,013 cr)."
+         "d": "The workbook labels this total as 'Total Borrowings = Fiscal Deficit' but its sheet-07 formula adds gross and net columns together ($213.9 bn)."
         }
        ],
        "cls": "sub"
@@ -4357,16 +4366,16 @@
          "d": "Bilateral external borrowing: net ≤ gross"
         },
         {
-         "d": "31,625"
+         "d": "$3.30 bn"
         },
         {
-         "d": "32,391"
+         "d": "$3.38 bn"
         },
         {
-         "d": "+766"
+         "d": "+$80 mn"
         },
         {
-         "d": "Net receipts (₹32,391 cr) exceed gross (₹31,625 cr), which is not possible for a net figure."
+         "d": "Net receipts ($3.38 bn) exceed gross ($3.30 bn), which is not possible for a net figure."
         }
        ],
        "cls": "sub"
@@ -4383,16 +4392,16 @@
          "d": "Revenue deficit = revenue expenditure − revenue receipts vs dashboard"
         },
         {
-         "d": "5,23,846"
+         "d": "$54.6 bn"
         },
         {
-         "d": "5,23,936"
+         "d": "$54.6 bn"
         },
         {
-         "d": "+90"
+         "d": "+$9 mn"
         },
         {
-         "d": "Expenditure components (sheet 03) sum ₹90 cr above the level implied by the dashboard revenue deficit."
+         "d": "Expenditure components (sheet 03) sum $9 mn above the level implied by the dashboard revenue deficit."
         }
        ],
        "cls": "sub"
@@ -4409,16 +4418,16 @@
          "d": "Total expenditure typed on FY24-25 RE (Expenditure sheet C28 = 47,161,889) vs Interest/Trends sheets"
         },
         {
-         "d": "47,16,000"
+         "d": "$491.9 bn"
         },
         {
-         "d": "4,71,61,889"
+         "d": "$4,918.8 bn"
         },
         {
-         "d": "+4,24,45,889"
+         "d": "+$4,427.0 bn"
         },
         {
-         "d": "A stray digit: the FY24-25 RE total is typed as 47,161,889 (₹4.7 crore crore); every other sheet has ₹47,16,000 cr. The portal uses ₹47,16,000 cr."
+         "d": "A stray digit: the FY24-25 RE total is typed as 47,161,889, ten times too large; every other sheet has $491.9 bn. The portal uses $491.9 bn."
         }
        ],
        "cls": "sub"
@@ -4435,13 +4444,13 @@
          "d": "Net tax + non-tax (sum of listed items) vs total revenue receipts"
         },
         {
-         "d": "34,20,409"
+         "d": "$356.7 bn"
         },
         {
-         "d": "34,31,198"
+         "d": "$357.9 bn"
         },
         {
-         "d": "+10,789"
+         "d": "+$1.13 bn"
         },
         {
          "d": "Listed revenue items overshoot revenue receipts; one or more revenue lines (likely UT taxes or a non-tax line) is not on the same basis."
@@ -4461,16 +4470,16 @@
          "d": "FY25-26 BE itemised subsidies vs stated total subsidies"
         },
         {
-         "d": "4,26,216"
+         "d": "$44.5 bn"
         },
         {
-         "d": "4,21,103"
+         "d": "$43.9 bn"
         },
         {
-         "d": "-5,113"
+         "d": "-$533 mn"
         },
         {
-         "d": "Itemised lines do not add to the stated ₹4,26,216 cr; the portal shows the gap as an 'unitemised residual'."
+         "d": "Itemised lines do not add to the stated $44.5 bn; the portal shows the gap as an 'unitemised residual'."
         }
        ],
        "cls": "sub"
@@ -4487,16 +4496,16 @@
          "d": "FY24-25 RE itemised subsidies vs stated total subsidies"
         },
         {
-         "d": "4,25,000"
+         "d": "$44.3 bn"
         },
         {
-         "d": "4,02,920"
+         "d": "$42.0 bn"
         },
         {
-         "d": "-22,080"
+         "d": "-$2.30 bn"
         },
         {
-         "d": "The workbook's own FY24-25 RE total (formula) reads ₹2,05,500 cr because it omits Food; itemised lines sum higher, but still not to the stated figure."
+         "d": "The workbook's own FY24-25 RE total (formula) reads $21.4 bn because it omits Food; itemised lines sum higher, but still not to the stated figure."
         }
        ],
        "cls": "sub"
@@ -4513,16 +4522,16 @@
          "d": "Nominal GDP must rise year on year: FY23-24 → FY24-25 RE"
         },
         {
-         "d": "3,29,37,000"
+         "d": "$3,435.2 bn"
         },
         {
-         "d": "3,26,36,000"
+         "d": "$3,403.8 bn"
         },
         {
-         "d": "-3,01,000"
+         "d": "-$31.4 bn"
         },
         {
-         "d": "Nominal GDP falls from ₹3,29,37,000 cr to ₹3,26,36,000 cr. Nominal GDP does not fall in a growth year, so the GDP series (and every ratio built on it) looks misaligned across years."
+         "d": "Nominal GDP falls from $3,435.2 bn to $3,403.8 bn. Nominal GDP does not fall in a growth year, so the GDP series (and every ratio built on it) looks misaligned across years."
         }
        ],
        "cls": "sub"
@@ -4539,13 +4548,13 @@
          "d": "FY21-22: revenue + capital expenditure vs total expenditure"
         },
         {
-         "d": "37,70,000"
+         "d": "$393.2 bn"
         },
         {
-         "d": "34,83,000"
+         "d": "$363.3 bn"
         },
         {
-         "d": "-2,87,000"
+         "d": "-$29.9 bn"
         },
         {
          "d": ""
@@ -4565,13 +4574,13 @@
          "d": "FY22-23: revenue + capital expenditure vs total expenditure"
         },
         {
-         "d": "41,88,000"
+         "d": "$436.8 bn"
         },
         {
-         "d": "38,49,000"
+         "d": "$401.4 bn"
         },
         {
-         "d": "-3,39,000"
+         "d": "-$35.4 bn"
         },
         {
          "d": ""
@@ -4591,13 +4600,13 @@
          "d": "FY23-24: revenue + capital expenditure vs total expenditure"
         },
         {
-         "d": "44,90,000"
+         "d": "$468.3 bn"
         },
         {
-         "d": "44,51,000"
+         "d": "$464.2 bn"
         },
         {
-         "d": "-39,000"
+         "d": "-$4.07 bn"
         },
         {
          "d": ""
@@ -4617,13 +4626,13 @@
          "d": "FY24-25 RE: revenue + capital expenditure vs total expenditure"
         },
         {
-         "d": "47,16,000"
+         "d": "$491.9 bn"
         },
         {
-         "d": "49,62,000"
+         "d": "$517.5 bn"
         },
         {
-         "d": "+2,46,000"
+         "d": "+$25.7 bn"
         },
         {
          "d": ""
@@ -4643,13 +4652,13 @@
          "d": "FY20-21: fiscal deficit − interest vs primary deficit"
         },
         {
-         "d": "13,64,000"
+         "d": "$142.3 bn"
         },
         {
-         "d": "11,80,000"
+         "d": "$123.1 bn"
         },
         {
-         "d": "-1,84,000"
+         "d": "-$19.2 bn"
         },
         {
          "d": ""
@@ -4669,13 +4678,13 @@
          "d": "FY21-22: fiscal deficit − interest vs primary deficit"
         },
         {
-         "d": "7,69,000"
+         "d": "$80.2 bn"
         },
         {
-         "d": "8,44,537"
+         "d": "$88.1 bn"
         },
         {
-         "d": "+75,537"
+         "d": "+$7.88 bn"
         },
         {
          "d": ""
@@ -4721,13 +4730,13 @@
          "d": "Revenue expenditure components sum vs revenue expenditure used in Fiscal Indicators"
         },
         {
-         "d": "39,44,345"
+         "d": "$411.4 bn"
         },
         {
-         "d": "39,44,345"
+         "d": "$411.4 bn"
         },
         {
-         "d": "0"
+         "d": "$0 mn"
         },
         {
          "d": ""
@@ -4747,13 +4756,13 @@
          "d": "Capital expenditure components sum vs capital expenditure headline"
         },
         {
-         "d": "11,21,000"
+         "d": "$116.9 bn"
         },
         {
-         "d": "11,21,000"
+         "d": "$116.9 bn"
         },
         {
-         "d": "0"
+         "d": "$0 mn"
         },
         {
          "d": ""
@@ -4773,13 +4782,13 @@
          "d": "Total receipts excl. borrowings = revenue receipts + non-debt capital receipts vs dashboard"
         },
         {
-         "d": "34,96,409"
+         "d": "$364.7 bn"
         },
         {
-         "d": "34,96,409"
+         "d": "$364.7 bn"
         },
         {
-         "d": "0"
+         "d": "$0 mn"
         },
         {
          "d": ""
@@ -4799,13 +4808,13 @@
          "d": "Fiscal deficit = total expenditure − total receipts vs dashboard"
         },
         {
-         "d": "15,68,936"
+         "d": "$163.6 bn"
         },
         {
-         "d": "15,68,936"
+         "d": "$163.6 bn"
         },
         {
-         "d": "0"
+         "d": "$0 mn"
         },
         {
          "d": ""
@@ -4825,13 +4834,13 @@
          "d": "Primary deficit = fiscal deficit − interest vs dashboard"
         },
         {
-         "d": "2,92,598"
+         "d": "$30.5 bn"
         },
         {
-         "d": "2,92,598"
+         "d": "$30.5 bn"
         },
         {
-         "d": "0"
+         "d": "$0 mn"
         },
         {
          "d": ""
@@ -4851,13 +4860,13 @@
          "d": "FY25-26 BE interest (FD − PD) vs interest in Expenditure sheet"
         },
         {
-         "d": "12,76,338"
+         "d": "$133.1 bn"
         },
         {
-         "d": "12,76,338"
+         "d": "$133.1 bn"
         },
         {
-         "d": "0"
+         "d": "$0 mn"
         },
         {
          "d": ""
@@ -4877,13 +4886,13 @@
          "d": "FY24-25 RE interest (FD − PD) vs FY24-25 RE interest in Trends sheet"
         },
         {
-         "d": "11,37,940"
+         "d": "$118.7 bn"
         },
         {
-         "d": "11,37,940"
+         "d": "$118.7 bn"
         },
         {
-         "d": "0"
+         "d": "$0 mn"
         },
         {
          "d": ""
@@ -4903,13 +4912,13 @@
          "d": "Gross tax revenue: sum of listed taxes vs dashboard headline"
         },
         {
-         "d": "42,70,233"
+         "d": "$445.4 bn"
         },
         {
-         "d": "42,70,233"
+         "d": "$445.4 bn"
         },
         {
-         "d": "0"
+         "d": "$0 mn"
         },
         {
          "d": ""
@@ -4955,13 +4964,13 @@
          "d": "FY20-21: revenue + capital expenditure vs total expenditure"
         },
         {
-         "d": "34,50,305"
+         "d": "$359.9 bn"
         },
         {
-         "d": "34,50,000"
+         "d": "$359.8 bn"
         },
         {
-         "d": "-305"
+         "d": "-$32 mn"
         },
         {
          "d": ""
@@ -4981,13 +4990,13 @@
          "d": "FY25-26 BE: revenue + capital expenditure vs total expenditure"
         },
         {
-         "d": "50,65,345"
+         "d": "$528.3 bn"
         },
         {
-         "d": "50,65,345"
+         "d": "$528.3 bn"
         },
         {
-         "d": "0"
+         "d": "$0 mn"
         },
         {
          "d": ""
@@ -5007,13 +5016,13 @@
          "d": "FY22-23: fiscal deficit − interest vs primary deficit"
         },
         {
-         "d": "5,90,771"
+         "d": "$61.6 bn"
         },
         {
-         "d": "5,90,771"
+         "d": "$61.6 bn"
         },
         {
-         "d": "0"
+         "d": "$0 mn"
         },
         {
          "d": ""
@@ -5033,13 +5042,13 @@
          "d": "FY23-24: fiscal deficit − interest vs primary deficit"
         },
         {
-         "d": "4,50,372"
+         "d": "$47.0 bn"
         },
         {
-         "d": "4,50,372"
+         "d": "$47.0 bn"
         },
         {
-         "d": "0"
+         "d": "$0 mn"
         },
         {
          "d": ""
@@ -5059,13 +5068,13 @@
          "d": "FY24-25 RE: fiscal deficit − interest vs primary deficit"
         },
         {
-         "d": "4,31,587"
+         "d": "$45.0 bn"
         },
         {
-         "d": "4,31,587"
+         "d": "$45.0 bn"
         },
         {
-         "d": "0"
+         "d": "$0 mn"
         },
         {
          "d": ""
@@ -5085,13 +5094,13 @@
          "d": "FY25-26 BE: fiscal deficit − interest vs primary deficit"
         },
         {
-         "d": "2,92,598"
+         "d": "$30.5 bn"
         },
         {
-         "d": "2,92,598"
+         "d": "$30.5 bn"
         },
         {
-         "d": "0"
+         "d": "$0 mn"
         },
         {
          "d": ""
