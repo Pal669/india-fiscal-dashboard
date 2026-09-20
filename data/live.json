@@ -241,9 +241,9 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 95.88,
+    "last": 95.86,
     "as_of": "2026-09-20",
-    "chg_1y_pct": 9.1,
+    "chg_1y_pct": 9.0,
     "chg_1m_pct": 0.1,
     "points": [
      [
@@ -456,7 +456,7 @@
      ],
      [
       "2026-09-20",
-      95.88
+      95.86
      ]
     ]
    },
@@ -700,5 +700,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-09-20 07:59 UTC"
+ "fetched_at": "2026-09-20 17:46 UTC"
 }
