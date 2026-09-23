@@ -241,10 +241,10 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 95.72,
+    "last": 95.73,
     "as_of": "2026-09-23",
     "chg_1y_pct": 8.4,
-    "chg_1m_pct": -0.0,
+    "chg_1m_pct": 0.0,
     "points": [
      [
       "2025-09-28",
@@ -452,17 +452,17 @@
      ],
      [
       "2026-09-23",
-      95.72
+      95.73
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 95.42,
+    "last": 97.19,
     "as_of": "2026-09-23",
-    "chg_1y_pct": 41.1,
-    "chg_1m_pct": 3.5,
+    "chg_1y_pct": 43.7,
+    "chg_1m_pct": 5.4,
     "points": [
      [
       "2025-09-24",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-09-23",
-      95.42
+      97.19
      ]
     ]
    }
@@ -675,6 +675,18 @@
  "rbi_watch": {
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
   "items": [
+   {
+    "title": "RBI announces OMO Sale of Government of India Securities",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63651",
+    "date": "Wed, 23 Sep 2026 17:20:00",
+    "first_seen": "2026-09-23 13:57 UTC"
+   },
+   {
+    "title": "Treasury Bills: Full Auction Result",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63650",
+    "date": "Wed, 23 Sep 2026 14:55:00",
+    "first_seen": "2026-09-23 13:57 UTC"
+   },
    {
     "title": "State Government Securities - Full Auction Result",
     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63644",
@@ -694,5 +706,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-09-23 08:04 UTC"
+ "fetched_at": "2026-09-23 13:57 UTC"
 }
