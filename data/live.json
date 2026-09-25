@@ -459,10 +459,10 @@
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 99.05,
+    "last": 97.29,
     "as_of": "2026-09-25",
-    "chg_1y_pct": 42.7,
-    "chg_1m_pct": 12.8,
+    "chg_1y_pct": 40.1,
+    "chg_1m_pct": 10.8,
     "points": [
      [
       "2025-09-26",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-09-25",
-      99.05
+      97.29
      ]
     ]
    }
@@ -718,5 +718,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-09-25 14:15 UTC"
+ "fetched_at": "2026-09-25 19:00 UTC"
 }
