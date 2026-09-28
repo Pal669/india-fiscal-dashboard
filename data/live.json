@@ -241,7 +241,7 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 95.96,
+    "last": 95.97,
     "as_of": "2026-09-28",
     "chg_1y_pct": 8.2,
     "chg_1m_pct": 0.5,
@@ -452,17 +452,17 @@
      ],
      [
       "2026-09-28",
-      95.96
+      95.97
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 100.37,
+    "last": 97.77,
     "as_of": "2026-09-28",
-    "chg_1y_pct": 47.7,
-    "chg_1m_pct": 11.9,
+    "chg_1y_pct": 43.8,
+    "chg_1m_pct": 9.0,
     "points": [
      [
       "2025-09-29",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-09-28",
-      100.37
+      97.77
      ]
     ]
    }
@@ -676,28 +676,16 @@
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
   "items": [
    {
-    "title": "Auction of State Government Securities",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63672",
-    "date": "Fri, 25 Sep 2026 18:20:00",
-    "first_seen": "2026-09-25 14:15 UTC"
+    "title": "Auction of Government of India Dated Securities",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63681",
+    "date": "Mon, 28 Sep 2026 18:00:00",
+    "first_seen": "2026-09-28 18:54 UTC"
    },
    {
-    "title": "Auction of 91-Day, 182-Day and 364-Day Treasury Bills",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63671",
-    "date": "Fri, 25 Sep 2026 18:15:00",
-    "first_seen": "2026-09-25 14:15 UTC"
-   },
-   {
-    "title": "WMA Limit for Government of India for October 2026 – March 2027",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63670",
-    "date": "Fri, 25 Sep 2026 18:05:00",
-    "first_seen": "2026-09-25 14:15 UTC"
-   },
-   {
-    "title": "Calendar for Auction of Government of India Treasury Bills",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63669",
-    "date": "Fri, 25 Sep 2026 18:00:00",
-    "first_seen": "2026-09-25 14:15 UTC"
+    "title": "Open Market Operation (OMO) – Sale of Government of India Securities held on Sep 28, 2026: Cut-Offs",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63679",
+    "date": "Mon, 28 Sep 2026 14:50:00",
+    "first_seen": "2026-09-28 18:54 UTC"
    }
   ]
  },
@@ -706,5 +694,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-09-28 09:04 UTC"
+ "fetched_at": "2026-09-28 18:54 UTC"
 }
