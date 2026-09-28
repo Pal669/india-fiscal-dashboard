@@ -241,10 +241,10 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 95.8,
+    "last": 95.96,
     "as_of": "2026-09-28",
-    "chg_1y_pct": 8.0,
-    "chg_1m_pct": 0.3,
+    "chg_1y_pct": 8.2,
+    "chg_1m_pct": 0.5,
     "points": [
      [
       "2025-10-01",
@@ -452,17 +452,17 @@
      ],
      [
       "2026-09-28",
-      95.8
+      95.96
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 98.79,
+    "last": 100.37,
     "as_of": "2026-09-28",
-    "chg_1y_pct": 45.3,
-    "chg_1m_pct": 10.1,
+    "chg_1y_pct": 47.7,
+    "chg_1m_pct": 11.9,
     "points": [
      [
       "2025-09-29",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-09-28",
-      98.79
+      100.37
      ]
     ]
    }
@@ -698,18 +698,6 @@
     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63669",
     "date": "Fri, 25 Sep 2026 18:00:00",
     "first_seen": "2026-09-25 14:15 UTC"
-   },
-   {
-    "title": "Issuance Calendar for Marketable Dated Securities for October 2026 - March 2027",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63668",
-    "date": "Fri, 25 Sep 2026 17:55:00",
-    "first_seen": "2026-09-25 14:15 UTC"
-   },
-   {
-    "title": "Reserve Bank of India – Bulletin Weekly Statistical Supplement – Extract",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63666",
-    "date": "Fri, 25 Sep 2026 17:00:00",
-    "first_seen": "2026-09-25 14:15 UTC"
    }
   ]
  },
@@ -718,5 +706,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-09-28 02:22 UTC"
+ "fetched_at": "2026-09-28 09:04 UTC"
 }
