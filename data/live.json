@@ -241,10 +241,10 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 95.85,
+    "last": 95.82,
     "as_of": "2026-09-30",
-    "chg_1y_pct": 8.1,
-    "chg_1m_pct": 0.8,
+    "chg_1y_pct": 8.0,
+    "chg_1m_pct": 0.7,
     "points": [
      [
       "2025-10-05",
@@ -452,17 +452,17 @@
      ],
      [
       "2026-09-30",
-      95.85
+      95.82
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 96.95,
+    "last": 98.29,
     "as_of": "2026-09-30",
-    "chg_1y_pct": 44.7,
-    "chg_1m_pct": 7.1,
+    "chg_1y_pct": 46.7,
+    "chg_1m_pct": 8.6,
     "points": [
      [
       "2025-10-01",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-09-30",
-      96.95
+      98.29
      ]
     ]
    }
@@ -676,22 +676,10 @@
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
   "items": [
    {
-    "title": "Report of the Advisory Committee on Ways and Means Advances to State Governments",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63689",
-    "date": "Tue, 29 Sep 2026 17:05:00",
-    "first_seen": "2026-09-29 17:11 UTC"
-   },
-   {
-    "title": "State Government Securities - Full Auction Result",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63688",
-    "date": "Tue, 29 Sep 2026 16:25:00",
-    "first_seen": "2026-09-29 17:11 UTC"
-   },
-   {
-    "title": "Result of Yield/Price Based Auction of State Government Securities",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63687",
-    "date": "Tue, 29 Sep 2026 14:50:00",
-    "first_seen": "2026-09-29 17:11 UTC"
+    "title": "Treasury Bills: Full Auction Result",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63696",
+    "date": "Wed, 30 Sep 2026 15:45:00",
+    "first_seen": "2026-09-30 17:09 UTC"
    }
   ]
  },
@@ -700,5 +688,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-09-30 09:06 UTC"
+ "fetched_at": "2026-09-30 17:09 UTC"
 }
