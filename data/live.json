@@ -241,10 +241,10 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 95.97,
+    "last": 95.85,
     "as_of": "2026-09-30",
-    "chg_1y_pct": 8.2,
-    "chg_1m_pct": 0.9,
+    "chg_1y_pct": 8.1,
+    "chg_1m_pct": 0.8,
     "points": [
      [
       "2025-10-05",
@@ -452,17 +452,17 @@
      ],
      [
       "2026-09-30",
-      95.97
+      95.85
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 96.26,
+    "last": 96.95,
     "as_of": "2026-09-30",
-    "chg_1y_pct": 41.6,
-    "chg_1m_pct": 6.4,
+    "chg_1y_pct": 44.7,
+    "chg_1m_pct": 7.1,
     "points": [
      [
       "2025-10-01",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-09-30",
-      96.26
+      96.95
      ]
     ]
    }
@@ -692,12 +692,6 @@
     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63687",
     "date": "Tue, 29 Sep 2026 14:50:00",
     "first_seen": "2026-09-29 17:11 UTC"
-   },
-   {
-    "title": "Auction of Government of India Dated Securities",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63681",
-    "date": "Mon, 28 Sep 2026 18:00:00",
-    "first_seen": "2026-09-28 18:54 UTC"
    }
   ]
  },
@@ -706,5 +700,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-09-30 02:48 UTC"
+ "fetched_at": "2026-09-30 09:06 UTC"
 }
