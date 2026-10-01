@@ -241,10 +241,10 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 95.82,
+    "last": 96.21,
     "as_of": "2026-10-01",
-    "chg_1y_pct": 7.9,
-    "chg_1m_pct": 0.9,
+    "chg_1y_pct": 8.3,
+    "chg_1m_pct": 1.3,
     "points": [
      [
       "2025-10-06",
@@ -452,17 +452,17 @@
      ],
      [
       "2026-10-01",
-      95.82
+      96.21
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 97.67,
+    "last": 100.34,
     "as_of": "2026-10-01",
-    "chg_1y_pct": 45.7,
-    "chg_1m_pct": 3.2,
+    "chg_1y_pct": 53.5,
+    "chg_1m_pct": 6.0,
     "points": [
      [
       "2025-10-02",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-10-01",
-      97.67
+      100.34
      ]
     ]
    }
@@ -674,19 +674,12 @@
  },
  "rbi_watch": {
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
-  "items": [
-   {
-    "title": "Treasury Bills: Full Auction Result",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63696",
-    "date": "Wed, 30 Sep 2026 15:45:00",
-    "first_seen": "2026-09-30 17:09 UTC"
-   }
-  ]
+  "items": []
  },
  "status": {
   "world_bank": "ok",
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-10-01 02:54 UTC"
+ "fetched_at": "2026-10-01 09:33 UTC"
 }
