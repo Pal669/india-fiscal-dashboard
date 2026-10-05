@@ -241,7 +241,7 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 96.3,
+    "last": 96.27,
     "as_of": "2026-10-05",
     "chg_1y_pct": 8.5,
     "chg_1m_pct": 1.9,
@@ -452,17 +452,17 @@
      ],
      [
       "2026-10-05",
-      96.3
+      96.27
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 101.59,
+    "last": 102.2,
     "as_of": "2026-10-05",
-    "chg_1y_pct": 55.2,
-    "chg_1m_pct": 6.4,
+    "chg_1y_pct": 56.1,
+    "chg_1m_pct": 7.0,
     "points": [
      [
       "2025-10-06",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-10-05",
-      101.59
+      102.2
      ]
     ]
    }
@@ -674,43 +674,12 @@
  },
  "rbi_watch": {
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
-  "items": [
-   {
-    "title": "Reserve Bank of India – Bulletin Weekly Statistical Supplement – Extract",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63718",
-    "date": "Fri, 02 Oct 2026 17:00:00",
-    "first_seen": "2026-10-02 16:58 UTC"
-   },
-   {
-    "title": "Auction of State Government Securities",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63716",
-    "date": "Thu, 01 Oct 2026 19:20:00",
-    "first_seen": "2026-10-01 17:39 UTC"
-   },
-   {
-    "title": "Indicative Calendar of Market borrowings by State Governments/ Union Territories for the Quarter October – December 2026",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63715",
-    "date": "Thu, 01 Oct 2026 19:15:00",
-    "first_seen": "2026-10-01 17:39 UTC"
-   },
-   {
-    "title": "Rate of Interest on Government of India Floating Rate Bond 2028",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63713",
-    "date": "Thu, 01 Oct 2026 17:30:00",
-    "first_seen": "2026-10-01 17:39 UTC"
-   },
-   {
-    "title": "Auction of 91-Day, 182-Day and 364-Day Treasury Bills",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63712",
-    "date": "Thu, 01 Oct 2026 17:25:00",
-    "first_seen": "2026-10-01 17:39 UTC"
-   }
-  ]
+  "items": []
  },
  "status": {
   "world_bank": "ok",
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-10-05 02:50 UTC"
+ "fetched_at": "2026-10-05 09:46 UTC"
 }
