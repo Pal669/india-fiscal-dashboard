@@ -241,9 +241,9 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 96.72,
+    "last": 96.76,
     "as_of": "2026-10-09",
-    "chg_1y_pct": 8.9,
+    "chg_1y_pct": 9.0,
     "chg_1m_pct": 1.7,
     "points": [
      [
@@ -452,17 +452,17 @@
      ],
      [
       "2026-10-09",
-      96.72
+      96.76
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 102.98,
+    "last": 104.45,
     "as_of": "2026-10-09",
-    "chg_1y_pct": 57.9,
-    "chg_1m_pct": -4.3,
+    "chg_1y_pct": 60.2,
+    "chg_1m_pct": -3.0,
     "points": [
      [
       "2025-10-10",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-10-09",
-      102.98
+      104.45
      ]
     ]
    }
@@ -674,12 +674,37 @@
  },
  "rbi_watch": {
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
-  "items": []
+  "items": [
+   {
+    "title": "Auction of State Government Securities",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63780",
+    "date": "Fri, 09 Oct 2026 17:55:00",
+    "first_seen": "2026-10-09 17:40 UTC"
+   },
+   {
+    "title": "RBI announces OMO Sale of Government of India Securities",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63779",
+    "date": "Fri, 09 Oct 2026 17:25:00",
+    "first_seen": "2026-10-09 17:40 UTC"
+   },
+   {
+    "title": "Auction of 91-Day, 182-Day and 364-Day Treasury Bills",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63778",
+    "date": "Fri, 09 Oct 2026 17:15:00",
+    "first_seen": "2026-10-09 17:40 UTC"
+   },
+   {
+    "title": "Reserve Bank of India – Bulletin Weekly Statistical Supplement – Extract",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63777",
+    "date": "Fri, 09 Oct 2026 17:00:00",
+    "first_seen": "2026-10-09 17:40 UTC"
+   }
+  ]
  },
  "status": {
   "world_bank": "ok",
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-10-09 09:47 UTC"
+ "fetched_at": "2026-10-09 17:40 UTC"
 }
