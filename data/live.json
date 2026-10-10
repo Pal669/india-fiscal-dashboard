@@ -708,7 +708,7 @@
  "status": {
   "world_bank": "ok",
   "market": "ok",
-  "rbi_watch": "ok"
+  "rbi_watch": "failed - kept previous data"
  },
- "fetched_at": "2026-10-10 11:31 UTC"
+ "fetched_at": "2026-10-10 20:49 UTC"
 }
