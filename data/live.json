@@ -241,10 +241,10 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 96.78,
-    "as_of": "2026-10-11",
-    "chg_1y_pct": 9.0,
-    "chg_1m_pct": 1.1,
+    "last": 95.76,
+    "as_of": "2026-10-12",
+    "chg_1y_pct": 7.9,
+    "chg_1m_pct": 0.1,
     "points": [
      [
       "2025-10-15",
@@ -451,18 +451,18 @@
       96.33
      ],
      [
-      "2026-10-11",
-      96.78
+      "2026-10-12",
+      95.76
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 102.9,
+    "last": 106.71,
     "as_of": "2026-10-12",
-    "chg_1y_pct": 62.5,
-    "chg_1m_pct": -1.6,
+    "chg_1y_pct": 68.5,
+    "chg_1m_pct": 2.0,
     "points": [
      [
       "2025-10-13",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-10-12",
-      102.9
+      106.71
      ]
     ]
    }
@@ -676,28 +676,10 @@
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
   "items": [
    {
-    "title": "Auction of State Government Securities",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63780",
-    "date": "Fri, 09 Oct 2026 17:55:00",
-    "first_seen": "2026-10-09 17:40 UTC"
-   },
-   {
-    "title": "RBI announces OMO Sale of Government of India Securities",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63779",
-    "date": "Fri, 09 Oct 2026 17:25:00",
-    "first_seen": "2026-10-09 17:40 UTC"
-   },
-   {
-    "title": "Auction of 91-Day, 182-Day and 364-Day Treasury Bills",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63778",
-    "date": "Fri, 09 Oct 2026 17:15:00",
-    "first_seen": "2026-10-09 17:40 UTC"
-   },
-   {
-    "title": "Reserve Bank of India – Bulletin Weekly Statistical Supplement – Extract",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63777",
-    "date": "Fri, 09 Oct 2026 17:00:00",
-    "first_seen": "2026-10-09 17:40 UTC"
+    "title": "Auction of Government of India Dated Security",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63792",
+    "date": "Mon, 12 Oct 2026 17:30:00",
+    "first_seen": "2026-10-12 13:49 UTC"
    }
   ]
  },
@@ -706,5 +688,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-10-12 03:05 UTC"
+ "fetched_at": "2026-10-12 13:49 UTC"
 }
