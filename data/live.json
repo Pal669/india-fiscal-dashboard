@@ -241,10 +241,10 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 95.24,
+    "last": 95.27,
     "as_of": "2026-10-13",
     "chg_1y_pct": 7.3,
-    "chg_1m_pct": -0.5,
+    "chg_1m_pct": -0.4,
     "points": [
      [
       "2025-10-15",
@@ -452,17 +452,17 @@
      ],
      [
       "2026-10-13",
-      95.24
+      95.27
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 105.33,
+    "last": 104.88,
     "as_of": "2026-10-13",
-    "chg_1y_pct": 66.3,
-    "chg_1m_pct": -0.3,
+    "chg_1y_pct": 65.6,
+    "chg_1m_pct": -0.8,
     "points": [
      [
       "2025-10-14",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-10-13",
-      105.33
+      104.88
      ]
     ]
    }
@@ -675,6 +675,24 @@
  "rbi_watch": {
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
   "items": [
+   {
+    "title": "State Government Securities - Full Auction Result",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63799",
+    "date": "Tue, 13 Oct 2026 16:25:00",
+    "first_seen": "2026-10-13 13:06 UTC"
+   },
+   {
+    "title": "Result of Yield/Price Based Auction of State Government Securities",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63797",
+    "date": "Tue, 13 Oct 2026 14:45:00",
+    "first_seen": "2026-10-13 13:06 UTC"
+   },
+   {
+    "title": "Open Market Operation (OMO) – Sale of Government of India  Securities held on Oct 13, 2026: Cut-Offs",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63796",
+    "date": "Tue, 13 Oct 2026 14:30:00",
+    "first_seen": "2026-10-13 13:06 UTC"
+   },
    {
     "title": "Auction of Government of India Dated Security",
     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63792",
@@ -688,5 +706,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-10-13 04:20 UTC"
+ "fetched_at": "2026-10-13 13:06 UTC"
 }
