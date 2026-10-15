@@ -241,10 +241,10 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 94.96,
+    "last": 95.04,
     "as_of": "2026-10-15",
-    "chg_1y_pct": 7.0,
-    "chg_1m_pct": -1.1,
+    "chg_1y_pct": 7.1,
+    "chg_1m_pct": -1.0,
     "points": [
      [
       "2025-10-20",
@@ -452,17 +452,17 @@
      ],
      [
       "2026-10-15",
-      94.96
+      95.04
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 104.03,
+    "last": 104.94,
     "as_of": "2026-10-15",
-    "chg_1y_pct": 68.0,
-    "chg_1m_pct": -1.7,
+    "chg_1y_pct": 69.5,
+    "chg_1m_pct": -0.8,
     "points": [
      [
       "2025-10-16",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-10-15",
-      104.03
+      104.94
      ]
     ]
    }
@@ -676,15 +676,15 @@
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
   "items": [
    {
+    "title": "Auction of State Government Securities",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63814",
+    "date": "Thu, 15 Oct 2026 17:50:00",
+    "first_seen": "2026-10-15 13:45 UTC"
+   },
+   {
     "title": "Conversion/Switch of Government of India Securities",
     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63806",
     "date": "Wed, 14 Oct 2026 19:20:00",
-    "first_seen": "2026-10-14 14:08 UTC"
-   },
-   {
-    "title": "Treasury Bills: Full Auction Result",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63804",
-    "date": "Wed, 14 Oct 2026 14:25:00",
     "first_seen": "2026-10-14 14:08 UTC"
    }
   ]
@@ -694,5 +694,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-10-15 07:48 UTC"
+ "fetched_at": "2026-10-15 13:45 UTC"
 }
