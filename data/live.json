@@ -241,9 +241,9 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 94.99,
+    "last": 94.95,
     "as_of": "2026-10-16",
-    "chg_1y_pct": 8.2,
+    "chg_1y_pct": 8.1,
     "chg_1m_pct": -1.2,
     "points": [
      [
@@ -452,17 +452,17 @@
      ],
      [
       "2026-10-16",
-      94.99
+      94.95
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 105.39,
+    "last": 105.67,
     "as_of": "2026-10-16",
-    "chg_1y_pct": 72.6,
-    "chg_1m_pct": 0.5,
+    "chg_1y_pct": 73.1,
+    "chg_1m_pct": 0.8,
     "points": [
      [
       "2025-10-17",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-10-16",
-      105.39
+      105.67
      ]
     ]
    }
@@ -675,6 +675,18 @@
  "rbi_watch": {
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
   "items": [
+   {
+    "title": "Auction of 91-Day, 182-Day and 364-Day Treasury Bills",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63821",
+    "date": "Fri, 16 Oct 2026 17:25:00",
+    "first_seen": "2026-10-16 13:36 UTC"
+   },
+   {
+    "title": "Reserve Bank of India – Bulletin Weekly Statistical Supplement – Extract",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63819",
+    "date": "Fri, 16 Oct 2026 17:00:00",
+    "first_seen": "2026-10-16 13:36 UTC"
+   },
    {
     "title": "Auction of State Government Securities",
     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63814",
@@ -688,5 +700,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-10-16 07:37 UTC"
+ "fetched_at": "2026-10-16 13:36 UTC"
 }
