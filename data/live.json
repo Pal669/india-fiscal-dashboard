@@ -241,10 +241,10 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 95.04,
+    "last": 94.99,
     "as_of": "2026-10-16",
     "chg_1y_pct": 8.2,
-    "chg_1m_pct": -1.1,
+    "chg_1m_pct": -1.2,
     "points": [
      [
       "2025-10-21",
@@ -452,17 +452,17 @@
      ],
      [
       "2026-10-16",
-      95.04
+      94.99
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 105.61,
+    "last": 105.39,
     "as_of": "2026-10-16",
-    "chg_1y_pct": 70.6,
-    "chg_1m_pct": 0.8,
+    "chg_1y_pct": 72.6,
+    "chg_1m_pct": 0.5,
     "points": [
      [
       "2025-10-17",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-10-16",
-      105.61
+      105.39
      ]
     ]
    }
@@ -680,12 +680,6 @@
     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63814",
     "date": "Thu, 15 Oct 2026 17:50:00",
     "first_seen": "2026-10-15 13:45 UTC"
-   },
-   {
-    "title": "Conversion/Switch of Government of India Securities",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63806",
-    "date": "Wed, 14 Oct 2026 19:20:00",
-    "first_seen": "2026-10-14 14:08 UTC"
    }
   ]
  },
@@ -694,5 +688,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-10-16 02:03 UTC"
+ "fetched_at": "2026-10-16 07:37 UTC"
 }
