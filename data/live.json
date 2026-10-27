@@ -241,7 +241,7 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 95.14,
+    "last": 95.11,
     "as_of": "2026-10-27",
     "chg_1y_pct": 8.3,
     "chg_1m_pct": -0.7,
@@ -452,17 +452,17 @@
      ],
      [
       "2026-10-27",
-      95.14
+      95.11
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 111.38,
+    "last": 109.49,
     "as_of": "2026-10-27",
-    "chg_1y_pct": 69.7,
-    "chg_1m_pct": 5.8,
+    "chg_1y_pct": 66.9,
+    "chg_1m_pct": 4.0,
     "points": [
      [
       "2025-10-28",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-10-27",
-      111.38
+      109.49
      ]
     ]
    }
@@ -676,16 +676,22 @@
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
   "items": [
    {
+    "title": "State Government Securities - Full Auction Result",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63871",
+    "date": "Tue, 27 Oct 2026 16:20:00",
+    "first_seen": "2026-10-27 14:59 UTC"
+   },
+   {
+    "title": "Result of Yield/Price Based Auction of State Government Securities",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63870",
+    "date": "Tue, 27 Oct 2026 14:50:00",
+    "first_seen": "2026-10-27 14:59 UTC"
+   },
+   {
     "title": "Auction of Government of India Dated Securities",
     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63868",
     "date": "Mon, 26 Oct 2026 18:20:00",
     "first_seen": "2026-10-26 15:35 UTC"
-   },
-   {
-    "title": "Auction of State Government Securities",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63860",
-    "date": "Fri, 23 Oct 2026 18:40:00",
-    "first_seen": "2026-10-23 13:54 UTC"
    }
   ]
  },
@@ -694,5 +700,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-10-27 08:27 UTC"
+ "fetched_at": "2026-10-27 14:59 UTC"
 }
