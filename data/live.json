@@ -459,10 +459,10 @@
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 110.45,
+    "last": 110.83,
     "as_of": "2026-10-29",
-    "chg_1y_pct": 70.1,
-    "chg_1m_pct": 6.7,
+    "chg_1y_pct": 70.7,
+    "chg_1m_pct": 7.1,
     "points": [
      [
       "2025-10-30",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-10-29",
-      110.45
+      110.83
      ]
     ]
    }
@@ -675,6 +675,12 @@
  "rbi_watch": {
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
   "items": [
+   {
+    "title": "Rate of Interest on Government of India Floating Rate Bond 2034",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63883",
+    "date": "Thu, 29 Oct 2026 17:20:00",
+    "first_seen": "2026-10-29 17:43 UTC"
+   },
    {
     "title": "Treasury Bills: Full Auction Result",
     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63877",
@@ -688,5 +694,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-10-29 11:55 UTC"
+ "fetched_at": "2026-10-29 17:43 UTC"
 }
