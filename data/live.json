@@ -241,10 +241,10 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 95.18,
+    "last": 94.94,
     "as_of": "2026-10-30",
-    "chg_1y_pct": 7.7,
-    "chg_1m_pct": -0.8,
+    "chg_1y_pct": 7.5,
+    "chg_1m_pct": -1.0,
     "points": [
      [
       "2025-11-05",
@@ -452,17 +452,17 @@
      ],
      [
       "2026-10-30",
-      95.18
+      94.94
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 112.37,
+    "last": 113.28,
     "as_of": "2026-10-30",
-    "chg_1y_pct": 73.1,
-    "chg_1m_pct": 9.8,
+    "chg_1y_pct": 74.3,
+    "chg_1m_pct": 10.7,
     "points": [
      [
       "2025-10-31",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-10-30",
-      112.37
+      113.28
      ]
     ]
    }
@@ -676,16 +676,16 @@
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
   "items": [
    {
+    "title": "Reserve Bank of India – Bulletin Weekly Statistical Supplement – Extract",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63890",
+    "date": "Fri, 30 Oct 2026 17:00:00",
+    "first_seen": "2026-10-30 11:48 UTC"
+   },
+   {
     "title": "Rate of Interest on Government of India Floating Rate Bond 2034",
     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63883",
     "date": "Thu, 29 Oct 2026 17:20:00",
     "first_seen": "2026-10-29 17:43 UTC"
-   },
-   {
-    "title": "Treasury Bills: Full Auction Result",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63877",
-    "date": "Wed, 28 Oct 2026 14:50:00",
-    "first_seen": "2026-10-28 17:33 UTC"
    }
   ]
  },
@@ -694,5 +694,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-10-30 03:20 UTC"
+ "fetched_at": "2026-10-30 11:48 UTC"
 }
