@@ -459,10 +459,10 @@
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 113.28,
+    "last": 114.08,
     "as_of": "2026-10-30",
-    "chg_1y_pct": 74.3,
-    "chg_1m_pct": 10.7,
+    "chg_1y_pct": 75.5,
+    "chg_1m_pct": 11.5,
     "points": [
      [
       "2025-10-31",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-10-30",
-      113.28
+      114.08
      ]
     ]
    }
@@ -676,16 +676,22 @@
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
   "items": [
    {
+    "title": "Auction of State Government Securities",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63896",
+    "date": "Fri, 30 Oct 2026 18:10:00",
+    "first_seen": "2026-10-30 17:23 UTC"
+   },
+   {
+    "title": "Auction of 91-Day, 182-Day and 364-Day Treasury Bills",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63895",
+    "date": "Fri, 30 Oct 2026 17:40:00",
+    "first_seen": "2026-10-30 17:23 UTC"
+   },
+   {
     "title": "Reserve Bank of India – Bulletin Weekly Statistical Supplement – Extract",
     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63890",
     "date": "Fri, 30 Oct 2026 17:00:00",
     "first_seen": "2026-10-30 11:48 UTC"
-   },
-   {
-    "title": "Rate of Interest on Government of India Floating Rate Bond 2034",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63883",
-    "date": "Thu, 29 Oct 2026 17:20:00",
-    "first_seen": "2026-10-29 17:43 UTC"
    }
   ]
  },
@@ -694,5 +700,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-10-30 11:48 UTC"
+ "fetched_at": "2026-10-30 17:23 UTC"
 }
