@@ -241,10 +241,10 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 94.73,
+    "last": 94.78,
     "as_of": "2026-11-03",
-    "chg_1y_pct": 6.7,
-    "chg_1m_pct": -1.7,
+    "chg_1y_pct": 6.8,
+    "chg_1m_pct": -1.6,
     "points": [
      [
       "2025-11-07",
@@ -452,17 +452,17 @@
      ],
      [
       "2026-11-03",
-      94.73
+      94.78
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 104.85,
+    "last": 105.2,
     "as_of": "2026-11-03",
-    "chg_1y_pct": 61.6,
-    "chg_1m_pct": 4.5,
+    "chg_1y_pct": 62.1,
+    "chg_1m_pct": 4.9,
     "points": [
      [
       "2025-11-04",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-11-03",
-      104.85
+      105.2
      ]
     ]
    }
@@ -676,22 +676,22 @@
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
   "items": [
    {
+    "title": "State Government Securities - Full Auction Result",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63910",
+    "date": "Tue, 03 Nov 2026 17:05:00",
+    "first_seen": "2026-11-03 13:10 UTC"
+   },
+   {
+    "title": "Result of Yield/Price Based Auction of State Government Securities",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63906",
+    "date": "Tue, 03 Nov 2026 15:25:00",
+    "first_seen": "2026-11-03 13:10 UTC"
+   },
+   {
     "title": "Auction of Government of India Dated Securities",
     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63902",
     "date": "Mon, 02 Nov 2026 18:25:00",
     "first_seen": "2026-11-02 14:04 UTC"
-   },
-   {
-    "title": "Auction of State Government Securities",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63896",
-    "date": "Fri, 30 Oct 2026 18:10:00",
-    "first_seen": "2026-10-30 17:23 UTC"
-   },
-   {
-    "title": "Auction of 91-Day, 182-Day and 364-Day Treasury Bills",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63895",
-    "date": "Fri, 30 Oct 2026 17:40:00",
-    "first_seen": "2026-10-30 17:23 UTC"
    }
   ]
  },
@@ -700,5 +700,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-11-03 04:27 UTC"
+ "fetched_at": "2026-11-03 13:10 UTC"
 }
