@@ -45,27 +45,6 @@
      "2022": 9.37969496475912
     }
    },
-   "GC.XPN.TOTL.GD.ZS": {
-    "label": "Central govt expense",
-    "unit": "% of GDP",
-    "data": {
-     "2005": 15.1739835903438,
-     "2006": 15.1894795636765,
-     "2007": 15.2578600235571,
-     "2008": 17.2276704329522,
-     "2009": 16.8518927116001,
-     "2010": 16.5051359514049,
-     "2011": 14.4898394030493,
-     "2012": 16.166712404362,
-     "2013": 16.6386825486965,
-     "2014": 14.803137644208,
-     "2015": 15.1256903622794,
-     "2016": 15.2719500252316,
-     "2017": 15.6141099220983,
-     "2018": 15.6631319151388,
-     "2022": 13.7280694252264
-    }
-   },
    "GC.TAX.TOTL.GD.ZS": {
     "label": "Central govt tax revenue",
     "unit": "% of GDP",
@@ -241,7 +220,7 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 94.47,
+    "last": 94.46,
     "as_of": "2026-11-05",
     "chg_1y_pct": 6.5,
     "chg_1m_pct": -2.0,
@@ -452,17 +431,17 @@
      ],
      [
       "2026-11-05",
-      94.47
+      94.46
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 95.73,
+    "last": 97.66,
     "as_of": "2026-11-05",
-    "chg_1y_pct": 50.7,
-    "chg_1m_pct": -4.5,
+    "chg_1y_pct": 53.7,
+    "chg_1m_pct": -2.5,
     "points": [
      [
       "2025-11-06",
@@ -666,7 +645,7 @@
      ],
      [
       "2026-11-05",
-      95.73
+      97.66
      ]
     ]
    }
@@ -676,10 +655,10 @@
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
   "items": [
    {
-    "title": "Treasury Bills: Full Auction Result",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63918",
-    "date": "Wed, 04 Nov 2026 14:45:00",
-    "first_seen": "2026-11-04 10:06 UTC"
+    "title": "Auction of State Government Securities",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63931",
+    "date": "Thu, 05 Nov 2026 18:55:00",
+    "first_seen": "2026-11-05 19:12 UTC"
    }
   ]
  },
@@ -688,5 +667,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-11-05 09:59 UTC"
+ "fetched_at": "2026-11-05 19:12 UTC"
 }
