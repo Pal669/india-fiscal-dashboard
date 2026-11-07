@@ -241,10 +241,10 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 93.89,
+    "last": 94.46,
     "as_of": "2026-11-06",
-    "chg_1y_pct": 6.0,
-    "chg_1m_pct": -3.0,
+    "chg_1y_pct": 6.7,
+    "chg_1m_pct": -2.4,
     "points": [
      [
       "2025-11-12",
@@ -452,17 +452,17 @@
      ],
      [
       "2026-11-06",
-      93.89
+      94.46
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 97.32,
+    "last": 97.76,
     "as_of": "2026-11-06",
-    "chg_1y_pct": 53.6,
-    "chg_1m_pct": -6.7,
+    "chg_1y_pct": 54.2,
+    "chg_1m_pct": -6.3,
     "points": [
      [
       "2025-11-07",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-11-06",
-      97.32
+      97.76
      ]
     ]
    }
@@ -694,5 +694,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-11-06 18:38 UTC"
+ "fetched_at": "2026-11-07 00:28 UTC"
 }
