@@ -241,7 +241,7 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 93.93,
+    "last": 93.92,
     "as_of": "2026-11-09",
     "chg_1y_pct": 5.9,
     "chg_1m_pct": -3.0,
@@ -452,17 +452,17 @@
      ],
      [
       "2026-11-09",
-      93.93
+      93.92
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 97.13,
+    "last": 92.47,
     "as_of": "2026-11-09",
-    "chg_1y_pct": 51.6,
-    "chg_1m_pct": -7.2,
+    "chg_1y_pct": 44.3,
+    "chg_1m_pct": -11.7,
     "points": [
      [
       "2025-11-10",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-11-09",
-      97.13
+      92.47
      ]
     ]
    }
@@ -676,22 +676,22 @@
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
   "items": [
    {
+    "title": "Auction of Government of India Dated Security",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63952",
+    "date": "Mon, 09 Nov 2026 18:55:00",
+    "first_seen": "2026-11-09 21:42 UTC"
+   },
+   {
+    "title": "State Government Securities - Full Auction Result",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63950",
+    "date": "Mon, 09 Nov 2026 16:25:00",
+    "first_seen": "2026-11-09 21:42 UTC"
+   },
+   {
     "title": "Result of Yield/Price Based Auction of State Government Securities",
     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63948",
     "date": "Mon, 09 Nov 2026 14:55:00",
     "first_seen": "2026-11-09 10:34 UTC"
-   },
-   {
-    "title": "Auction of 91-Day, 182-Day and 364-Day Treasury Bills",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63942",
-    "date": "Fri, 06 Nov 2026 17:55:00",
-    "first_seen": "2026-11-06 18:38 UTC"
-   },
-   {
-    "title": "Reserve Bank of India – Bulletin Weekly Statistical Supplement – Extract",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63939",
-    "date": "Fri, 06 Nov 2026 17:00:00",
-    "first_seen": "2026-11-06 18:38 UTC"
    }
   ]
  },
@@ -700,5 +700,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-11-09 10:34 UTC"
+ "fetched_at": "2026-11-09 21:42 UTC"
 }
