@@ -241,8 +241,8 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 93.89,
-    "as_of": "2026-11-08",
+    "last": 93.93,
+    "as_of": "2026-11-09",
     "chg_1y_pct": 5.9,
     "chg_1m_pct": -3.0,
     "points": [
@@ -451,18 +451,18 @@
       94.9
      ],
      [
-      "2026-11-08",
-      93.89
+      "2026-11-09",
+      93.93
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 97.42,
+    "last": 97.13,
     "as_of": "2026-11-09",
-    "chg_1y_pct": 52.1,
-    "chg_1m_pct": -7.0,
+    "chg_1y_pct": 51.6,
+    "chg_1m_pct": -7.2,
     "points": [
      [
       "2025-11-10",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-11-09",
-      97.42
+      97.13
      ]
     ]
    }
@@ -675,6 +675,12 @@
  "rbi_watch": {
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
   "items": [
+   {
+    "title": "Result of Yield/Price Based Auction of State Government Securities",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63948",
+    "date": "Mon, 09 Nov 2026 14:55:00",
+    "first_seen": "2026-11-09 10:34 UTC"
+   },
    {
     "title": "Auction of 91-Day, 182-Day and 364-Day Treasury Bills",
     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63942",
@@ -694,5 +700,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-11-09 00:15 UTC"
+ "fetched_at": "2026-11-09 10:34 UTC"
 }
