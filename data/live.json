@@ -241,10 +241,10 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 93.73,
+    "last": 93.68,
     "as_of": "2026-11-11",
-    "chg_1y_pct": 5.7,
-    "chg_1m_pct": -2.1,
+    "chg_1y_pct": 5.6,
+    "chg_1m_pct": -2.2,
     "points": [
      [
       "2025-11-17",
@@ -452,17 +452,17 @@
      ],
      [
       "2026-11-11",
-      93.73
+      93.68
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 92.37,
+    "last": 93.21,
     "as_of": "2026-11-11",
-    "chg_1y_pct": 44.2,
-    "chg_1m_pct": -12.6,
+    "chg_1y_pct": 43.0,
+    "chg_1m_pct": -11.8,
     "points": [
      [
       "2025-11-12",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-11-11",
-      92.37
+      93.21
      ]
     ]
    }
@@ -675,6 +675,18 @@
  "rbi_watch": {
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
   "items": [
+   {
+    "title": "Conversion/Switch of Government of India Securities",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63958",
+    "date": "Wed, 11 Nov 2026 18:10:00",
+    "first_seen": "2026-11-11 13:07 UTC"
+   },
+   {
+    "title": "Treasury Bills: Full Auction Result",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63956",
+    "date": "Wed, 11 Nov 2026 13:40:00",
+    "first_seen": "2026-11-11 13:07 UTC"
+   },
    {
     "title": "Auction of Government of India Dated Security",
     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63952",
@@ -686,12 +698,6 @@
     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63950",
     "date": "Mon, 09 Nov 2026 16:25:00",
     "first_seen": "2026-11-09 21:42 UTC"
-   },
-   {
-    "title": "Result of Yield/Price Based Auction of State Government Securities",
-    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63948",
-    "date": "Mon, 09 Nov 2026 14:55:00",
-    "first_seen": "2026-11-09 10:34 UTC"
    }
   ]
  },
@@ -700,5 +706,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-11-11 03:36 UTC"
+ "fetched_at": "2026-11-11 13:07 UTC"
 }
