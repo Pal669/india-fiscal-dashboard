@@ -1,7 +1,7 @@
 {
  "world_bank": {
   "source": "World Bank WDI (IMF Government Finance Statistics for the fiscal series)",
-  "lastupdated": "2026-10-08",
+  "lastupdated": "2026-11-11",
   "series": {
    "GC.NLD.TOTL.GD.ZS": {
     "label": "Central govt net lending / borrowing",
@@ -459,10 +459,10 @@
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 93.21,
+    "last": 92.55,
     "as_of": "2026-11-11",
-    "chg_1y_pct": 43.0,
-    "chg_1m_pct": -11.8,
+    "chg_1y_pct": 42.0,
+    "chg_1m_pct": -12.4,
     "points": [
      [
       "2025-11-12",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-11-11",
-      93.21
+      92.55
      ]
     ]
    }
@@ -706,5 +706,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-11-11 13:07 UTC"
+ "fetched_at": "2026-11-11 21:38 UTC"
 }
