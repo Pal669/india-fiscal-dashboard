@@ -24,27 +24,6 @@
      "2022": -5.2600268875823
     }
    },
-   "GC.REV.XGRT.GD.ZS": {
-    "label": "Central govt revenue (excl. grants)",
-    "unit": "% of GDP",
-    "data": {
-     "2005": 12.3350942450845,
-     "2006": 13.3167898343502,
-     "2007": 14.4395957808587,
-     "2008": 12.7597307966559,
-     "2009": 11.4202885918772,
-     "2010": 13.1835965373763,
-     "2011": 11.4959960090891,
-     "2012": 12.599872776486,
-     "2013": 12.6089934124693,
-     "2014": 11.550620644555,
-     "2015": 12.4152095425778,
-     "2016": 12.8510169890546,
-     "2017": 12.7267619005257,
-     "2018": 13.1885329486481,
-     "2022": 9.37969496475912
-    }
-   },
    "GC.XPN.TOTL.GD.ZS": {
     "label": "Central govt expense",
     "unit": "% of GDP",
@@ -64,27 +43,6 @@
      "2017": 15.6141099220983,
      "2018": 15.6631319151388,
      "2022": 13.7280694252264
-    }
-   },
-   "GC.TAX.TOTL.GD.ZS": {
-    "label": "Central govt tax revenue",
-    "unit": "% of GDP",
-    "data": {
-     "2005": 10.0809315263538,
-     "2006": 11.1293370539779,
-     "2007": 12.1083469904149,
-     "2008": 10.9771721522223,
-     "2009": 9.80972540638804,
-     "2010": 10.3880397905312,
-     "2011": 10.1773871997608,
-     "2012": 10.8367717209692,
-     "2013": 11.0016256942917,
-     "2014": 9.98465419071312,
-     "2015": 10.5697090519718,
-     "2016": 11.1477384183764,
-     "2017": 11.3874439798131,
-     "2018": 12.0174277483166,
-     "2022": 6.93372148022965
     }
    },
    "GC.XPN.INTP.RV.ZS": {
@@ -241,10 +199,10 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 93.58,
+    "last": 93.46,
     "as_of": "2026-11-17",
-    "chg_1y_pct": 5.5,
-    "chg_1m_pct": -1.5,
+    "chg_1y_pct": 5.4,
+    "chg_1m_pct": -1.6,
     "points": [
      [
       "2025-11-21",
@@ -452,17 +410,17 @@
      ],
      [
       "2026-11-17",
-      93.58
+      93.46
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 91.61,
+    "last": 93.79,
     "as_of": "2026-11-17",
-    "chg_1y_pct": 42.7,
-    "chg_1m_pct": -16.4,
+    "chg_1y_pct": 46.1,
+    "chg_1m_pct": -14.4,
     "points": [
      [
       "2025-11-18",
@@ -666,7 +624,7 @@
      ],
      [
       "2026-11-17",
-      91.61
+      93.79
      ]
     ]
    }
@@ -675,6 +633,18 @@
  "rbi_watch": {
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
   "items": [
+   {
+    "title": "State Government Securities - Full Auction Result",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63989",
+    "date": "Tue, 17 Nov 2026 16:40:00",
+    "first_seen": "2026-11-17 15:06 UTC"
+   },
+   {
+    "title": "Result of Yield/Price Based Auction of State Government Securities",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63987",
+    "date": "Tue, 17 Nov 2026 15:05:00",
+    "first_seen": "2026-11-17 15:06 UTC"
+   },
    {
     "title": "Auction of Government of India Dated Securities",
     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63983",
@@ -694,5 +664,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-11-17 05:38 UTC"
+ "fetched_at": "2026-11-17 15:06 UTC"
 }
