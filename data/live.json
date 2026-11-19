@@ -241,7 +241,7 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 93.29,
+    "last": 93.28,
     "as_of": "2026-11-19",
     "chg_1y_pct": 5.3,
     "chg_1m_pct": -1.5,
@@ -452,17 +452,17 @@
      ],
      [
       "2026-11-19",
-      93.29
+      93.28
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 89.77,
+    "last": 89.5,
     "as_of": "2026-11-19",
-    "chg_1y_pct": 41.3,
-    "chg_1m_pct": -17.5,
+    "chg_1y_pct": 40.9,
+    "chg_1m_pct": -17.8,
     "points": [
      [
       "2025-11-20",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-11-19",
-      89.77
+      89.5
      ]
     ]
    }
@@ -675,6 +675,12 @@
  "rbi_watch": {
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
   "items": [
+   {
+    "title": "Auction of State Government Securities",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64004",
+    "date": "Thu, 19 Nov 2026 19:05:00",
+    "first_seen": "2026-11-19 19:42 UTC"
+   },
    {
     "title": "Treasury Bills: Full Auction Result",
     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63995",
@@ -688,5 +694,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-11-19 10:53 UTC"
+ "fetched_at": "2026-11-19 19:42 UTC"
 }
