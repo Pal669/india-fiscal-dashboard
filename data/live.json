@@ -241,10 +241,10 @@
    "INR=X": {
     "label": "USD/INR",
     "unit": "INR per USD",
-    "last": 92.73,
+    "last": 92.9,
     "as_of": "2026-11-23",
-    "chg_1y_pct": 3.5,
-    "chg_1m_pct": -2.1,
+    "chg_1y_pct": 3.6,
+    "chg_1m_pct": -1.9,
     "points": [
      [
       "2025-11-27",
@@ -452,17 +452,17 @@
      ],
      [
       "2026-11-23",
-      92.73
+      92.9
      ]
     ]
    },
    "BZ=F": {
     "label": "Brent crude (front month)",
     "unit": "USD per barrel",
-    "last": 88.35,
+    "last": 86.72,
     "as_of": "2026-11-23",
-    "chg_1y_pct": 39.4,
-    "chg_1m_pct": -24.3,
+    "chg_1y_pct": 36.8,
+    "chg_1m_pct": -25.7,
     "points": [
      [
       "2025-11-24",
@@ -666,7 +666,7 @@
      ],
      [
       "2026-11-23",
-      88.35
+      86.72
      ]
     ]
    }
@@ -675,6 +675,12 @@
  "rbi_watch": {
   "feed": "https://www.rbi.org.in/pressreleases_rss.xml",
   "items": [
+   {
+    "title": "Auction of Government of India Dated Securities",
+    "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64029",
+    "date": "Mon, 23 Nov 2026 17:45:00",
+    "first_seen": "2026-11-23 23:00 UTC"
+   },
    {
     "title": "State Government Securities - Full Auction Result",
     "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64027",
@@ -694,5 +700,5 @@
   "market": "ok",
   "rbi_watch": "ok"
  },
- "fetched_at": "2026-11-23 11:29 UTC"
+ "fetched_at": "2026-11-23 23:00 UTC"
 }
